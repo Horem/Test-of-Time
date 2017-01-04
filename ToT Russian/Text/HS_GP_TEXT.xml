@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated to Russian by Tipok -->
+<GameInfo>
+	<LocalizedText>
+		<Row Tag="LOC_GREAT_PERSON_BEETOR_NAME" Language="ru_RU"> 
+			<Text>Be'eTor</Text> 
+		</Row>	
+		<Row Tag="LOC_GREAT_PERSON_GHIRILQA_NAME" Language="ru_RU"> 
+			<Text>Ghirilqa</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_MARTAQ_NAME" Language="ru_RU"> 
+			<Text>Martaq</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_MOGH_NAME" Language="ru_RU"> 
+			<Text>Mogh</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_QARGHAN_NAME" Language="ru_RU"> 
+			<Text>Qarghan</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_QUNIVAS_NAME" Language="ru_RU"> 
+			<Text>QunI'vaS</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_KRATAK_NAME" Language="ru_RU"> 
+			<Text>K'ratak</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_TLHAVEQ_NAME" Language="ru_RU"> 
+			<Text>Tlha'veq</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_KRENN_NAME" Language="ru_RU"> 
+			<Text>Krenn</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_KROTMAG_NAME" Language="ru_RU"> 
+			<Text>Krotmag</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_MATLH_NAME" Language="ru_RU"> 
+			<Text>Matlh</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_GHORQON_NAME" Language="ru_RU"> 
+			<Text>Ghorqon</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_WORF_NAME" Language="ru_RU"> 
+			<Text>Worf</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_DURAS_NAME" Language="ru_RU"> 
+			<Text>Duras</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_BAROT_NAME" Language="ru_RU"> 
+			<Text>Barot</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_NIEL_DEGRASSE_TYSON" Language="ru_RU"> 
+			<Text>Neil Degrasse Tyson</Text> 
+		</Row>
+	<!-- Boost -->	
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_1" Language="ru_RU"> 
+			<Text> Ускорение открытия Алфавит</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_2" Language="ru_RU">
+			<Text> Ускорение открытия Народное ополчение </Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_3" Language="ru_RU"> 
+			<Text> Ускорение открытия Кузнечное дело</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_4" Language="ru_RU">
+			<Text> Ускорение открытия Медицина</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_5" Language="ru_RU">
+			<Text> Ускорение открытия Народная медицина</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_6" Language="ru_RU"> 
+			<Text> Ускорение открытия Сельхоз инструменты</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_7" Language="ru_RU">
+			<Text> Ускорение открытия Геометрия</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_8" Language="ru_RU">
+			<Text> Ускорение открытия Тактика осады</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_1" Language="ru_RU">
+			<Text> Ускорение открытия Севооборот</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_2" Language="ru_RU">
+			<Text> Ускорение открытия Хартия</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_3" Language="ru_RU">
+			<Text> Ускорение открытия Бумага</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_4" Language="ru_RU">
+			<Text> Ускорение открытия Компас</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_5" Language="ru_RU">
+			<Text> Ускорение открытия Анатомия</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_6" Language="ru_RU">
+			<Text> Ускорение открытия Алхимия</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_1" Language="ru_RU">
+			<Text> Ускорение открытия Лидерство</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_2" Language="ru_RU"> 
+			<Text> Ускорение открытия Морская тактика</Text>
+		</Row>
+		<Row Tag="lOC_GREATPERSON_RENAISSANCE_TECH_BOOST_3" Language="ru_RU">
+			<Text> Ускорение открытия Биология</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_4" Language="ru_RU">
+			<Text> Ускорение открытия Секстант</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_5" Language="ru_RU">
+			<Text> Ускорение открытия Брокерские услуги</Text>
+		</Row>
+		<Row Tag="lOC_GREATPERSON_RENAISSANCE_TECH_BOOST_6" Language="ru_RU">
+			<Text> Ускорение открытия Учет</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_1" Language="ru_RU">
+			<Text> Ускорение открытия Военно-полевая хирургия</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_2" Language="ru_RU">
+			<Text> Ускорение открытия Пожарное дело</Text>
+		</Row>
+		<Row Tag="LOC_GGREATPERSON_INDUSTRIAL_TECH_BOOST_3" Language="ru_RU"> 
+			<Text> Ускорение открытия Гребной винт</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_4" Language="ru_RU"> 
+			<Text> Ускорение открытия Сборочный конвеер</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_5" Language="ru_RU">
+			<Text> Ускорение открытия Телеграф</Text>
+		</Row>
+		<Row Tag="LOC_GGREATPERSON_INDUSTRIAL_TECH_BOOST_6" Language="ru_RU"> 
+			<Text> Ускорение открытия Общественный транспорт</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_1" Language="ru_RU">
+			<Text> Ускорение открытия Всеобщее образование</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_2" Language="ru_RU">
+			<Text> Ускорение открытия Антибиотики</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_3" Language="ru_RU">
+			<Text> Ускорение открытия Атомная теория</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_4" Language="ru_RU">
+			<Text> Ускорение открытия Холодильники</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_5" Language="ru_RU">
+			<Text> Ускорение открытия Теория относительности</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_6" Language="ru_RU">
+			<Text> Ускорение открытия Прикладная экономика</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_1" Language="ru_RU">
+			<Text> Ускорение открытия Интернет</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_2" Language="ru_RU">
+			<Text> Ускорение открытия Телевидение</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_3" Language="ru_RU">
+			<Text> Ускорение открытия Полупроводники</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_4" Language="ru_RU">
+			<Text> Ускорение открытия Автомагистрали</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_5" Language="ru_RU">
+			<Text> Ускорение открытия Волоконная оптика</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_6" Language="ru_RU">
+			<Text> Ускорение открытия Экология</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_7" Language="ru_RU">
+			<Text> Ускорение открытия Квантовая физика</Text>
+		</Row>
+	</LocalizedText>
+</GameInfo>		

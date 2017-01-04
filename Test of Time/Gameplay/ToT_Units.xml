@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2016 12:13:46 PM -->
+<GameData>
+	<UnitAiInfos>
+		<!--<Row UnitType="UNIT_STARTING_SETTLER" AiType="UNITAI_SETTLE"/>
+		<Row UnitType="UNIT_STARTING_SETTLER" AiType="UNITTYPE_CIVILIAN"/>-->
+		<Row UnitType="UNIT_TRIREME" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TRIREME" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_TRIREME" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_GALLEASS" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GALLEASS" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GALLEASS" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GALLEASS" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_COG" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_COG" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_COG" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_COG" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_GUNBOAT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GUNBOAT" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_GUNBOAT" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_STEAM_FRIGATE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_STEAM_FRIGATE" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_STEAM_FRIGATE" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<!--<Tags>
+		<Row Tag="CLASS_STARTING_SETTLER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>-->
+	<TypeTags>
+		<!-- Unit Classes -->
+		<!--<Row Type="UNIT_STARTING_SETTLER" Tag="CLASS_STARTING_SETTLER"/>-->
+		<Row Type="UNIT_TRIREME" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_GALLEASS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_COG" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_GUNBOAT" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_STEAM_FRIGATE" Tag="CLASS_NAVAL_RANGED"/>
+		<!-- Abilities -->
+		<!--<Row Type="ABILITY_STARTING_SETTLER" Tag="CLASS_STARTING_SETTLER"/>-->
+	</TypeTags>
+	<!--<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_STARTING_SETTLER" Name="LOC_ABILITY_STARTING_SETTLER" Description="LOC_ABILITY_STARTING_SETTLER_DESCRIPTION"/>
+	</UnitAbilities>-->
+	<!--<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_STARTING_SETTLER</UnitAbilityType>
+			<ModifierId>SETTLER_IGNORE_FEATURES</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SETTLER_IGNORE_FEATURES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierStrings>
+		<Row ModifierId="SETTLER_IGNORE_FEATURES" Context="Preview" Text="LOC_ABILITY_STARTING_SETTLER_DESCRIPTION"/>
+	</ModifierStrings>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SETTLER_IGNORE_FEATURES</ModifierId>
+			<Name>CanSee</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>-->
+	<Units>
+		<Row UnitType="UNIT_TRIREME" BaseMoves="2" Cost="65" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_TRIREME_NAME" Description="LOC_UNIT_TRIREME_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="2" Combat="10" RangedCombat="15" Range="1" PrereqTech="TECH_SAILING" MandatoryObsoleteTech="TECH_STEEL"/>
+		<Row UnitType="UNIT_GALLEASS" BaseMoves="3" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_GALLEASS_NAME" Description="LOC_UNIT_GALLEASS_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="2" Combat="30" PrereqTech="TECH_CELESTIAL_NAVIGATION" MandatoryObsoleteTech="TECH_STEAM_POWER"/>
+		<Row UnitType="UNIT_COG" BaseMoves="4" Cost="190" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_COG_NAME" Description="LOC_UNIT_COG_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="3" Combat="40" PrereqTech="TECH_CARTOGRAPHY" MandatoryObsoleteTech="TECH_COMBINED_ARMS"/>
+		<Row UnitType="UNIT_GUNBOAT" BaseMoves="3" Cost="190" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_GUNBOAT_NAME" Description="LOC_UNIT_GUNBOAT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="3" Combat="30" RangedCombat="35" Range="2" PrereqTech="TECH_Compass" MandatoryObsoleteTech="TECH_COMBINED_ARMS"/>
+		<Row UnitType="UNIT_STEAM_FRIGATE" BaseMoves="4" Cost="390" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_STEAM_FRIGATE_NAME" Description="LOC_UNIT_STEAM_FRIGATE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="6" Combat="50" RangedCombat="62" Range="2" PrereqTech="TECH_Screw_Propeller" StrategicResource="RESOURCE_COAL" MandatoryObsoleteTech="TECH_LASERS"/>
+		<!--<Row UnitType="UNIT_STARTING_SETTLER" BaseMoves="5" Cost="1" AdvisorType="ADVISOR_GENERIC" BaseSightRange="5" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" FoundCity="true" PopulationCost="1" PrereqPopulation="2" Name="LOC_UNIT_STARTING_SETTLER_NAME" Description="LOC_UNIT_STARTING_SETTLER_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER" PrereqTech="TECH_Dawn_of_Civilization" MandatoryObsoleteTech="TECH_Dawn_of_Civilization"/>-->
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_TRIREME" UpgradeUnit="UNIT_QUADRIREME"/>
+		<Row Unit="UNIT_GALLEASS" UpgradeUnit="UNIT_COG"/>
+		<Row Unit="UNIT_COG" UpgradeUnit="UNIT_CARAVEL"/>
+		<Row Unit="UNIT_GUNBOAT" UpgradeUnit="UNIT_FRIGATE"/>
+	</UnitUpgrades>
+</GameData>

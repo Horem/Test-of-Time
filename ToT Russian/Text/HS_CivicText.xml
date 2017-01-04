@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated to Russian by Tipok -->
+<GameData>
+	<LocalizedText>
+		<!-- Civics -->
+		<Row Tag="LOC_CIVIC_SYMPOLITEIA_NAME" Language="ru_RU">
+			<Text>Симполития</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_TERRA_NOSTRUM_NAME" Language="ru_RU">
+			<Text>Terra Nostrum (Земля любви)</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_FOREIGN_DIGNITARY_NAME" Language="ru_RU">
+			<Text>Иностранные сановники</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_IMPERIALISM_NAME" Language="ru_RU">
+			<Text>Империализм</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_STATE_MEDIA_NAME" Language="ru_RU">
+			<Text>Государственные СМИ</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GLOBAL_ECONOMY_NAME" Language="ru_RU">
+			<Text>Глобальная экономика</Text>
+		</Row>
+
+		<!-- Policies -->
+		<Row Tag="LOC_POLICY_SHARED_CROPS_NAME" Language="ru_RU">
+			<Text>Общие сельхозкультуры</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_CROPS_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Food] пищи во всех городах.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_UNIT_EXP_NAME" Language="ru_RU">
+			<Text>Военный опыт</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_UNIT_EXP_DESCRIPTION" Language="ru_RU">
+			<Text>+25% боевого опыта всем юнитам.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PAX_IMPERIA_NAME" Language="ru_RU">
+			<Text>Pax Imperia (Мир Империй)</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PAX_IMPERIA_DESCRIPTION" Language="ru_RU">
+			<Text>+3 [ICON_Strength] к боевой мощи против городов-государств.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_MYTHS_NAME" Language="ru_RU">
+			<Text>Общие мифы</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_MYTHS_DESCRIPTION" Language="ru_RU">
+			<Text>+2 [ICON_Faith] веры от всех торговых путей.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_CULTURE_NAME" Language="ru_RU">
+			<Text>Общая культура</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_CULTURE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_CULTURE] культуры за каждого вашего [Icon_Envoy] посла в городах-государствах.</Text>
+		</Row>
+
+		<Replace Tag="LOC_POLICY_AGOGE_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при подготовке юнитов ближнего и дальнего боя Древнего мира и Античности.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при подготовке юнитов ближнего и дальнего боя Средневековья и эпохи Возрождения.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при создании воздушных юнитов Нового времени и Эпохи атома.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при подготовке юнитов ближнего и дальнего боя Промышленной эры и Нового времени.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при создании юнитов кавалерии от Нов. времени до Инфо. эры.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MANEUVER_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при подготовке юнитов тяжелой и легкой кавалерии Древнего мира и Античности.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при создании морских юнитов Древнего мира и Античности.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION"  Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при создании вспомогательных юнитов от Нов. времени, до Инфо. эры.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION" Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при создании морских юнитов Возрождения и Промышленной эры.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION" Language="ru_RU">
+			<Text>+150% [ICON_Production] производства при создании воздушных юнитов Инфо. эры и всех авианосцев.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

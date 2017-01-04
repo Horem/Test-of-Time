@@ -1,0 +1,9 @@
+-- Insert SQL Rules Here 
+INSERT INTO Adjacency_YieldChanges	(ID,					Description,						YieldType,			YieldChange,	TilesRequired,	OtherDistrictAdjacent,	AdjacentSeaResource,	AdjacentTerrain,	AdjacentFeature,		AdjacentRiver,	AdjacentWonder, AdjacentNaturalWonder,	AdjacentImprovement,	AdjacentDistrict,				PrereqCivic,	PrereqTech, ObsoleteCivic,	ObsoleteTech,	AdjacentResource) VALUES 
+									('HS_District_Food',	'LOC_HS_DISTRICT_FOOD',				'YIELD_FOOD',		'1',			'1',			'1',					'0',					null,				null,					'0',			'0',			'0',					null,					null,							null,			null,		null,			null,			'0'), 
+									('HS_River_Food',		'LOC_HS_DISTRICT_AQUA_FOOD',		'YIELD_FOOD',		'2',			'1',			'0',					'0',					null,				null,					'1',			'0',			'0',					null,					null,							null,			null,		null,			null,			'0'),
+									('HS_Flood_Food',		'LOC_HS_DISTRICT_FLOOD_FOOD',		'YIELD_FOOD',		'2',			'1',			'0',					'0',					null,				'FEATURE_FLOODPLAINS',	'0',			'0',			'0',					null,					null,							null,			null,		null,			null,			'0'),
+									('HS_River_Gold',		'LOC_HS_DISTRICT_RIVER_GOLD',		'YIELD_GOLD',		'1',			'1',			'0',					'0',					null,				null,					'1',			'0',			'0',					null,					null,							null,			null,		null,			null,			'0'),
+									('HS_Merchant_Gold',	'LOC_HS_DISTRICT_MERCHANT_GOLD',	'YIELD_GOLD',		'1',			'1',			'0',					'0',					null,				null,					'0',			'0',			'0',					null,					'DISTRICT_SHOPPING_COMPLEX',	null,			null,		null,			null,			'0'),
+									('HS_Commercial_Gold',	'LOC_HS_DISTRICT_COMMERCIAL_GOLD',	'YIELD_GOLD',		'2',			'1',			'0',					'0',					null,				null,					'0',			'0',			'0',					null,					'DISTRICT_COMMERCIAL_HUB',		null,			null,		null,			null,			'0'),
+									('HS_Sphinx_Culture',	'LOC_HS_DISTRICT_SPHINX_FOOD',		'YIELD_CULTURE',	'1',			'1',			'0',					'0',					null,				null,					'0',			'0',			'0',					'IMPROVEMENT_SPHINX',	null,							null,			null,		null,			null,			'0');

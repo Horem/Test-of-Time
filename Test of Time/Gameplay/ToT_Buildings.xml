@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/14/2016 4:45:49 PM -->
+<GameData>
+	<Buildings>
+		<!-- Ancient -->
+		<Row BuildingType="BUILDING_STATUE" Name="LOC_HMP_BUILDING_STATUE_NAME" PrereqTech="TECH_Gardening" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="50" AdvisorType="ADVISOR_CULTURE"/>
+		<Row BuildingType="BUILDING_TRAPPERS_HUT" Name="LOC_HMP_BUILDING_TRAPPERS_HUT_NAME" Description="LOC_BUILDING_TRAPPERS_HUT_DESC" PrereqTech="TECH_ANIMAL_HUSBANDRY" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="50" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_TAVERN" Name="LOC_HMP_BUILDING_TAVERN_NAME" Description="LOC_BUILDING_TAVERN_DESC" PrereqTech="TECH_Fermentation" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" Housing="1" Entertainment="1"/>
+		<Row BuildingType="BUILDING_HERBALIST" Name="LOC_HMP_BUILDING_HERBALIST_NAME" Description="LOC_BUILDING_HERBALIST_DESC" PrereqTech="TECH_Herblore" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="50" AdvisorType="ADVISOR_GENERIC"/>
+		<!-- Classical -->
+		<Row BuildingType="BUILDING_SCRIBES_SHOP" Name="LOC_HMP_BUILDING_SCRIBES_SHOP_NAME" PrereqTech="TECH_Alphabet" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_TECHNOLOGY" Entertainment="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_STONE_MASON" Name="LOC_HMP_BUILDING_STONE_MASON_NAME" Description="LOC_BUILDING_STONE_MASON_DESC" PrereqTech="TECH_Geometry" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_FORGE" Name="LOC_HMP_BUILDING_FORGE_NAME" Description="LOC_BUILDING_FORGE_DESC" PrereqTech="TECH_Smithing" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_PLAZA" Name="LOC_HMP_BUILDING_PLAZA_NAME" Description="LOC_HMP_BUILDING_PLAZA_DESC" PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_CULTURE" Maintenance="1" Entertainment="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_INN" Name="LOC_HMP_BUILDING_INN_NAME" Description="LOC_BUILDING_INN_DESC" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Housing="2" Entertainment="1"/>
+		<Row BuildingType="BUILDING_APOCATHERY" Name="LOC_HMP_BUILDING_APOCATHERY_NAME" Description="LOC_BUILDING_APOCATHERY_DESC" PrereqTech="TECH_Folk_Medicine" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_TAILOR" Name="LOC_HMP_BUILDING_TAILOR_NAME" Description="LOC_BUILDING_TAILOR_DESC" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC" Entertainment="1"/>
+		<Row BuildingType="BUILDING_FISH_MARKET" Name="LOC_HMP_BUILDING_FISH_MARKET_NAME" Description="LOC_BUILDING_FISH_MARKET_DESC" PrereqTech="TECH_CELESTIAL_NAVIGATION" PrereqDistrict="DISTRICT_HARBOR" Coast="1" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_HEALERS_HUT" Name="LOC_HMP_BUILDING_HEALERS_HUT_NAME" Description="LOC_BUILDING_HEALERS_HUT_DESC" PrereqTech="TECH_Medicine" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC" Entertainment="1"/>
+		<Row BuildingType="BUILDING_FARMSTEAD" Name="LOC_HMP_BUILDING_FARMSTEAD_NAME" Description="LOC_HMP_BUILDING_FARMSTEAD_DESC" PrereqTech="TECH_Naturopathy" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="1" Housing="1"/>
+		<!-- Medieval -->
+		<Row BuildingType="BUILDING_BUTCHER" Name="LOC_HMP_BUILDING_BUTCHER_NAME" Description="LOC_BUILDING_BUTCHER_DESC" PrereqTech="TECH_Anatomy" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_MANOR" Name="LOC_BUILDING_MANOR_NAME" Description="LOC_BUILDING_MANOR_DESC" PrereqCivic="CIVIC_CIVIL_SERVICE" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Entertainment="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_LODGE" Name="LOC_HMP_BUILDING_LODGE_NAME" Description="LOC_BUILDING_LODGE_DESC" PrereqTech="TECH_Charters" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="175" AdvisorType="ADVISOR_GENERIC" Housing="3" Entertainment="1"/>
+		<Row BuildingType="BUILDING_COOK_SHOP" Name="LOC_HMP_BUILDING_COOK_SHOP_NAME" Description="LOC_BUILDING_COOK_SHOP_DESC" PrereqTech="TECH_Crop_Rotation" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_MONASTERY" Name="LOC_HMP_BUILDING_MONASTERY_NAME" Description="LOC_HMP_BUILDING_MONASTERY_DESC" PrereqCivic="CIVIC_DIVINE_RIGHT" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="150" AdvisorType="ADVISOR_RELIGIOUS" Housing="1"/>
+		<Row BuildingType="BUILDING_DUNGEON" Name="LOC_HMP_BUILDING_DUNGEON_NAME" PrereqTech="TECH_CASTLES" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="2"/>
+		<Row BuildingType="BUILDING_SMITHY" Name="LOC_HMP_BUILDING_SMITHY_NAME" Description="LOC_BUILDING_SMITHY_DESC" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_TINKER" Name="LOC_HMP_BUILDING_TINKER_NAME" Description="LOC_BUILDING_TINKER_DESC" PrereqTech="TECH_Alchemy" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Entertainment="1"/>
+		<Row BuildingType="BUILDING_PAPERMILL" Name="LOC_HMP_BUILDING_PAPERMILL_NAME" Description="LOC_BUILDING_PAPERMILL_DESC" PrereqTech="TECH_Paper" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="2" RequiresAdjacentRiver="1"/>
+		<!-- Renaissance-->
+		<Row BuildingType="BUILDING_RESTAURANT" Name="LOC_HMP_BUILDING_RESTAURANT_NAME" Description="LOC_BUILDING_RESTAURANT_DESC" PrereqTech="TECH_Accounting" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_DOCTORSHOUSE" Name="LOC_HMP_BUILDING_DOCTORSHOUSE_NAME" Description="LOC_BUILDING_DOCTORSHOUSE_DESC" PrereqTech="TECH_Biology" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC" Entertainment="1"/>
+		<Row BuildingType="BUILDING_FARMERS_MARKET" Name="LOC_HMP_BUILDING_FARMERS_MARKET_NAME" Description="LOC_BUILDING_FARMERS_MARKET_DESC" PrereqTech="TECH_Accounting" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_JAIL" Name="LOC_HMP_BUILDING_JAIL_NAME" PrereqTech="TECH_Leadership" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="2"/>
+		<Row BuildingType="BUILDING_COUNTRY_ESTATE" Name="LOC_HMP_BUILDING_COUNTRY_ESTATE_NAME" Description="LOC_BUILDING_COUNTRY_ESTATE_DESC" PrereqTech="TECH_Leadership" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD"  MaxPlayerInstances ="4" Cost="225" AdvisorType="ADVISOR_CULTURE" Maintenance="3" Housing="2" CitizenSlots="2" Entertainment="1"/>
+		<Row BuildingType="BUILDING_BEER_HOUSE" Name="LOC_HMP_BUILDING_BEER_HOUSE_NAME" Description="LOC_BUILDING_BEER_HOUSE_DESC" PrereqTech="TECH_ECONOMICS" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_FISHMONGER" Name="LOC_HMP_BUILDING_FISHMONGER_NAME" Description="LOC_BUILDING_FISHMONGER_DESC" PrereqTech="TECH_Biology" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_COFFEEHOUSE" Name="LOC_HMP_BUILDING_COFFEEHOUSE_NAME" Description="LOC_BUILDING_COFFEEHOUSE_DESC" PrereqTech="TECH_ECONOMICS" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_FIREHOUSE" Name="LOC_HMP_BUILDING_FIREHOUSE_NAME" PrereqTech="TECH_MASS_PRODUCTION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Entertainment="1"/>
+		<Row BuildingType="BUILDING_JEWELLER" Name="LOC_HMP_BUILDING_JEWELLER_NAME" Description="LOC_BUILDING_JEWELLER_DESC" PrereqCivic="CIVIC_MERCANTILISM" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC" Entertainment="1"/>
+		<!-- Industrial -->
+		<Row BuildingType="BUILDING_FOUNDRY" Name="LOC_HMP_BUILDING_FOUNDRY_NAME" Description="LOC_BUILDING_FOUNDRY_DESC" PrereqCivic="CIVIC_CIVIL_ENGINEERING" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="2"/>
+		<Row BuildingType="BUILDING_PRISON" Name="LOC_HMP_BUILDING_PRISON_NAME" PrereqCivic="CIVIC_NATIONALISM" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="4" Entertainment="3" />
+		<Row BuildingType="BUILDING_POLICE_STATION" Name="LOC_HMP_BUILDING_POLICE_STATION_NAME" PrereqCivic="CIVIC_NATIONALISM" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="3" />
+		<Row BuildingType="BUILDING_FIRE_STATION" Name="LOC_HMP_BUILDING_FIRE_STATION_NAME" PrereqTech="TECH_Firefighting" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="3" />
+		<Row BuildingType="BUILDING_MEDICAL_CLINIC" Name="LOC_HMP_BUILDING_MEDICAL_CLINIC_NAME" Description="LOC_BUILDING_MEDICAL_CLINIC_DESC" PrereqCivic="CIVIC_URBANIZATION" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Housing="1"  Entertainment="1" />
+		<Row BuildingType="BUILDING_PUB" Name="LOC_HMP_BUILDING_PUB_NAME" Description="LOC_BUILDING_PUB_DESC" PrereqTech="TECH_Assembly_Line" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_HOTEL" Name="LOC_HMP_BUILDING_HOTEL_NAME" Description="LOC_BUILDING_HOTEL_DESC" PrereqTech="TECH_Assembly_Line" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD"  MaxPlayerInstances ="5" Cost="300" AdvisorType="ADVISOR_GENERIC" Housing="6" Entertainment="1"/>
+		<Row BuildingType="BUILDING_TELEGRAPH_STATION" Name="LOC_HMP_BUILDING_TELEGRAPH_STATION_NAME" PrereqTech="TECH_Telegraph" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_CULTURE" Maintenance="2"/>
+		<!-- Modern-->
+		<Row BuildingType="BUILDING_SUPERMARKET" Name="LOC_HMP_BUILDING_SUPERMARKET_NAME" Description="LOC_BUILDING_SUPERMARKET_DESC" PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_SHOPPING_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_HOSPITAL" Name="LOC_HMP_BUILDING_HOSPITAL_NAME" Description="LOC_BUILDING_HOSPITAL_DESC" PrereqTech="TECH_Antibiotics" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Housing="2" Entertainment="1" />
+		<Row BuildingType="BUILDING_CASINO" Name="LOC_HMP_BUILDING_CASINO_NAME" Description="LOC_BUILDING_CASINO_DESC" PrereqTech="TECH_AppliedEconomics" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD"  MaxPlayerInstances ="5" Cost="400" AdvisorType="ADVISOR_GENERIC" Housing="2" Entertainment="1"/>
+		<Row BuildingType="BUILDING_DINER" Name="LOC_HMP_BUILDING_DINER_NAME" Description="LOC_BUILDING_DINER_DESC" PrereqTech="TECH_Refrigeration" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_CLUB" Name="LOC_HMP_BUILDING_CLUB_NAME" Description="LOC_BUILDING_CLUB_DESC" PrereqCivic="CIVIC_MASS_MEDIA" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_COLLEGE" Name="LOC_HMP_BUILDING_COLLEGE_NAME" PrereqTech="TECH_CompulsoryEducation" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="4" CitizenSlots="2"/>
+		<!-- Atomic -->
+		<Row BuildingType="BUILDING_TELEVISION_STUDIO" Name="LOC_HMP_BUILDING_TELEVISION_STUDIO_NAME" PrereqTech="TECH_Television" Description="LOC_HMP_BUILDING_TELEVISION_STUDIO_DESC" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" MaxPlayerInstances ="4" Cost="525" AdvisorType="ADVISOR_GENERIC" Entertainment="2" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_INTERNET_CAFE" Name="LOC_HMP_BUILDING_INTERNET_CAFE_NAME" PrereqTech="TECH_Internet" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="525" AdvisorType="ADVISOR_GENERIC"/>
+		<Row BuildingType="BUILDING_ECO_CENTER" Name="LOC_HMP_BUILDING_ECO_CENTER_NAME" Description="LOC_HMP_BUILDING_ECO_CENTER_DESC" PrereqTech="TECH_Ecology" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD"  MaxPlayerInstances ="4" Cost="525" AdvisorType="ADVISOR_GENERIC" Entertainment="2"/>
+		<Row BuildingType="BUILDING_HADRON_COLLIDER" Name="LOC_HMP_BUILDING_HADRON_COLLIDER_NAME" Description="LOC_HMP_BUILDING_HADRON_COLLIDER_DESC" PrereqTech="TECH_QuantumPhysics" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" MaxPlayerInstances ="1" Cost="1225" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="3"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_STATUE" PrereqBuilding="BUILDING_MONUMENT"/>
+		<Row Building="BUILDING_PLAZA" PrereqBuilding="BUILDING_STATUE"/>
+		<Row Building="BUILDING_INN" PrereqBuilding="BUILDING_TAVERN"/>
+		<Row Building="BUILDING_LODGE" PrereqBuilding="BUILDING_INN"/>
+		<Row Building="BUILDING_HEALERS_HUT" PrereqBuilding="BUILDING_APOCATHERY"/>
+		<Row Building="BUILDING_BUTCHER" PrereqBuilding="BUILDING_COOK_SHOP"/>
+		<Row Building="BUILDING_DUNGEON" PrereqBuilding="BUILDING_CASTLE"/>
+		<Row Building="BUILDING_SMITHY" PrereqBuilding="BUILDING_FORGE"/>
+		<Row Building="BUILDING_TINKER" PrereqBuilding="BUILDING_FORGE"/>
+		<Row Building="BUILDING_JEWELLER" PrereqBuilding="BUILDING_TINKER"/>
+		<Row Building="BUILDING_RESTAURANT" PrereqBuilding="BUILDING_COOK_SHOP"/>
+		<Row Building="BUILDING_COUNTRY_ESTATE" PrereqBuilding="BUILDING_MANOR"/>
+		<Row Building="BUILDING_JAIL" PrereqBuilding="BUILDING_DUNGEON"/>
+		<Row Building="BUILDING_FOUNDRY" PrereqBuilding="BUILDING_SMITHY"/>
+		<Row Building="BUILDING_DOCTORSHOUSE" PrereqBuilding="BUILDING_HEALERS_HUT"/>
+		<Row Building="BUILDING_POLICE_STATION" PrereqBuilding="BUILDING_DUNGEON"/>
+		<Row Building="BUILDING_PRISON" PrereqBuilding="BUILDING_POLICE_STATION"/>
+		<Row Building="BUILDING_FIRE_STATION" PrereqBuilding="BUILDING_FIREHOUSE"/>
+		<Row Building="BUILDING_MEDICAL_CLINIC" PrereqBuilding="BUILDING_DOCTORSHOUSE"/>
+		<Row Building="BUILDING_HOTEL" PrereqBuilding="BUILDING_LODGE"/>
+		<Row Building="BUILDING_TAILOR" PrereqBuilding="BUILDING_HERBALIST"/>
+		<Row Building="BUILDING_PUB" PrereqBuilding="BUILDING_TAILOR"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_STATUE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TRAPPERS_HUT" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TAVERN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TAVERN" YieldType="YIELD_PRODUCTION" YieldChange="-1"/>
+		<Row BuildingType="BUILDING_HERBALIST" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_SCRIBES_SHOP" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_SCRIBES_SHOP" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_STONE_MASON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_FORGE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PLAZA" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_INN" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_INN" YieldType="YIELD_PRODUCTION" YieldChange="-1"/>
+		<Row BuildingType="BUILDING_APOCATHERY" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_APOCATHERY" YieldType="YIELD_FAITH" YieldChange="-1"/>
+		<Row BuildingType="BUILDING_TAILOR" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_BUTCHER" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FISH_MARKET" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_HEALERS_HUT" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_HEALERS_HUT" YieldType="YIELD_FAITH" YieldChange="-2"/>
+		<Row BuildingType="BUILDING_FARMSTEAD" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SMITHY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PAPERMILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TINKER" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MONASTERY" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_COOK_SHOP" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MANOR" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MANOR" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_LODGE" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_LODGE" YieldType="YIELD_PRODUCTION" YieldChange="-1"/>
+		<Row BuildingType="BUILDING_DUNGEON" YieldType="YIELD_CULTURE" YieldChange="-2"/>
+		<Row BuildingType="BUILDING_RESTAURANT" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FARMERS_MARKET" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_JAIL" YieldType="YIELD_CULTURE" YieldChange="-2"/>
+		<Row BuildingType="BUILDING_COUNTRY_ESTATE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_COUNTRY_ESTATE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_COUNTRY_ESTATE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_BEER_HOUSE" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_BEER_HOUSE" YieldType="YIELD_PRODUCTION" YieldChange="-1"/>
+		<Row BuildingType="BUILDING_FISHMONGER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_COFFEEHOUSE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEWELLER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_JEWELLER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_FOUNDRY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MEDICAL_CLINIC" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_DOCTORSHOUSE" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_DOCTORSHOUSE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PUB" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_PUB" YieldType="YIELD_PRODUCTION" YieldChange="-2"/>
+		<Row BuildingType="BUILDING_HOTEL" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_HOTEL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PRISON" YieldType="YIELD_CULTURE" YieldChange="-3"/>
+		<Row BuildingType="BUILDING_SUPERMARKET" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_SUPERMARKET" YieldType="YIELD_FOOD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_CASINO" YieldType="YIELD_GOLD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_DINER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_DINER" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_CLUB" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_CLUB" YieldType="YIELD_PRODUCTION" YieldChange="-3"/>
+		<Row BuildingType="BUILDING_COLLEGE" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_TELEGRAPH_STATION" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_ECO_CENTER" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_ECO_CENTER" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_HADRON_COLLIDER" YieldType="YIELD_CULTURE" YieldChange="6"/>
+		<Row BuildingType="BUILDING_HADRON_COLLIDER" YieldType="YIELD_SCIENCE" YieldChange="8"/>
+		<Row BuildingType="BUILDING_INTERNET_CAFE" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_INTERNET_CAFE" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_INTERNET_CAFE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TELEVISION_STUDIO" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TELEVISION_STUDIO" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TELEVISION_STUDIO" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_STONE_MASON" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_PLAZA" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SMITHY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_FARMERS_MARKET" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_FOUNDRY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SUPERMARKET" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_CASINO" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_COLLEGE" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TELEGRAPH_STATION" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_HADRON_COLLIDER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_TELEGRAPH_STATION" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1"/>
+		<Row BuildingType="BUILDING_TELEVISION_STUDIO" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1"/>
+		<Row BuildingType="BUILDING_TELEVISION_STUDIO" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+	</Building_GreatWorks>
+</GameData>

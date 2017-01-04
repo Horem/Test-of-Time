@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--	C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI\Base\Assets\UI\Icons\Icons_Tech.xml	-->
+<GameInfo>
+	<IconTextureAtlases>
+		<!-- HS Atlas-->
+		<Row Name="ICON_TOT_TECH_ATLAS" IconSize="160" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_TechAtlas160.dds"/>
+		<Row Name="ICON_TOT_TECH_ATLAS" IconSize="128" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_TechAtlas128.dds"/>
+		<Row Name="ICON_TOT_TECH_ATLAS" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_TechAtlas38.dds"/>
+		<Row Name="ICON_TOT_TECH_ATLAS" IconSize="42" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_TechAtlas42.dds"/>
+		<Row Name="ICON_TOT_TECH_ATLAS_FOW" IconSize="42" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_TechAtlas42_FOW.dds"/>
+		<Row Name="ICON_TOT_TECH_ATLAS" IconSize="30" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_TechAtlas30.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!-- HS Icons -->
+		<Row Name="ICON_TECH_Burial_Rites" Index="0" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Burial_Rites_FOW" Index="0" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Herblore" Index="1" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Herblore_FOW" Index="1" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Fermentation" Index="2" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Fermentation_FOW" Index="2" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Herblore_FOW" Index="1" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Exploration" Index="3" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Exploration_FOW" Index="3" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Gardening" Index="4" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Gardening_FOW" Index="4" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Linguistics" Index="5" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Linguistics_FOW" Index="5" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Alphabet" Index="6" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Alphabet_FOW" Index="6" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Folk_Medicine" Index="7" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Folk_Medicine_FOW" Index="7" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Medicine" Index="8" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Medicine_FOW" Index="8" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Naturopathy" Index="9" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Naturopathy_FOW" Index="9" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Milita_Training" Index="11" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Milita_Training_FOW" Index="11" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Smithing" Index="10" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Smithing_FOW" Index="10" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Geometry" Index="12" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Geometry_FOW" Index="12" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_SiegeWarfare" Index="13" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_SiegeWarfare_FOW" Index="13" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Crop_Rotation" Index="14" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Crop_Rotation_FOW" Index="14" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Charters" Index="15" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Charters_FOW" Index="15" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Paper" Index="16" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Paper_FOW" Index="16" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Compass" Index="17" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Compass_FOW" Index="17" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Anatomy" Index="18" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Anatomy_FOW" Index="18" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Alchemy" Index="19" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Alchemy_FOW" Index="19" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Leadership" Index="20" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Leadership_FOW" Index="20" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Naval_Tactics" Index="21" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Naval_Tactics_FOW" Index="21" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Biology" Index="22" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Biology_FOW" Index="22" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Sextant" Index="23" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Sextant_FOW" Index="23" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Paleontology" Index="24" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Paleontology_FOW" Index="24" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Accounting" Index="25" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Accounting_FOW" Index="25" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Marine_Biology" Index="26" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Marine_Biology_FOW" Index="26" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Firefighting" Index="28" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_TECH_Firefighting_FOW" Index="28" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_TECH_Screw_Propeller" Index="29" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_TECH_Screw_Propeller_FOW" Index="29" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_TECH_Assembly_Line" Index="27" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_TECH_Assembly_Line_FOW" Index="27" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Telegraph" Index="30" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Telegraph_FOW" Index="30" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_MassTransit" Index="31" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_MassTransit_FOW" Index="31" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_CompulsoryEducation" Index="32" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_CompulsoryEducation_FOW" Index="32" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Antibiotics" Index="33" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Antibiotics_FOW" Index="33" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_AtomicTheory" Index="34" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_AtomicTheory_FOW" Index="34" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Refrigeration" Index="35" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Refrigeration_FOW" Index="35" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_TheoryofRelativity" Index="36" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_TheoryofRelativity_FOW" Index="36" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_AppliedEconomics" Index="37" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_AppliedEconomics_FOW" Index="37" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_QuantumPhysics" Index="38" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_QuantumPhysics_FOW" Index="38" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Television" Index="39" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Television_FOW" Index="39" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Semiconductors" Index="40" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Semiconductors_FOW" Index="40" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_HighwaySystems" Index="41" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_HighwaySystems_FOW" Index="41" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_FiberOptics" Index="42" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_FiberOptics_FOW" Index="42" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Ecology" Index="43" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Ecology_FOW" Index="43" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Internet" Index="44" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Internet_FOW" Index="44" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		<Row Name="ICON_TECH_Dawn_of_Civilization" Index="45" Atlas="ICON_TOT_TECH_ATLAS"/>
+		<Row Name="ICON_TECH_Dawn_of_Civilization_FOW" Index="45" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>		
+		<!-- Civics -->
+		<Row Name="ICON_CIVIC_SYMPOLITEIA" Index="63" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_CIVIC_SYMPOLITEIA_FOW" Index="63" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_CIVIC_TERRA_NOSTRUM" Index="62" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_CIVIC_TERRA_NOSTRUM_FOW" Index="62" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_CIVIC_FOREIGN_DIGNITARY" Index="61" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_CIVIC_FOREIGN_DIGNITARY_FOW" Index="61" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_CIVIC_IMPERIALISM" Index="60" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_CIVIC_IMPERIALISM_FOW" Index="60" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_CIVIC_STATE_MEDIA" Index="59" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_CIVIC_STATE_MEDIA_FOW" Index="59" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+        <Row Name="ICON_CIVIC_GLOBAL_ECONOMY" Index="58" Atlas="ICON_TOT_TECH_ATLAS"/>
+        <Row Name="ICON_CIVIC_GLOBAL_ECONOMY_FOW" Index="58" Atlas="ICON_TOT_TECH_ATLAS_FOW"/>
+		
+		<Row Name="ICON_POLICY_SHARED_CROPS" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_UNIT_EXP" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_PAX_IMPERIA" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_SHARED_MYTHS" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_SHARED_CULTURE" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<!--<Row Name="ICON_UNIT_STARTING_SETTLER" Atlas="ICON_ATLAS_UNITS" Index="0"/>
+		<Row Name="ICON_UNIT_STARTING_SETTLER_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="0"/>-->	
+
+	</IconDefinitions>
+</GameInfo>

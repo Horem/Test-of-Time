@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/17/2016 12:36:16 AM -->
+<GameData>
+	<BuildingModifiers>
+		<!-- Farmstead -->
+		<Row>
+			<BuildingType>BUILDING_FARMSTEAD</BuildingType>
+			<ModifierId>FARMSTEAD_BONUS_GROWTH</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FARMSTEAD</BuildingType>
+			<ModifierId>FARMSTEAD_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FARMSTEAD</BuildingType>
+			<ModifierId>FARMSTEAD_BONUS_P</ModifierId>
+		</Row>
+		<!-- Papermill -->
+		<Row>
+			<BuildingType>BUILDING_PAPERMILL</BuildingType>
+			<ModifierId>PAPERMILL_BONUS_LUMBER</ModifierId>
+		</Row>
+		<!-- Beerhouse -->
+		<Row>
+			<BuildingType>BUILDING_BEER_HOUSE</BuildingType>
+			<ModifierId>BEER_HOUSE_ADDGOLD_HOOD</ModifierId>
+		</Row>
+		<!-- Pub -->
+		<Row>
+			<BuildingType>BUILDING_PUB</BuildingType>
+			<ModifierId>PUB_ADDGOLD_ENTERTAINMENT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUB</BuildingType>
+			<ModifierId>PUB_ADDGOLD_COMMERCIAL</ModifierId>
+		</Row>
+		<!-- Jail -->
+		<!--<Row>
+			<BuildingType>BUILDING_JAIL</BuildingType>
+			<ModifierId>JAIL_ADDAMENITIES</ModifierId>
+		</Row>-->
+		<!-- Police Station -->
+		<!--<Row>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<ModifierId>POLICE_STATION_ADDAMENITIES_INDUSTRIAL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<ModifierId>POLICE_STATION_ADDAMENITIES_COMMERCIAL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<ModifierId>POLICE_STATION_ADDAMENITIES_ENTERTAINMENT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<ModifierId>POLICE_STATION_ADDAMENITIES_THEATER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+			<ModifierId>POLICE_STATION_ADDAMENITIES_HOOD</ModifierId>
+		</Row>-->
+		<!-- Fire Station -->
+		<!--<Row>
+			<BuildingType>BUILDING_FIRE_STATION</BuildingType>
+			<ModifierId>FIRE_STATION_ADDAMENITIES_INDUSTRIAL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIRE_STATION</BuildingType>
+			<ModifierId>FIRE_STATION_ADDAMENITIES_COMMERCIAL</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIRE_STATION</BuildingType>
+			<ModifierId>FIRE_STATION_ADDAMENITIES_HOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIRE_STATION</BuildingType>
+			<ModifierId>FIRE_STATION_ADDAMENITIES_AQUEDUCT</ModifierId>
+		</Row>-->
+		<!-- Firehouse -->
+		<!--<Row>
+			<BuildingType>BUILDING_FIREHOUSE</BuildingType>
+			<ModifierId>FIREHOUSE_ADDAMENITIES</ModifierId>
+		</Row>-->
+		<!-- Prison -->
+		<!--<Row>
+			<BuildingType>BUILDING_PRISON</BuildingType>
+			<ModifierId>PRISON_ADDAMENITIES</ModifierId>
+		</Row>-->
+		<!-- Hotel -->
+		<Row>
+			<BuildingType>BUILDING_HOTEL</BuildingType>
+			<ModifierId>HOTEL_ADDTOURISM</ModifierId>
+		</Row>
+		<!-- Casino -->
+		<Row>
+			<BuildingType>BUILDING_CASINO</BuildingType>
+			<ModifierId>CASINO_ADDTOURISM</ModifierId>
+		</Row>
+		<!-- Club -->
+		<Row>
+			<BuildingType>BUILDING_CLUB</BuildingType>
+			<ModifierId>CLUB_ADDTOURISM</ModifierId>
+		</Row>
+		<!-- Doctors House -->
+		<Row>
+			<BuildingType>BUILDING_DOCTORSHOUSE</BuildingType>
+			<ModifierId>DOCTORSHOUSE_ADDGROWTH</ModifierId>
+		</Row>
+		<!-- Hospice -->
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_CLINIC</BuildingType>
+			<ModifierId>MEDICAL_CLINIC_ADDGROWTH</ModifierId>
+		</Row>
+		<!-- Hospital -->
+		<Row>
+			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<ModifierId>HOSPITAL_ADDGROWTH</ModifierId>
+		</Row>
+		<!-- Foundry -->
+		<Row>
+			<BuildingType>BUILDING_FOUNDRY</BuildingType>
+			<ModifierId>FOUNDRY_ALUMINUM_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FOUNDRY</BuildingType>
+			<ModifierId>FOUNDRY_COAL_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FOUNDRY</BuildingType>
+			<ModifierId>FOUNDRY_IRON_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FOUNDRY</BuildingType>
+			<ModifierId>FOUNDRY_COPPER_BONUS</ModifierId>
+		</Row>
+		<!-- Jeweller -->
+		<Row>
+			<BuildingType>BUILDING_JEWELLER</BuildingType>
+			<ModifierId>JEWELLER_SILVER_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELLER</BuildingType>
+			<ModifierId>JEWELLER_PEARLS_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELLER</BuildingType>
+			<ModifierId>JEWELLER_DIAMONDS_BONUS</ModifierId>
+		</Row>
+		<!-- Coffeehouse -->
+		<Row>
+			<BuildingType>BUILDING_COFFEEHOUSE</BuildingType>
+			<ModifierId>COFFEEHOUSE_COFFEE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEEHOUSE</BuildingType>
+			<ModifierId>COFFEEHOUSE_TEA_BONUS</ModifierId>
+		</Row>
+		<!-- Fishmonger -->
+		<Row>
+			<BuildingType>BUILDING_FISHMONGER</BuildingType>
+			<ModifierId>BUILDING_FISHMONGER_BONUS</ModifierId>
+		</Row>
+		<!-- Country Estate -->
+		<Row>
+			<BuildingType>BUILDING_COUNTRY_ESTATE</BuildingType>
+			<ModifierId>BUILDING_COUNTRY_ESTATE_BONUS</ModifierId>
+		</Row>
+		<!-- Farmers Market -->
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<ModifierId>BUILDING_FARMERS_MARKET_BONUS</ModifierId>
+		</Row>
+		<!-- Restaurant -->
+		<Row>
+			<BuildingType>BUILDING_RESTAURANT</BuildingType>
+			<ModifierId>BUILDING_RESTAURANT_BONUS</ModifierId>
+		</Row>
+		<!-- Plaza -->
+		<Row>
+			<BuildingType>BUILDING_PLAZA</BuildingType>
+			<ModifierId>BUILDING_PLAZA_HOUSING</ModifierId>
+		</Row>
+		<!-- Tinker -->
+		<Row>
+			<BuildingType>BUILDING_TINKER</BuildingType>
+			<ModifierId>TINKER_COPPER_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TINKER</BuildingType>
+			<ModifierId>TINKER_JADE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TINKER</BuildingType>
+			<ModifierId>TINKER_IVORY_BONUS</ModifierId>
+		</Row>
+		<!-- Smithy -->
+		<Row>
+			<BuildingType>BUILDING_SMITHY</BuildingType>
+			<ModifierId>SMITHY_COAL_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHY</BuildingType>
+			<ModifierId>SMITHY_IRON_BONUS</ModifierId>
+		</Row>
+		<!-- Fish Market -->
+		<Row>
+			<BuildingType>BUILDING_FISH_MARKET</BuildingType>
+			<ModifierId>FISH_MARKET_FISH_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_MARKET</BuildingType>
+			<ModifierId>FISH_MARKET_CRAB_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_MARKET</BuildingType>
+			<ModifierId>FISH_MARKET_PEARLS_BONUS</ModifierId>
+		</Row>
+		<!-- Monastery -->
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ModifierId>MONASTERY_WINE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ModifierId>MONASTERY_WHEAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ModifierId>MONASTERY_SUGAR_BONUS</ModifierId>
+		</Row>
+		<!-- Forge -->
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_COPPER_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ModifierId>FORGE_IRON_BONUS</ModifierId>
+		</Row>
+		<!-- Trappers Hut -->
+		<Row>
+			<BuildingType>BUILDING_TRAPPERS_HUT</BuildingType>
+			<ModifierId>TRAPPERS_HUT_DEER_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TRAPPERS_HUT</BuildingType>
+			<ModifierId>TRAPPERS_HUT_DEER_BONUS_P</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TRAPPERS_HUT</BuildingType>
+			<ModifierId>TRAPPERS_HUT_FUR_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TRAPPERS_HUT</BuildingType>
+			<ModifierId>TRAPPERS_HUT_FUR_BONUS_P</ModifierId>
+		</Row>
+		<!-- Herbalist -->
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<ModifierId>HERBALIST_TRUFFLES_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<ModifierId>HERBALIST_GYPSUM_BONUS</ModifierId>
+		</Row>
+		<!-- Apocathery -->
+		<Row>
+			<BuildingType>BUILDING_APOCATHERY</BuildingType>
+			<ModifierId>APOCATHERY_INCENSE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_APOCATHERY</BuildingType>
+			<ModifierId>APOCATHERY_MERCURY_BONUS</ModifierId>
+		</Row>
+		<!-- Healers Hut -->
+		<Row>
+			<BuildingType>BUILDING_HEALERS_HUT</BuildingType>
+			<ModifierId>HEALERS_HUT_SALT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEALERS_HUT</BuildingType>
+			<ModifierId>HEALERS_HUT_SPICES_BONUS</ModifierId>
+		</Row>
+		<!-- Tavern -->
+		<Row>
+			<BuildingType>BUILDING_TAVERN</BuildingType>
+			<ModifierId>TAVERN_WINE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAVERN</BuildingType>
+			<ModifierId>TAVERN_WHEAT_BONUS</ModifierId>
+		</Row>
+		<!-- Inn -->
+		<Row>
+			<BuildingType>BUILDING_INN</BuildingType>
+			<ModifierId>INN_SUGAR_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INN</BuildingType>
+			<ModifierId>INN_CITRUS_BONUS</ModifierId>
+		</Row>
+		<!-- Lodge -->
+		<Row>
+			<BuildingType>BUILDING_LODGE</BuildingType>
+			<ModifierId>LODGE_GYPSUM_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LODGE</BuildingType>
+			<ModifierId>LODGE_RICE_BONUS</ModifierId>
+		</Row>
+		<!-- Stone Mason -->
+		<Row>
+			<BuildingType>BUILDING_STONE_MASON</BuildingType>
+			<ModifierId>STONE_MASON_STONE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_MASON</BuildingType>
+			<ModifierId>STONE_MASON_MARBLE_BONUS</ModifierId>
+		</Row>
+		<!-- Tailor -->
+		<Row>
+			<BuildingType>BUILDING_TAILOR</BuildingType>
+			<ModifierId>TAILOR_SHEEP_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAILOR</BuildingType>
+			<ModifierId>TAILOR_COTTON_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAILOR</BuildingType>
+			<ModifierId>TAILOR_DYES_BONUS</ModifierId>
+		</Row>
+		<!-- Cook Shop -->
+		<Row>
+			<BuildingType>BUILDING_COOK_SHOP</BuildingType>
+			<ModifierId>COOK_SHOP_WHEAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COOK_SHOP</BuildingType>
+			<ModifierId>COOK_SHOP_RICE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COOK_SHOP</BuildingType>
+			<ModifierId>COOK_SHOP_BANANA_BONUS</ModifierId>
+		</Row>
+		<!-- Butcher -->
+		<Row>
+			<BuildingType>BUILDING_BUTCHER</BuildingType>
+			<ModifierId>BUTCHER_SHEEP_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUTCHER</BuildingType>
+			<ModifierId>BUTCHER_CATTLE_BONUS</ModifierId>
+		</Row>
+		<!-- Manor -->
+		<Row>
+			<BuildingType>BUILDING_MANOR</BuildingType>
+			<ModifierId>MANOR_SILVER_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANOR</BuildingType>
+			<ModifierId>MANOR_DIAMONDS_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANOR</BuildingType>
+			<ModifierId>MANOR_PEARLS_BONUS</ModifierId>
+		</Row>
+	</BuildingModifiers>
+</GameData>

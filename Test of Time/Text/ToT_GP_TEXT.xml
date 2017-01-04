@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<LocalizedText>
+		<Row Tag="LOC_GREAT_PERSON_BEETOR_NAME" Language="en_US"> 
+			<Text>Be'eTor</Text> 
+		</Row>	
+		<Row Tag="LOC_GREAT_PERSON_GHIRILQA_NAME" Language="en_US"> 
+			<Text>Ghirilqa</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_MARTAQ_NAME" Language="en_US"> 
+			<Text>Martaq</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_MOGH_NAME" Language="en_US"> 
+			<Text>Mogh</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_QARGHAN_NAME" Language="en_US"> 
+			<Text>Qarghan</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_QUNIVAS_NAME" Language="en_US"> 
+			<Text>QunI'vaS</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_KRATAK_NAME" Language="en_US"> 
+			<Text>K'ratak</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_TLHAVEQ_NAME" Language="en_US"> 
+			<Text>Tlha'veq</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_KRENN_NAME" Language="en_US"> 
+			<Text>Krenn</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_KROTMAG_NAME" Language="en_US"> 
+			<Text>Krotmag</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_MATLH_NAME" Language="en_US"> 
+			<Text>Matlh</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_GHORQON_NAME" Language="en_US"> 
+			<Text>Ghorqon</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_WORF_NAME" Language="en_US"> 
+			<Text>Worf</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_DURAS_NAME" Language="en_US"> 
+			<Text>Duras</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_BAROT_NAME" Language="en_US"> 
+			<Text>Barot</Text> 
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_NIEL_DEGRASSE_TYSON" Language="en_US"> 
+			<Text>Neil Degrasse Tyson</Text> 
+		</Row>
+	<!-- Boost -->	
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_1" Language="en_US"> 
+			<Text> Boost To Alphabet</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_2" Language="en_US">
+			<Text> Boost To Milita Training </Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_3" Language="en_US"> 
+			<Text> Boost To Smithing</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_4" Language="en_US">
+			<Text> Boost To Medicine</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_5" Language="en_US">
+			<Text> Boost To Folk Medicine</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_6" Language="en_US"> 
+			<Text> Boost To Naturopathy</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_7" Language="en_US">
+			<Text> Boost To Geometry</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_8" Language="en_US">
+			<Text> Boost To SiegeWarfare</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_1" Language="en_US">
+			<Text> Boost To Crop Rotation</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_2" Language="en_US">
+			<Text> Boost To Charters</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_3" Language="en_US">
+			<Text> Boost To Paper</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_4" Language="en_US">
+			<Text> Boost To Compass</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_5" Language="en_US">
+			<Text> Boost To Anatomy</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_6" Language="en_US">
+			<Text> Boost To Alchemy</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_1" Language="en_US">
+			<Text> Boost To Leadership</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_2" Language="en_US"> 
+			<Text> Boost To Naval Tactics</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_3" Language="en_US">
+			<Text> Boost To Biology</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_4" Language="en_US">
+			<Text> Boost To Sextant</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_5" Language="en_US">
+			<Text> Boost To Paleontology</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_6" Language="en_US">
+			<Text> Boost To Accounting</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_1" Language="en_US">
+			<Text> Boost To Marine Biology</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_2" Language="en_US">
+			<Text> Boost To Firefighting</Text>
+		</Row>
+		<Row Tag="LOC_GGREATPERSON_INDUSTRIAL_TECH_BOOST_3" Language="en_US"> 
+			<Text> Boost To Screw Propeller</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_4" Language="en_US"> 
+			<Text> Boost To Assembly Line</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_5" Language="en_US">
+			<Text> Boost To Telegraph</Text>
+		</Row>
+		<Row Tag="LOC_GGREATPERSON_INDUSTRIAL_TECH_BOOST_6" Language="en_US"> 
+			<Text> Boost To MassTransit</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_1" Language="en_US">
+			<Text> Boost To Compulsory Education</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_2" Language="en_US">
+			<Text> Boost To Antibiotics</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_3" Language="en_US">
+			<Text> Boost To Atomic Theory</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_4" Language="en_US">
+			<Text> Boost To Refrigeration</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_5" Language="en_US">
+			<Text> Boost To Theory of Relativity</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_MODERN_TECH_BOOST_6" Language="en_US">
+			<Text> Boost To Applied Economics</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_1" Language="en_US">
+			<Text> Boost To Internet</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_2" Language="en_US">
+			<Text> Boost To Television</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_3" Language="en_US">
+			<Text> Boost To Semiconductors</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_4" Language="en_US">
+			<Text> Boost To Highway Systems</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_5" Language="en_US">
+			<Text> Boost To Fiber Optics</Text> 
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_6" Language="en_US">
+			<Text> Boost To Ecology</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_ATOMIC_TECH_BOOST_7" Language="en_US">
+			<Text> Boost To Quantum Physics</Text>
+		</Row>
+	</LocalizedText>
+</GameInfo>		

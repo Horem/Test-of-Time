@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TECH_Dawn_of_Civilization_NAME" Language="en_US">
+			<Text>Dawn of Civilization</Text>
+		</Row>	
+		<!-- Ancient Era-->
+		<Row Tag="LOC_TECH_Exploration_NAME" Language="en_US">
+			<Text>Exploration</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Exploration_DESCRIPTION" Language="en_US">
+			<Text>Allows Builders to embark.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Burial_Rites_NAME" Language="en_US">
+			<Text>Burial Rites</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Herblore_NAME" Language="en_US">
+			<Text>Herblore</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Fermentation_NAME" Language="en_US">
+			<Text>Fermentation</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Linguistics_NAME" Language="en_US">
+			<Text>Linguistics</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Gardening_NAME" Language="en_US">
+			<Text>Gardening</Text>
+		</Row>
+		<!-- Classical Era -->
+		<Row Tag="LOC_TECH_Alphabet_NAME" Language="en_US">
+			<Text>Alphabet</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Folk_Medicine_NAME" Language="en_US">
+			<Text>Folk Medicine</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Milita_Training_NAME" Language="en_US">
+			<Text>Milita Training</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Smithing_NAME" Language="en_US">
+			<Text>Smithing</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Medicine_NAME" Language="en_US">
+			<Text>Medicine</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Naturopathy_NAME" Language="en_US">
+			<Text>Agricultural Tools</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Naturopathy_DESC" Language="en_US">
+			<Text>+2 [ICON_FOOD] Food on Farms.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Geometry_NAME" Language="en_US">
+			<Text>Geometry</Text>
+		</Row>
+		<Row Tag="LOC_TECH_SiegeWarfare_NAME" Language="en_US">
+			<Text>Siege Warfare</Text>
+		</Row>
+		<!-- Medieval Era -->
+		<Row Tag="LOC_TECH_Crop_Rotation_NAME" Language="en_US">
+			<Text>Crop Rotation</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Crop_Rotation_DESC" Language="en_US">
+			<Text>+1 [ICON_FOOD] on Plantations and Pastures.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Charters_NAME" Language="en_US">
+			<Text>Charters</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Paper_NAME" Language="en_US">
+			<Text>Paper</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Compass_NAME" Language="en_US">
+			<Text>Compass</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Anatomy_NAME" Language="en_US">
+			<Text>Anatomy</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Alchemy_NAME" Language="en_US">
+			<Text>Alchemy</Text>
+		</Row>
+		<!--Renaissance Era -->
+		<Row Tag="LOC_TECH_Leadership_NAME" Language="en_US">
+			<Text>Leadership</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Naval_Tactics_NAME" Language="en_US">
+			<Text>Naval Tactics</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Biology_NAME" Language="en_US">
+			<Text>Biology</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Sextant_NAME" Language="en_US">
+			<Text>Sextant</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Paleontology_NAME" Language="en_US">
+			<Text>Stock Brokering</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Accounting_NAME" Language="en_US">
+			<Text>Accounting</Text>
+		</Row>
+		<!-- Industrial Era -->
+		<Row Tag="LOC_TECH_Marine_Biology_NAME" Language="en_US">
+			<Text>Battlefield Medicine</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Firefighting_NAME" Language="en_US">
+			<Text>Firefighting</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Screw_Propeller_NAME" Language="en_US">
+			<Text>Screw Propeller</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Assembly_Line_NAME" Language="en_US">
+			<Text>Assembly Line</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Telegraph_NAME" Language="en_US">
+			<Text>Telegraph</Text>
+		</Row>
+		<Row Tag="LOC_TECH_MassTransit_NAME" Language="en_US">
+			<Text>Mass Transit</Text>
+		</Row>
+		<!-- Modern Era -->
+		<Row Tag="LOC_TECH_CompulsoryEducation_NAME" Language="en_US">
+			<Text>Compulsory Education</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Antibiotics_NAME" Language="en_US">
+			<Text>Antibiotics</Text>
+		</Row>
+		<Row Tag="LOC_TECH_AtomicTheory_NAME" Language="en_US">
+			<Text>Atomic Theory</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Refrigeration_NAME" Language="en_US">
+			<Text>Refrigeration</Text>
+		</Row>
+		<Row Tag="LOC_TECH_TheoryofRelativity_NAME" Language="en_US">
+			<Text>Theory of Relativity</Text>
+		</Row>
+		<Row Tag="LOC_TECH_AppliedEconomics_NAME" Language="en_US">
+			<Text>Applied Economics</Text>
+		</Row>
+		<!-- Atomic Era -->
+		<Row Tag="LOC_TECH_QuantumPhysics_NAME" Language="en_US">
+			<Text>Quantum Physics</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Television_NAME" Language="en_US">
+			<Text>Television</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Semiconductors_NAME" Language="en_US">
+			<Text>Semiconductors</Text>
+		</Row>
+		<Row Tag="LOC_TECH_HighwaySystems_NAME" Language="en_US">
+			<Text>Highway Systems</Text>
+		</Row>
+		<Row Tag="LOC_TECH_FiberOptics_NAME" Language="en_US">
+			<Text>Fiber Optics</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Ecology_NAME" Language="en_US">
+			<Text>Ecology</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Internet_NAME" Language="en_US">
+			<Text>Internet</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

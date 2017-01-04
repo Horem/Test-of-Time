@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/30/2016 6:12:26 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_DISTRICT_MERCHANT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from God of Craftsmen {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SOUQ_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from God of Craftsmen {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CITY_CENTER_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from Goddess of Festivals {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CITY_CENTER_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from Religious Settlements {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_FOREST_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Forest {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SHOPPING_COMPLEX_NAME" Language="en_US">
+			<Text>Merchant Quarter</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SHOPPING_COMPLEX_DESC" Language="en_US">
+			<Text>+3% Growth.[NEWLINE]A district in your city specializing in Business.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_RIVER_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_MERCHANT_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Merchant district.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_COMMERCIAL_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Financial district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SOUQ_NAME" Language="en_US">
+			<Text>Souq</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SOUQ_DESC" Language="en_US">
+			<Text>+3% Growth.[NEWLINE]A district in your city specializing in Business.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_FLOOD_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_FOOD] Food from adjacent Floodplains.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_SPHINX_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_CULTURE] Culture from adjacent Sphinx improvements.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SOUQ_NAME" Language="en_US">
+			<Text>Fruits of the Nile</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_FOOD] Food from adjacent Districts.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_AQUA_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_FOOD] Food from adjacent River.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CENTER_FOOD_SUM" Language="en_US">
+			<Text>+2 [ICON_FOOD] food for Lakes</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GROWTH_SUM" Language="en_US">
+			<Text>3% Growth</Text>
+		</Row>
+		<Row Tag="LOC_AQUADUCT_GROWTH_SUM" Language="en_US">
+			<Text>10% Growth</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

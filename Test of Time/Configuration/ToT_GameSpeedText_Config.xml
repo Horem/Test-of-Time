@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/4/2016 3:15:09 PM -->
+<GameInfo>
+	<LocalizedText>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_NS_NAME" Language="en_US">
+			<Text>Slug</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_NS_DESC" Language="en_US">
+			<Text>Slimy, Sludgy and Oozy! (Not so Slow)</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_S_NAME" Language="en_US">
+			<Text>Tortoise</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_S_DESC" Language="en_US">
+			<Text>The Tortoise beat the Hare! (Slow)</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_RRS_NAME" Language="en_US">
+			<Text>Snail</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_RRS_DESC" Language="en_US">
+			<Text>The snail that burnt its tail! (Really Really Slow)</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_RS_NAME" Language="en_US">
+			<Text>Sloth</Text>
+		</Replace>
+		<Replace Tag="LOC_GAMEPEED_C_HOREM_RS_DESC" Language="en_US">
+			<Text>The algea covered Sloth! (Really Slow)</Text>
+		</Replace>		
+	</LocalizedText>
+</GameInfo>

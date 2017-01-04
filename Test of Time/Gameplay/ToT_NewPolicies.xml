@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gameinfo>
+
+	<!-- Policies,Modifiers, Gameeffect Type Should all go here -->
+	<Types>
+		<Row Type="POLICY_SHARED_CROPS" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_UNIT_EXP" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_PAX_IMPERIA" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_SHARED_MYTHS" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_SHARED_CULTURE" Kind="KIND_POLICY"/>
+	</Types>
+
+	<Policies>
+		<Row PolicyType="POLICY_SHARED_CROPS" Name="LOC_POLICY_SHARED_CROPS_NAME" Description="LOC_POLICY_SHARED_CROPS_DESCRIPTION" PrereqCivic="CIVIC_STATE_WORKFORCE" GovernmentSlotType="SLOT_ECONOMIC"/>
+
+		<Row PolicyType="POLICY_UNIT_EXP" Name="LOC_POLICY_UNIT_EXP_NAME" Description="LOC_POLICY_UNIT_EXP_DESCRIPTION" PrereqCivic="CIVIC_MILITARY_TRAINING" GovernmentSlotType="SLOT_MILITARY"/>
+
+		<Row PolicyType="POLICY_PAX_IMPERIA" Name="LOC_POLICY_PAX_IMPERIA_NAME" Description="LOC_POLICY_PAX_IMPERIA_DESCRIPTION" PrereqCivic="CIVIC_TERRA_NOSTRUM" GovernmentSlotType="SLOT_MILITARY"/>
+
+		<Row PolicyType="POLICY_SHARED_MYTHS" Name="LOC_POLICY_SHARED_MYTHS_NAME" Description="LOC_POLICY_SHARED_MYTHS_DESCRIPTION" PrereqCivic="CIVIC_SYMPOLITEIA" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+
+		<Row PolicyType="POLICY_SHARED_CULTURE" Name="LOC_POLICY_SHARED_CULTURE_NAME" Description="LOC_POLICY_SHARED_CULTURE_DESCRIPTION" PrereqCivic="CIVIC_SYMPOLITEIA" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+
+
+		<Update>
+			<Set PrereqCivic="CIVIC_CRAFTSMANSHIP"/>
+			<Where PolicyType="POLICY_BASTIONS"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_TERRA_NOSTRUM"/>
+			<Where PolicyType="POLICY_RAID"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+			<Where PolicyType="POLICY_CONSCRIPTION"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_DEFENSIVE_TACTICS"/>
+			<Where PolicyType="POLICY_AGOGE"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_FOREIGN_DIGNITARY"/>
+			<Where PolicyType="POLICY_MERCHANT_CONFEDERATION"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_FOREIGN_DIGNITARY"/>
+			<Where PolicyType="POLICY_CHIVALRY"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_FEUDALISM"/>
+			<Where PolicyType="POLICY_GOTHIC_ARCHITECTURE"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_MERCENARIES"/>
+			<Where PolicyType="POLICY_FEUDAL_CONTRACT"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_FOREIGN_DIGNITARY"/>
+			<Where PolicyType="POLICY_TRADE_CONFEDERATION"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_IMPERIALISM"/>
+			<Where PolicyType="POLICY_COLONIAL_OFFICES"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_IMPERIALISM"/>
+			<Where PolicyType="POLICY_NATIVE_CONQUEST"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_EXPLORATION"/>
+			<Where PolicyType="POLICY_LOGISTICS"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_IDEOLOGY"/>
+			<Where PolicyType="POLICY_MILITARY_RESEARCH"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_STATE_MEDIA"/>
+			<Where PolicyType="POLICY_PROPAGANDA"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_MOBILIZATION"/>
+			<Where PolicyType="POLICY_PATRIOTIC_WAR"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_MOBILIZATION"/>
+			<Where PolicyType="POLICY_LIGHTNING_WARFARE"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_MOBILIZATION"/>
+			<Where PolicyType="POLICY_FINEST_HOUR"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_GLOBAL_ECONOMY"/>
+			<Where PolicyType="POLICY_ECOMMERCE"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_GLOBAL_ECONOMY"/>
+			<Where PolicyType="POLICY_INTERNATIONAL_SPACE_AGENCY"/>
+		</Update>
+		<Update>
+			<Set PrereqCivic="CIVIC_RAPID_DEPLOYMENT"/>
+			<Where PolicyType="POLICY_STRATEGIC_AIR_FORCE"/>
+		</Update>
+	</Policies>
+
+	<ObsoletePolicies>
+		<Row PolicyType="POLICY_SHARED_CROPS" ObsoletePolicy="POLICY_SERFDOM"/>
+		<Row PolicyType="POLICY_UNIT_EXP" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+		<Row PolicyType="POLICY_PAX_IMPERIA" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+		<Row PolicyType="POLICY_SHARED_MYTHS" ObsoletePolicy="POLICY_RELIGIOUS_ORDERS"/>
+		<Row PolicyType="POLICY_SHARED_CULTURE" ObsoletePolicy="POLICY_MERCHANT_CONFEDERATION"/>
+	</ObsoletePolicies>
+
+	<PolicyModifiers>
+		<Row>
+			<PolicyType>POLICY_SHARED_CROPS</PolicyType>
+			<ModifierId>SHARED_CROPS_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIT_EXP</PolicyType>
+			<ModifierId>ALL_UNITEXPERIENCE</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PAX_IMPERIA</PolicyType>
+			<ModifierId>COMBAT_BONUS_CITY_STATES_PAX_IMPERIA</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHARED_MYTHS</PolicyType>
+			<ModifierId>SHARED_MYTHS</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SHARED_CULTURE</PolicyType>
+			<ModifierId>SHARED_CULTURE</ModifierId>
+		</Row>
+
+	</PolicyModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SHARED_CROPS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ALL_UNITEXPERIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_VS_CITY_STATES_MODIFIER_PAX_IMPERIA</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_MINOR_CIV</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_CITY_STATES_PAX_IMPERIA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_MYTHS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SHARED_CROPS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_CROPS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALL_UNITEXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>COMBAT_BONUS_CITY_STATES_PAX_IMPERIA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_VS_CITY_STATES_MODIFIER_PAX_IMPERIA</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_VS_CITY_STATES_MODIFIER_PAX_IMPERIA</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_MYTHS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_MYTHS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHARED_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="AGOGE_ANCIENT_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="AGOGE_CLASSICAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="AGOGE_ANCIENT_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="AGOGE_CLASSICAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="CHIVALRY_MEDIEVAL_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="CHIVALRY_RENAISSANCE_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="CHIVALRY_INDUSTRIAL_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="CHIVALRY_MEDIEVAL_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="CHIVALRY_RENAISSANCE_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="CHIVALRY_INDUSTRIAL_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FEUDALCONTRACT_MEDIEVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FEUDALCONTRACT_RENAISSANCE_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FEUDALCONTRACT_MEDIEVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FEUDALCONTRACT_RENAISSANCE_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FINESTHOUR_MODERN_AIRFIGHTER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FINESTHOUR_ATOMIC_AIRFIGHTER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FINESTHOUR_MODERN_AIRBOMBER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="FINESTHOUR_ATOMIC_AIRBOMBER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="GRANDEARMEE_INDUSTRIAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="GRANDEARMEE_MODERN_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="GRANDEARMEE_INDUSTRIAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="GRANDEARMEE_MODERN_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_MODERN_NAVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_ATOMIC_NAVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_MODERN_NAVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_ATOMIC_NAVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_MODERN_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_ATOMIC_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="INTERNATIONALWATERS_INFORMATION_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="LIGHTNINGWARFARE_MODERN_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="LIGHTNINGWARFARE_MODERN_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MANEUVER_ANCIENT_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MANEUVER_CLASSICAL_HEAVY_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MANEUVER_ANCIENT_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MANEUVER_CLASSICAL_LIGHT_CAVALRY_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MARITIMIEINDUSTRIES_ANCIENT_NAVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MARITIMIEINDUSTRIES_CLASSICAL_NAVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MARITIMIEINDUSTRIES_ANCIENT_NAVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MARITIMIEINDUSTRIES_CLASSICAL_NAVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MARITIMIEINDUSTRIES_ANCIENT_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MARITIMIEINDUSTRIES_CLASSICAL_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PATRIOTICWAR_MODERN_SUPPORT_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PATRIOTICWAR_ATOMIC_SUPPORT_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PATRIOTICWAR_INFORMATION_SUPPORT_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PRESSGANGS_RENAISSANCE_NAVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PRESSGANGS_INDUSTRIAL_NAVAL_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PRESSGANGS_RENAISSANCE_NAVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PRESSGANGS_INDUSTRIAL_NAVAL_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PRESSGANGS_RENAISSANCE_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="PRESSGANGS_INDUSTRIAL_NAVAL_RAIDER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MILITARYFIRST_ATOMIC_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MILITARYFIRST_INFORMATION_MELEE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MILITARYFIRST_ATOMIC_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="MILITARYFIRST_INFORMATION_RANGED_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="STRATEGICAIRFORCE_INFORMATION_AIRFIGHTER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="STRATEGICAIRFORCE_INFORMATION_AIRBOMBER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="STRATEGICAIRFORCE_ATOMIC_NAVALCARRIER_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where ModifierId="STRATEGICAIRFORCE_INFORMATION_NAVALCARRIER_PRODUCTION"/>
+		</Update>
+
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MELEE_UNITS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RANGED_UNITS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HEAVY_CAVALRY_UNITS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>LIGHT_CAVALRY_UNITS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ALL_UNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ANTI_CAVALRY_UNITS</RequirementId>
+		</Row>
+
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>MELEE_UNITS</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>RANGED_UNITS</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>HEAVY_CAVALRY_UNITS</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>LIGHT_CAVALRY_UNITS</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>ANTI_CAVALRY_UNITS</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>MELEE_UNITS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<RequirementId>RANGED_UNITS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<RequirementId>HEAVY_CAVALRY_UNITS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>LIGHT_CAVALRY_UNITS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>ANTI_CAVALRY_UNITS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_ANTI_CAVALRY</Value>
+		</Row>
+	</RequirementArguments>
+	<DynamicModifiers>
+	</DynamicModifiers>
+
+
+</Gameinfo>

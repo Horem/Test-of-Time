@@ -1,0 +1,18 @@
+-- Insert SQL Rules Here 
+UPDATE Projects SET PrereqTech ='TECH_Semiconductors' WHERE ProjectType ='PROJECT_LAUNCH_EARTH_SATELLITE';
+UPDATE Projects SET PrereqTech ='TECH_AtomicTheory' WHERE ProjectType ='PROJECT_MANHATTAN_PROJECT';
+-- Project Costs
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_CARNIVAL';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_ENCAMPMENT';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_HARBOR';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_HOLY_SITE';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_CAMPUS';
+UPDATE Projects SET Cost ='125' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_THEATER';
+-- Project GP Points
+UPDATE Project_GreatPersonPoints SET Points ='2' WHERE Points ='10';
+UPDATE Project_GreatPersonPoints SET Points ='1' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB';
+UPDATE Project_GreatPersonPoints SET Points ='1' WHERE ProjectType ='PROJECT_CARNIVAL';
+UPDATE Project_GreatPersonPoints SET Points ='1' WHERE ProjectType ='PROJECT_ENHANCE_DISTRICT_THEATER';
+

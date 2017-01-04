@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconDefinitions>
+		<Row Name="ICON_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX"		Atlas="ICON_ATLAS_PROJECTS" Index="14"/>
+	</IconDefinitions>
+</GameInfo>

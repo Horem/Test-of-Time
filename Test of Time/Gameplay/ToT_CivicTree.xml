@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+
+	<!-- NEW CIVICS -->
+	<Types>
+		<!--		<Row Type="CIVIC_TEST" Kind="KIND_CIVIC"/>	-->
+		<Row Type="CIVIC_SYMPOLITEIA" Kind="KIND_CIVIC"/>
+		<Row Type="CIVIC_TERRA_NOSTRUM" Kind="KIND_CIVIC"/>
+		<Row Type="CIVIC_FOREIGN_DIGNITARY" Kind="KIND_CIVIC"/>
+		<Row Type="CIVIC_IMPERIALISM" Kind="KIND_CIVIC"/>
+		<Row Type="CIVIC_STATE_MEDIA" Kind="KIND_CIVIC"/>
+		<Row Type="CIVIC_GLOBAL_ECONOMY" Kind="KIND_CIVIC"/>
+	</Types>
+
+	<Civics>
+		<!--	<Row CivicType="CIVIC_TEST" Name="LOC_CIVIC_TEST_NAME" Cost="25" AdvisorType="ADVISOR_GENERIC" EraType="ERA_ANCIENT" UITreeRow="-2"/> -->
+
+		<Row CivicType="CIVIC_SYMPOLITEIA" Name="LOC_CIVIC_SYMPOLITEIA_NAME" Cost="250" AdvisorType="ADVISOR_GENERIC" EraType="ERA_CLASSICAL" UITreeRow="2" Tier ="2"/>
+
+		<Row CivicType="CIVIC_TERRA_NOSTRUM" Name="LOC_CIVIC_TERRA_NOSTRUM_NAME" Cost="250" AdvisorType="ADVISOR_GENERIC" EraType="ERA_CLASSICAL" UITreeRow="3" Tier ="2"/>
+
+		<Row CivicType="CIVIC_FOREIGN_DIGNITARY" Name="LOC_CIVIC_FOREIGN_DIGNITARY_NAME" Cost="400" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MEDIEVAL" UITreeRow="3" Tier ="2"/>
+
+		<Row CivicType="CIVIC_IMPERIALISM" Name="LOC_CIVIC_IMPERIALISM_NAME" Cost="600" AdvisorType="ADVISOR_GENERIC" EraType="ERA_RENAISSANCE" UITreeRow="3" Tier ="2"/>
+
+		<Row CivicType="CIVIC_STATE_MEDIA" Name="LOC_CIVIC_STATE_MEDIA_NAME" Cost="1100" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MODERN" UITreeRow="3" Tier ="1"/>
+
+		<Row CivicType="CIVIC_GLOBAL_ECONOMY" Name="LOC_CIVIC_GLOBAL_ECONOMY_NAME" Cost="1500" AdvisorType="ADVISOR_GENERIC" EraType="ERA_ATOMIC" UITreeRow="-3" Tier ="2"/>
+
+
+
+		<!-- Only changing Era items in this section -->
+		<Update>
+			<Set EraType="ERA_RENAISSANCE"/>
+			<Where CivicType="CIVIC_COLONIALISM"/>
+		</Update>
+		<Update>
+			<Set EraType="ERA_INDUSTRIAL"/>
+			<Where CivicType="CIVIC_IDEOLOGY"/>
+		</Update>
+		<Update>
+			<Set EraType="ERA_ATOMIC"/>
+			<Where CivicType="CIVIC_NUCLEAR_PROGRAM"/>
+		</Update>
+		<Update>
+			<Set EraType="ERA_ATOMIC"/>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA"/>
+		</Update>
+		<Update>
+			<Set Repeatable="True"/>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA"/>
+		</Update>
+		<!-- Only changing Cost items in this section -->
+		<!-- Ancient Era-->
+		<Update>
+			<Set Cost="25"/>
+			<Where CivicType="CIVIC_CODE_OF_LAWS"/>
+		</Update>
+		<Update>
+			<Set Cost="50"/>
+			<Where CivicType="CIVIC_STATE_WORKFORCE"/>
+		</Update>
+		<Update>
+			<Set Cost="50"/>
+			<Where CivicType="CIVIC_EARLY_EMPIRE"/>
+		</Update>
+		<Update>
+			<Set Cost="100"/>
+			<Where CivicType="CIVIC_MYSTICISM"/>
+		</Update>
+		<Update>
+			<Set Cost="100"/>
+			<Where CivicType="CIVIC_MILITARY_TRADITION"/>
+		</Update>
+		<Update>
+			<Set Cost="100"/>
+			<Where CivicType="CIVIC_CRAFTSMANSHIP"/>
+		</Update>
+		<Update>
+			<Set Cost="100"/>
+			<Where CivicType="CIVIC_FOREIGN_TRADE"/>
+		</Update>
+		<!-- Classical Era-->
+		<Update>
+			<Set Cost="200"/>
+			<Where CivicType="CIVIC_RECORDED_HISTORY"/>
+		</Update>
+		<Update>
+			<Set Cost="200"/>
+			<Where CivicType="CIVIC_DEFENSIVE_TACTICS"/>
+		</Update>
+		<Update>
+			<Set Cost="200"/>
+			<Where CivicType="CIVIC_POLITICAL_PHILOSOPHY"/>
+		</Update>
+		<!--<Update>  <Set Cost="250"/>  <Where CivicType="CIVIC_SYMPOLITEIA"/> </Update> Update At Top of File -->
+		<!--<Update>  <Set Cost="250"/>  <Where CivicType="CIVIC_TERRA_NOSTRUM"/> </Update> Update At Top of File -->
+		<Update>
+			<Set Cost="250"/>
+			<Where CivicType="CIVIC_DRAMA_POETRY"/>
+		</Update>
+		<Update>
+			<Set Cost="250"/>
+			<Where CivicType="CIVIC_GAMES_RECREATION"/>
+		</Update>
+		<Update>
+			<Set Cost="300"/>
+			<Where CivicType="CIVIC_THEOLOGY"/>
+		</Update>
+		<Update>
+			<Set Cost="300"/>
+			<Where CivicType="CIVIC_MILITARY_TRAINING"/>
+		</Update>
+		<!-- Medieval Era-->
+		<Update>
+			<Set Cost="350"/>
+			<Where CivicType="CIVIC_CIVIL_SERVICE"/>
+		</Update>
+		<Update>
+			<Set Cost="350"/>
+			<Where CivicType="CIVIC_NAVAL_TRADITION"/>
+		</Update>
+		<Update>
+			<Set Cost="400"/>
+			<Where CivicType="CIVIC_GUILDS"/>
+		</Update>
+		<Update>
+			<Set Cost="400"/>
+			<Where CivicType="CIVIC_FEUDALISM"/>
+		</Update>
+		<Update>
+			<Set Cost="400"/>
+			<Where CivicType="CIVIC_MERCENARIES"/>
+		</Update>
+		<!--<Update>  <Set Cost="400"/>  <Where CivicType="CIVIC_FOREIGN_DIGNITARY"/> </Update> Update At Top of File -->
+		<Update>
+			<Set Cost="450"/>
+			<Where CivicType="CIVIC_DIVINE_RIGHT"/>
+		</Update>
+		<Update>
+			<Set Cost="450"/>
+			<Where CivicType="CIVIC_MEDIEVAL_FAIRES"/>
+		</Update>
+		<!--RenaissanceEra-->
+		<Update>
+			<Set Cost="500"/>
+			<Where CivicType="CIVIC_REFORMED_CHURCH"/>
+		</Update>
+		<Update>
+			<Set Cost="500"/>
+			<Where CivicType="CIVIC_EXPLORATION"/>
+		</Update>
+		<Update>
+			<Set Cost="600"/>
+			<Where CivicType="CIVIC_HUMANISM"/>
+		</Update>
+		<Update>
+			<Set Cost="600"/>
+			<Where CivicType="CIVIC_THE_ENLIGHTENMENT"/>
+		</Update>
+		<Update>
+			<Set Cost="600"/>
+			<Where CivicType="CIVIC_MERCANTILISM"/>
+		</Update>
+		<!--<Update>  <Set Cost="600"/>  <Where CivicType="CIVIC_IMPERIALISM"/> </Update> Update At Top of File -->
+		<Update>
+			<Set Cost="700"/>
+			<Where CivicType="CIVIC_DIPLOMATIC_SERVICE"/>
+		</Update>
+		<Update>
+			<Set Cost="700"/>
+			<Where CivicType="CIVIC_COLONIALISM"/>
+		</Update>
+		<!--Industrial Era-->
+		<Update>
+			<Set Cost="800"/>
+			<Where CivicType="CIVIC_NATIONALISM"/>
+		</Update>
+		<Update>
+			<Set Cost="900"/>
+			<Where CivicType="CIVIC_OPERA_BALLET"/>
+		</Update>
+		<Update>
+			<Set Cost="900"/>
+			<Where CivicType="CIVIC_CIVIL_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Set Cost="900"/>
+			<Where CivicType="CIVIC_NATURAL_HISTORY"/>
+		</Update>
+		<Update>
+			<Set Cost="900"/>
+			<Where CivicType="CIVIC_SCORCHED_EARTH"/>
+		</Update>
+		<Update>
+			<Set Cost="1000"/>
+			<Where CivicType="CIVIC_URBANIZATION"/>
+		</Update>
+		<Update>
+			<Set Cost="1000"/>
+			<Where CivicType="CIVIC_IDEOLOGY"/>
+		</Update>
+		<!--Modern Era-->
+		<Update>
+			<Set Cost="1100"/>
+			<Where CivicType="CIVIC_CAPITALISM"/>
+		</Update>
+		<!--<Update>  <Set Cost="1100"/>  <Where CivicType="CIVIC_STATE_MEDIA"/> </Update> Update At Top of File -->
+		<Update>
+			<Set Cost="1200"/>
+			<Where CivicType="CIVIC_CONSERVATION"/>
+		</Update>
+		<Update>
+			<Set Cost="1200"/>
+			<Where CivicType="CIVIC_SUFFRAGE"/>
+		</Update>
+		<Update>
+			<Set Cost="1200"/>
+			<Where CivicType="CIVIC_TOTALITARIANISM"/>
+		</Update>
+		<Update>
+			<Set Cost="1200"/>
+			<Where CivicType="CIVIC_CLASS_STRUGGLE"/>
+		</Update>
+		<Update>
+			<Set Cost="1300"/>
+			<Where CivicType="CIVIC_MOBILIZATION"/>
+		</Update>
+		<Update>
+			<Set Cost="1300"/>
+			<Where CivicType="CIVIC_MASS_MEDIA"/>
+		</Update>
+		<!--Atomic Era-->
+		<Update>
+			<Set Cost="1400"/>
+			<Where CivicType="CIVIC_CULTURAL_HERITAGE"/>
+		</Update>
+		<Update>
+			<Set Cost="1400"/>
+			<Where CivicType="CIVIC_COLD_WAR"/>
+		</Update>
+		<!--<Update>  <Set Cost="1500"/>  <Where CivicType="CIVIC_GLOBAL_ECONOMY"/> </Update> Update At Top of File -->
+		<Update>
+			<Set Cost="1500"/>
+			<Where CivicType="CIVIC_PROFESSIONAL_SPORTS"/>
+		</Update>
+		<Update>
+			<Set Cost="1500"/>
+			<Where CivicType="CIVIC_NUCLEAR_PROGRAM"/>
+		</Update>
+		<Update>
+			<Set Cost="1500"/>
+			<Where CivicType="CIVIC_SPACE_RACE"/>
+		</Update>
+		<Update>
+			<Set Cost="1600"/>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA"/>
+		</Update>
+		<Update>
+			<Set Cost="1600"/>
+			<Where CivicType="CIVIC_RAPID_DEPLOYMENT"/>
+		</Update>
+		<!--Atomic Era-->
+		<Update>
+			<Set Cost="2000"/>
+			<Where CivicType="CIVIC_GLOBALIZATION"/>
+		</Update>
+
+		<!-- Only changing UITreeRow items in this section -->
+		<!-- Ancient Era-->
+		<Update>
+			<Set UITreeRow="0"/>
+			<Where CivicType="CIVIC_CODE_OF_LAWS"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_STATE_WORKFORCE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="2"/>
+			<Where CivicType="CIVIC_EARLY_EMPIRE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_CRAFTSMANSHIP"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-1"/>
+			<Where CivicType="CIVIC_MYSTICISM"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="1"/>
+			<Where CivicType="CIVIC_MILITARY_TRADITION"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_FOREIGN_TRADE"/>
+		</Update>
+		<!-- Classical Era-->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_RECORDED_HISTORY"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="0"/>
+			<Where CivicType="CIVIC_POLITICAL_PHILOSOPHY"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_DEFENSIVE_TACTICS"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_DRAMA_POETRY"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_GAMES_RECREATION"/>
+		</Update>
+		<!--<Update>  <Set UITreeRow="2"/> <Where CivicType="CIVIC_SYMPOLITEIA"/> </Update> Update At top of File -->
+		<!--<Update>  <Set UITreeRow="3"/> <Where CivicType="CIVIC_TERRA_NOSTRUM"/> </Update> Update At top of File -->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_THEOLOGY"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_MILITARY_TRAINING"/>
+		</Update>
+		<!-- Medieval Era-->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_CIVIL_SERVICE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_NAVAL_TRADITION"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_GUILDS"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_FEUDALISM"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="2"/>
+			<Where CivicType="CIVIC_MERCENARIES"/>
+		</Update>
+		<!--<Update>  <Set UITreeRow="3"/> <Where CivicType="CIVIC_FOREIGN_DIGNITARY"/> </Update> Update At top of File -->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_DIVINE_RIGHT"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_MEDIEVAL_FAIRES"/>
+		</Update>
+		<!--RenaissanceEra-->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_REFORMED_CHURCH"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_EXPLORATION"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_THE_ENLIGHTENMENT"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_HUMANISM"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="2"/>
+			<Where CivicType="CIVIC_MERCANTILISM"/>
+		</Update>
+		<!--<Update>  <Set UITreeRow="3"/> <Where CivicType="CIVIC_IMPERIALISM"/> </Update> Update At top of File -->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_DIPLOMATIC_SERVICE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_COLONIALISM"/>
+		</Update>
+		<!--Industrial Era-->
+		<Update>
+			<Set UITreeRow="0"/>
+			<Where CivicType="CIVIC_NATIONALISM"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_OPERA_BALLET"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_CIVIL_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="2"/>
+			<Where CivicType="CIVIC_NATURAL_HISTORY"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_SCORCHED_EARTH"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_URBANIZATION"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_IDEOLOGY"/>
+		</Update>
+		<!--Modern Era-->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_CAPITALISM"/>
+		</Update>
+		<!--<Update>  <Set UITreeRow="3"/> <Where CivicType="CIVIC_STATE_MEDIA"/> </Update> Update At top of File -->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_CONSERVATION"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_SUFFRAGE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="2"/>
+			<Where CivicType="CIVIC_TOTALITARIANISM"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_CLASS_STRUGGLE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_MASS_MEDIA"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_MOBILIZATION"/>
+		</Update>
+		<!--Atomic Era-->
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_CULTURAL_HERITAGE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_COLD_WAR"/>
+		</Update>
+		<!--<Update>  <Set UITreeRow="-3"/> <Where CivicType="CIVIC_GLOBAL_ECONOMY"/> </Update> Update At top of File -->
+		<Update>
+			<Set UITreeRow="-2"/>
+			<Where CivicType="CIVIC_PROFESSIONAL_SPORTS"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="2"/>
+			<Where CivicType="CIVIC_NUCLEAR_PROGRAM"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_SPACE_RACE"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="-3"/>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA"/>
+		</Update>
+		<Update>
+			<Set UITreeRow="3"/>
+			<Where CivicType="CIVIC_RAPID_DEPLOYMENT"/>
+		</Update>
+		<!--Atomic Era-->
+		<Update>
+			<Set UITreeRow="0"/>
+			<Where CivicType="CIVIC_GLOBALIZATION"/>
+		</Update>
+
+	</Civics>
+
+	<CivicPrereqs>
+		<!-- Ancient Era-->
+		<!--	<Row Civic="CIVIC_STATE_WORKFORCE" PrereqCivic="CIVIC_TEST"/>-->
+		<Row Civic="CIVIC_STATE_WORKFORCE" PrereqCivic="CIVIC_CODE_OF_LAWS"/>
+		<Row Civic="CIVIC_CRAFTSMANSHIP" PrereqCivic="CIVIC_STATE_WORKFORCE"/>
+		<Row Civic="CIVIC_MYSTICISM" PrereqCivic="CIVIC_STATE_WORKFORCE"/>
+		<Row Civic="CIVIC_EARLY_EMPIRE" PrereqCivic="CIVIC_CODE_OF_LAWS"/>
+		<Row Civic="CIVIC_MILITARY_TRADITION" PrereqCivic="CIVIC_EARLY_EMPIRE"/>
+		<Row Civic="CIVIC_FOREIGN_TRADE" PrereqCivic="CIVIC_EARLY_EMPIRE"/>
+		<!-- Classical Era-->
+		<Row Civic="CIVIC_RECORDED_HISTORY" PrereqCivic="CIVIC_CRAFTSMANSHIP"/>
+		<Row Civic="CIVIC_POLITICAL_PHILOSOPHY" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+		<Row Civic="CIVIC_POLITICAL_PHILOSOPHY" PrereqCivic="CIVIC_MYSTICISM"/>
+		<Row Civic="CIVIC_DEFENSIVE_TACTICS" PrereqCivic="CIVIC_FOREIGN_TRADE"/>
+		<Row Civic="CIVIC_DRAMA_POETRY" PrereqCivic="CIVIC_RECORDED_HISTORY"/>
+		<Row Civic="CIVIC_GAMES_RECREATION" PrereqCivic="CIVIC_RECORDED_HISTORY"/>
+		<Row Civic="CIVIC_GAMES_RECREATION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row Civic="CIVIC_SYMPOLITEIA" PrereqCivic="CIVIC_DEFENSIVE_TACTICS"/>
+		<Row Civic="CIVIC_SYMPOLITEIA" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row Civic="CIVIC_TERRA_NOSTRUM" PrereqCivic="CIVIC_DEFENSIVE_TACTICS"/>
+		<Row Civic="CIVIC_THEOLOGY" PrereqCivic="CIVIC_DRAMA_POETRY"/>
+		<Row Civic="CIVIC_THEOLOGY" PrereqCivic="CIVIC_GAMES_RECREATION"/>
+		<Row Civic="CIVIC_MILITARY_TRAINING" PrereqCivic="CIVIC_SYMPOLITEIA"/>
+		<Row Civic="CIVIC_MILITARY_TRAINING" PrereqCivic="CIVIC_TERRA_NOSTRUM"/>
+		<!-- Medieval Era-->
+		<Row Civic="CIVIC_NAVAL_TRADITION" PrereqCivic="CIVIC_MILITARY_TRAINING"/>
+		<Row Civic="CIVIC_CIVIL_SERVICE" PrereqCivic="CIVIC_THEOLOGY"/>
+		<Row Civic="CIVIC_FEUDALISM" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+		<Row Civic="CIVIC_FOREIGN_DIGNITARY" PrereqCivic="CIVIC_NAVAL_TRADITION"/>
+		<Row Civic="CIVIC_MERCENARIES" PrereqCivic="CIVIC_NAVAL_TRADITION"/>
+		<Row Civic="CIVIC_GUILDS" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+		<Row Civic="CIVIC_DIVINE_RIGHT" PrereqCivic="CIVIC_GUILDS"/>
+		<Row Civic="CIVIC_DIVINE_RIGHT" PrereqCivic="CIVIC_FEUDALISM"/>
+		<Row Civic="CIVIC_MEDIEVAL_FAIRES" PrereqCivic="CIVIC_FOREIGN_DIGNITARY"/>
+		<Row Civic="CIVIC_MEDIEVAL_FAIRES" PrereqCivic="CIVIC_MERCENARIES"/>
+		<!--Renaissance Era-->
+		<Row Civic="CIVIC_EXPLORATION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row Civic="CIVIC_REFORMED_CHURCH" PrereqCivic="CIVIC_DIVINE_RIGHT"/>
+		<Row Civic="CIVIC_THE_ENLIGHTENMENT" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row Civic="CIVIC_HUMANISM" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row Civic="CIVIC_MERCANTILISM" PrereqCivic="CIVIC_EXPLORATION"/>
+		<Row Civic="CIVIC_IMPERIALISM" PrereqCivic="CIVIC_EXPLORATION"/>
+		<Row Civic="CIVIC_DIPLOMATIC_SERVICE" PrereqCivic="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row Civic="CIVIC_DIPLOMATIC_SERVICE" PrereqCivic="CIVIC_HUMANISM"/>
+		<Row Civic="CIVIC_COLONIALISM" PrereqCivic="CIVIC_MERCANTILISM"/>
+		<Row Civic="CIVIC_COLONIALISM" PrereqCivic="CIVIC_IMPERIALISM"/>
+		<!--Industrial Era-->
+		<Row Civic="CIVIC_NATIONALISM" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row Civic="CIVIC_NATIONALISM" PrereqCivic="CIVIC_COLONIALISM"/>
+		<Row Civic="CIVIC_OPERA_BALLET" PrereqCivic="CIVIC_NATIONALISM"/>
+		<Row Civic="CIVIC_CIVIL_ENGINEERING" PrereqCivic="CIVIC_NATIONALISM"/>
+		<Row Civic="CIVIC_NATURAL_HISTORY" PrereqCivic="CIVIC_NATIONALISM"/>
+		<Row Civic="CIVIC_SCORCHED_EARTH" PrereqCivic="CIVIC_NATIONALISM"/>
+		<Row Civic="CIVIC_URBANIZATION" PrereqCivic="CIVIC_OPERA_BALLET"/>
+		<Row Civic="CIVIC_URBANIZATION" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Row Civic="CIVIC_IDEOLOGY" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<Row Civic="CIVIC_IDEOLOGY" PrereqCivic="CIVIC_SCORCHED_EARTH"/>
+
+		<!--Modern Era-->
+		<Row Civic="CIVIC_CAPITALISM" PrereqCivic="CIVIC_URBANIZATION"/>
+		<Row Civic="CIVIC_STATE_MEDIA" PrereqCivic="CIVIC_IDEOLOGY"/>
+		<Row Civic="CIVIC_CONSERVATION" PrereqCivic="CIVIC_CAPITALISM"/>
+		<Row Civic="CIVIC_SUFFRAGE" PrereqCivic="CIVIC_CAPITALISM"/>
+		<Row Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_STATE_MEDIA"/>
+		<Row Civic="CIVIC_CLASS_STRUGGLE" PrereqCivic="CIVIC_STATE_MEDIA"/>
+		<Row Civic="CIVIC_MASS_MEDIA" PrereqCivic="CIVIC_CONSERVATION"/>
+		<Row Civic="CIVIC_MASS_MEDIA" PrereqCivic="CIVIC_SUFFRAGE"/>
+		<Row Civic="CIVIC_MOBILIZATION" PrereqCivic="CIVIC_TOTALITARIANISM"/>
+		<Row Civic="CIVIC_MOBILIZATION" PrereqCivic="CIVIC_CLASS_STRUGGLE"/>
+
+		<!--Atomic Era-->
+		<Row Civic="CIVIC_CULTURAL_HERITAGE" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<Row Civic="CIVIC_COLD_WAR" PrereqCivic="CIVIC_MOBILIZATION"/>
+		<Row Civic="CIVIC_PROFESSIONAL_SPORTS" PrereqCivic="CIVIC_CULTURAL_HERITAGE"/>
+		<Row Civic="CIVIC_GLOBAL_ECONOMY" PrereqCivic="CIVIC_CULTURAL_HERITAGE"/>
+		<Row Civic="CIVIC_SPACE_RACE" PrereqCivic="CIVIC_COLD_WAR"/>
+		<Row Civic="CIVIC_NUCLEAR_PROGRAM" PrereqCivic="CIVIC_COLD_WAR"/>
+		<Row Civic="CIVIC_SOCIAL_MEDIA" PrereqCivic="CIVIC_GLOBAL_ECONOMY"/>
+		<Row Civic="CIVIC_SOCIAL_MEDIA" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS"/>
+		<Row Civic="CIVIC_RAPID_DEPLOYMENT" PrereqCivic="CIVIC_NUCLEAR_PROGRAM"/>
+		<Row Civic="CIVIC_RAPID_DEPLOYMENT" PrereqCivic="CIVIC_SPACE_RACE"/>
+		<!--Information Era-->
+		<Row Civic="CIVIC_GLOBALIZATION" PrereqCivic="CIVIC_RAPID_DEPLOYMENT"/>
+		<Row Civic="CIVIC_GLOBALIZATION" PrereqCivic="CIVIC_SOCIAL_MEDIA"/>
+	</CivicPrereqs>
+
+	<DiplomaticActions>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_REFORMED_CHURCH"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_HOLY_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_SUFFRAGE"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_LIBERATION_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_CLASS_STRUGGLE"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_RECONQUEST_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_TOTALITARIANISM"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_TERRITORIAL_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_EXPLORATION"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_COLONIAL_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_TOTALITARIANISM"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_TERRITORIAL_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_IMPERIALISM"/>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_PROTECTORATE_WAR"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_DIVINE_RIGHT"/>
+			<Where DiplomaticActionType="DIPLOACTION_ALLIANCE"/>
+		</Update>
+		<Update>
+			<Set InitiatorPrereqCivic="CIVIC_NATIONALISM"/>
+			<Where DiplomaticActionType="DIPLOACTION_DEFENSIVE_PACT"/>
+		</Update>
+	</DiplomaticActions>
+
+</GameInfo>

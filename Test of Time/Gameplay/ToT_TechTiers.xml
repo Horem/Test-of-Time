@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/6/2016 11:39:11 PM -->
+<GameInfo>
+	<Technologies>
+		<!-- Only changing Tier items in this section -->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_Burial_Rites"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_IRRIGATION"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_ANIMAL_HUSBANDRY"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_THE_WHEEL"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_ASTROLOGY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Herblore"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_POTTERY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Fermentation"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_MASONRY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_MINING"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Exploration"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_WRITING"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Gardening"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_BRONZE_WORKING"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_Linguistics"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_SAILING"/>
+		</Update>
+		<!-- Classical Era 75-->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_Alphabet"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_Folk_Medicine"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_CELESTIAL_NAVIGATION"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_ARCHERY"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_CURRENCY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_MATHEMATICS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Medicine"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_SHIPBUILDING"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_HORSEBACK_RIDING"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_IRON_WORKING"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Naturopathy"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Smithing"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Milita_Training"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_Geometry"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_SiegeWarfare"/>
+		</Update>
+		<!-- Medieval Era 100-->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_CONSTRUCTION"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_Crop_Rotation"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_ASTRONOMY"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_STIRRUPS"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_APPRENTICESHIP"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Charters"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_EDUCATION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_CARTOGRAPHY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_MILITARY_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_MILITARY_TACTICS"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_MACHINERY"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Anatomy"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Compass"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_CASTLES"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_Alchemy"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_Paper"/>
+		</Update>
+		<!--RenaissanceEra 125-->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_BANKING"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_PRINTING"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_GUNPOWDER"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_Sextant"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_ECONOMICS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Paleontology"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Biology"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_MASS_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_SQUARE_RIGGING"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Naval_Tactics"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Accounting"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_SCIENTIFIC_THEORY"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Leadership"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_MILITARY_SCIENCE"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_METAL_CASTING"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_SIEGE_TACTICS"/>
+		</Update>
+		<!--Industrial Era 150-->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_INDUSTRIALIZATION"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Marine_Biology"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_CHEMISTRY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Assembly_Line"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_STEAM_POWER"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_BALLISTICS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_RIFLING"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_SANITATION"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Firefighting"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_STEEL"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Screw_Propeller"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_Telegraph"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_MassTransit"/>
+		</Update>
+		<!--Modern Era 175-->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_CompulsoryEducation"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_Antibiotics"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_ELECTRICITY"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_FLIGHT"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_AtomicTheory"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Refrigeration"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_PLASTICS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_COMBINED_ARMS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_ADVANCED_BALLISTICS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_REPLACEABLE_PARTS"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_TheoryofRelativity"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_AppliedEconomics"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_RADIO"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_COMBUSTION"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_NUCLEAR_FISSION"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_ADVANCED_FLIGHT"/>
+		</Update>
+		<!--Atomic Era 200-->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_QuantumPhysics"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_TELECOMMUNICATIONS"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_COMPUTERS"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_ROCKETRY"/>
+		</Update>
+
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Television"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_Semiconductors"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_HighwaySystems"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_LASERS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_SYNTHETIC_MATERIALS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_COMPOSITES"/>
+		</Update>
+
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_FiberOptics"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_Ecology"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_SATELLITES"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where TechnologyType="TECH_GUIDANCE_SYSTEMS"/>
+		</Update>
+
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_Internet"/>
+		</Update>
+		<Update>
+			<Set Tier="4"/>
+			<Where TechnologyType="TECH_STEALTH_TECHNOLOGY"/>
+		</Update>
+		<!-- Information Era 225 -->
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_ROBOTICS"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_NANOTECHNOLOGY"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where TechnologyType="TECH_NUCLEAR_FUSION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where TechnologyType="TECH_FUTURE_TECH"/>
+		</Update>
+	</Technologies>
+</GameInfo>

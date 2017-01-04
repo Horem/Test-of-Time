@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2016 1:28:54 PM Translated to Russian by Tipok-->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UNIT_STARTING_SETTLER_NAME" Language="ru_RU">
+			<Text>Поселенец-кочевник</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STARTING_SETTLER_DESCRIPTION" Language="ru_RU">
+			<Text>Имеет увеличенный обзор и дальность передвижения.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TRIREME_NAME" Language="ru_RU">
+			<Text>Бирема</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TRIREME_DESCRIPTION" Language="ru_RU">
+			<Text>Морской дальнобойный юнит Древней эры. До изобретения картографии может перемещаться только по прибрежным водам.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALLEASS_NAME" Language="ru_RU">
+			<Text>Трирема</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALLEASS_DESCRIPTION" Language="ru_RU">
+			<Text>Морской юнит ближнего боя Античности. До изобретения картографии может перемещаться только по прибрежным водам.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COG_NAME" Language="ru_RU">
+			<Text>Когг</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COG_DESCRIPTION" Language="ru_RU">
+			<Text>Морской юнит ближнего боя Средневековья.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUNBOAT_NAME" Language="ru_RU">
+			<Text>Канонерская лодка</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUNBOAT_DESCRIPTION" Language="ru_RU">
+			<Text>Морской дальнобойный юнит Средневековья.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STEAM_FRIGATE_NAME" Language="ru_RU">
+			<Text>Паровой фрегат</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STEAM_FRIGATE_DESCRIPTION" Language="ru_RU">
+			<Text>Мощный бронированный морской дальнобойный юнит Промышленной эры.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/3/2016 1:46:38 AM. Translated to Russian by Tipok-->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="ru_RU">
+			<Text>Дональд Трамп</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="ru_RU">
+			<Text>Когда голосуют за звезду реалити-шоу, как правило теряют связь с реальностью</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

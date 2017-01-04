@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/7/2016 1:25:13 AM. Translated to Russian by Tipok -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX_NAME" Language="ru_RU">
+			<Text>Инвестиции в торговый квартал</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX_SHORT_NAME" Language="ru_RU">
+			<Text>Инвестиции в торговый квартал</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX_DESCRIPTION" Language="ru_RU">
+			<Text>Внутрирайонный проект. Генерирует [ICON_Gold] золото и [ICON_GreatMerchant] очки великих торговцев.</Text>
+		</Row>	
+	</LocalizedText>
+</GameData>

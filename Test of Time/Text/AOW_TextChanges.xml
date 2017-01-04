@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By by Olleus for 8 Ages of War (11 Nov 2016) for v1.0.0.26 -->
+<!-- All text changes or new text for the mod goes here -->
+<GameData>
+	<LocalizedText>
+		<!-- PROMOTIONS -->
+		<!-- Melee -->
+		<Row Tag="LOC_PROMOTION_8AOW_ZWEIHANDER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. melee and anti-cavalry class</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_TORTOISE_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BATTLECRY_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength in Woods, Jungle, Hills, or Marsh.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_URBAN_WARFARE_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting in districts, or attacking district defenses.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FRENZY_NAME" Language="en_US">
+			<Text>Frenzy</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FRENZY_DESCRIPTION" Language="en_US">
+			<Text>No longer suffers combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARCH_NAME" Language="en_US">
+			<Text>March</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARCH_DESCRIPTION" Language="en_US">
+			<Text>Heals every turn, even after moving or combat.</Text>
+		</Row>
+
+		<!-- Anti cav -->
+		<Row Tag="LOC_PROMOTION_8AOW_ECHELON_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SCHILTRON_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Strength] Combat Strength when defending vs melee and anti-cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_HOLD_THE_LINE_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. Cavalry to adjacent non anti-cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_THRUST_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength vs. melee and anti-cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_REDEPLOY_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DRILL_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement when start in open terrain.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DRILL_NAME" Language="en_US">
+			<Text>Drill</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SHIELD_WALL_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength to adjacent anti-cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SHIELD_WALL_NAME" Language="en_US">
+			<Text>Shield Wall</Text>
+		</Row>
+
+		<!-- Ranged -->
+		<Row Tag="LOC_PROMOTION_8AOW_VOLLEY_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Ranged] Ranged Strength when attacking melee and anti-cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Ranged] Ranged Strength when attacking range and siege class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_NAME" Language="en_US">
+			<Text>Counter-Battery Fire</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANTLET_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANTLET_NAME" Language="en_US">
+			<Text>Mantlet</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_GARRISON_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending in, or attacking from, a district or fort.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_INCENDIARIES_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Ranged] Ranged Strength when attacking district defenses.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SUPPRESSION_DESCRIPTION" Language="en_US">
+			<Text>Exercise Zone of Control and +5 [ICON_Strength] Combat Strength when defending against close-quarter attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARKSMAN_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Ranged] Ranged Strength when attacking land units.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARKSMAN_NAME" Language="en_US">
+			<Text>Marksman</Text>
+		</Row>
+
+		<!-- Siege -->
+		<Row Tag="LOC_PROMOTION_8AOW_DUGOUTS_NAME" Language="en_US">
+			<Text>Dugouts</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DUGOUTS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BARRAGE_NAME" Language="en_US">
+			<Text>Barrage</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BARRAGE_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Bombard] Bombard Strength when attacking units fortified or in a district.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_CREW_WEAPONS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SHELLS_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Bombard] Bombard Strength when attacking district defenses.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_ADVANCED_RANGEFINDING_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Bombard] Bombard Strength when attacking naval units.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_GRAPE_SHOT_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Bombard] Bombard Strength when attacking land units.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SELF_PROPELLED_NAME" Language="en_US">
+			<Text>Self-Propelled Artillery</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SELF_PROPELLED_DESCRIPTION" Language="en_US">
+			<Text>Can attack after moving.</Text>
+		</Row>
+
+		<!-- Heavy Cavalry -->
+		<Row Tag="LOC_PROMOTION_8AOW_CHARGE_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength outside Woods, Jungle, Marsh, or Districts.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_LANCES_NAME" Language="en_US">
+			<Text>Lances</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_LANCES_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FLYING_WEDGE_NAME" Language="en_US">
+			<Text>Flying Wedge</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FLYING_WEDGE_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when attacking melee class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_ROUT_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when attacking wounded units.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_CHARGE_NAME" Language="en_US">
+			<Text>Counter-Charge</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_CHARGE_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength when defending against close-quarter attack.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BARDING_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BREAKTHROUGH_DESCRIPTION" Language="en_US">
+			<Text>+1 Attack per turn, and can move after attacking.</Text>
+		</Row>
+
+
+		<!-- Light Cavalry -->
+		<Row Tag="LOC_PROMOTION_8AOW_RECONNAISSANCE_DESCRIPTION" Language="en_US">
+			<Text>+1 Sight Range.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_RECONNAISSANCE_NAME" Language="en_US">
+			<Text>Reconnaissance</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COURSERS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. range and siege class.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DEPREDATION_DESCRIPTION" Language="en_US">
+			<Text>Pillaging costs only 1 [ICON_Movement] Movement point.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DOUBLE_ENVELOPMENT_DESCRIPTION" Language="en_US">
+			<Text>Receive double flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SCAVENGE_DESCRIPTION" Language="en_US">
+			<Text>Heals every turn, even after moving or combat.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SCAVENGE_NAME" Language="en_US">
+			<Text>Scavenge</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANEUVER_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANEUVER_NAME" Language="en_US">
+			<Text>Maneuver</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_PURSUIT_DESCRIPTION" Language="en_US">
+			<Text>+1 Attack per turn, and can move after attacking.</Text>
+		</Row>
+
+		<!-- Unit Modifications -->
+		<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION" Language="en_US">
+			<Text>Medieval era support unit. Requires an Armory to produce. Can construct Roads, Forts, and Airstrip improvements. *NEW* Acts as a battering ram, allowing close combat units to attack district defenses at full strength.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

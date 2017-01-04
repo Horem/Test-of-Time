@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/3/2016 3:41:28 AM -->
+<GameData>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_EGYPT" LeaderType="LEADER_CLEOPATRA" Type="DISTRICT_SOUQ" Icon="ICON_DISTRICT_SOUQ" Name="LOC_DISTRICT_SOUQ_NAME" Description="LOC_DISTRICT_SOUQ_DESCRIPTION" SortIndex="30" />		
+	</PlayerItems>
+</GameData>

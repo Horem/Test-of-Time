@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/7/2016 1:25:13 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SOUQ_NAME" Language="en_US">
+			<Text>Souq Investment</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SOUQ_SHORT_NAME" Language="en_US">
+			<Text>Souq Investment</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX_NAME" Language="en_US">
+			<Text>Merchant Quarter Investment</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX_SHORT_NAME" Language="en_US">
+			<Text>Merchant Quarter Investment</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENHANCE_DISTRICT_SHOPPING_COMPLEX_DESCRIPTION" Language="en_US">
+			<Text>District-based project which provides a medium amount of [ICON_Gold] Gold and a medium amount of [ICON_GreatMerchant] Great Merchant points.</Text>
+		</Row>		
+	</LocalizedText>
+</GameData>

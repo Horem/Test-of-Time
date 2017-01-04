@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Olleus for 8 Ages of War (10 Nov 2016) for v1.0.0.26 -->
+<!-- Completely reworks promotions for melee, anti-cav, range, siege, light cav and heavy cav
+	  Others may follow afterwards -->
+<!-- This is because promotions are a mess; both in how their descriptions are different to the code,
+and in that they are grossely unbalanced/uninteresting/both -->
+
+
+<GameInfo>
+<!-- Deletes old promotions, if we reuse the name will recreate them from start
+NOTE: This does not delete the modifiers created by these promotions, or the requirements/ect...
+but it will delete them from UnitPromotionModifiers and UnitPromotionPrereqs
+To prevent confusion, all new promotions (and modifier/requirements created) will begin with 
+					8AOW
+eg PROMOTION_8AOW_BATTLECRY or 8AOW_BATTLECRY_REQUIREMENTS-->
+	<UnitPromotions>
+		<!-- Melee -->
+		<Delete UnitPromotionType="PROMOTION_BATTLECRY" />
+		<Delete UnitPromotionType="PROMOTION_TORTOISE" />
+		<Delete UnitPromotionType="PROMOTION_COMMANDO" />
+		<Delete UnitPromotionType="PROMOTION_AMPHIBIOUS" />
+		<Delete UnitPromotionType="PROMOTION_ZWEIHANDER" />
+		<Delete UnitPromotionType="PROMOTION_URBAN_WARFARE" />
+		<Delete UnitPromotionType="PROMOTION_ELITE_GUARD" />
+		<!-- Anti-cav -->
+		<Delete UnitPromotionType="PROMOTION_ECHELON" />
+		<Delete UnitPromotionType="PROMOTION_THRUST" />
+		<Delete UnitPromotionType="PROMOTION_SQUARE" />
+		<Delete UnitPromotionType="PROMOTION_SCHILTRON" />
+		<Delete UnitPromotionType="PROMOTION_REDEPLOY" />
+		<Delete UnitPromotionType="PROMOTION_CHOKE_POINTS" />
+		<Delete UnitPromotionType="PROMOTION_HOLD_THE_LINE" />
+		<!-- Range -->
+		<Delete UnitPromotionType="PROMOTION_VOLLEY" />
+		<Delete UnitPromotionType="PROMOTION_GARRISON" />
+		<Delete UnitPromotionType="PROMOTION_ARROW_STORM" />
+		<Delete UnitPromotionType="PROMOTION_INCENDIARIES" />
+		<Delete UnitPromotionType="PROMOTION_SUPPRESSION" />
+		<Delete UnitPromotionType="PROMOTION_EMPLACEMENT" />
+		<Delete UnitPromotionType="PROMOTION_EXPERT_MARKSMAN" />
+		<!-- Siege -->
+		<Delete UnitPromotionType="PROMOTION_GRAPE_SHOT" />
+		<Delete UnitPromotionType="PROMOTION_CREW_WEAPONS" />
+		<Delete UnitPromotionType="PROMOTION_SHRAPNEL" />
+		<Delete UnitPromotionType="PROMOTION_SHELLS" />
+		<Delete UnitPromotionType="PROMOTION_ADVANCED_RANGEFINDING" />
+		<Delete UnitPromotionType="PROMOTION_EXPERT_CREW" />
+		<Delete UnitPromotionType="PROMOTION_FORWARD_OBSERVERS" />
+		<!-- Light Cav -->
+		<Delete UnitPromotionType="PROMOTION_CAPARISON" />
+		<Delete UnitPromotionType="PROMOTION_COURSERS" />
+		<Delete UnitPromotionType="PROMOTION_DEPREDATION" />
+		<Delete UnitPromotionType="PROMOTION_DOUBLE_ENVELOPMENT" />
+		<Delete UnitPromotionType="PROMOTION_SPIKING_THE_GUNS" />
+		<Delete UnitPromotionType="PROMOTION_PURSUIT" />
+		<Delete UnitPromotionType="PROMOTION_ESCORT_MOBILITY" />
+		<!-- Heavy Cav -->
+		<Delete UnitPromotionType="PROMOTION_CHARGE" />
+		<Delete UnitPromotionType="PROMOTION_BARDING" />
+		<Delete UnitPromotionType="PROMOTION_MARAUDING" />
+		<Delete UnitPromotionType="PROMOTION_ROUT" />
+		<Delete UnitPromotionType="PROMOTION_ARMOR_PIERCING" />
+		<Delete UnitPromotionType="PROMOTION_REACTIVE_ARMOR" />
+		<Delete UnitPromotionType="PROMOTION_BREAKTHROUGH" />
+	</UnitPromotions>
+
+	<Types>
+		<!-- Melee -->
+		<Row Type="PROMOTION_8AOW_ZWEIHANDER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_TORTOISE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_BATTLECRY" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_URBAN_WARFARE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_AMPHIBIOUS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_FRENZY" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_MARCH" Kind="KIND_PROMOTION"/>
+		<!-- Anti-cav -->
+		<Row Type="PROMOTION_8AOW_SCHILTRON" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_ECHELON" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_SHIELD_WALL" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_THRUST" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_REDEPLOY" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_HOLD_THE_LINE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_DRILL" Kind="KIND_PROMOTION"/>
+		<!-- Ranged -->
+		<Row Type="PROMOTION_8AOW_VOLLEY" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_COUNTER_BATTERY_FIRE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_MANTLET" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_GARRISON" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_INCENDIARIES" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_SUPPRESSION" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_MARKSMAN" Kind="KIND_PROMOTION"/>
+		<!-- Siege -->
+		<Row Type="PROMOTION_8AOW_DUGOUTS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_BARRAGE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_CREW_WEAPONS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_SHELLS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_ADVANCED_RANGEFINDING" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_GRAPE_SHOT" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_SELF_PROPELLED" Kind="KIND_PROMOTION"/>
+		<!-- Heavy Cavalry -->
+		<Row Type="PROMOTION_8AOW_CHARGE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_LANCES" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_FLYING_WEDGE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_ROUT" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_COUNTER_CHARGE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_BARDING" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_BREAKTHROUGH" Kind="KIND_PROMOTION"/>
+		<!-- Light Cavalry -->
+		<Row Type="PROMOTION_8AOW_RECONNAISSANCE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_COURSERS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_DEPREDATION" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_DOUBLE_ENVELOPMENT" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_SCAVENGE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_MANEUVER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_8AOW_PURSUIT" Kind="KIND_PROMOTION"/>
+	</Types>
+
+	<UnitPromotions>
+		<!-- Melee -->
+		<Row UnitPromotionType="PROMOTION_8AOW_ZWEIHANDER" Name="LOC_PROMOTION_ZWEIHANDER_NAME" Description="LOC_PROMOTION_8AOW_ZWEIHANDER_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_TORTOISE" Name="LOC_PROMOTION_TORTOISE_NAME" Description="LOC_PROMOTION_8AOW_TORTOISE_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_BATTLECRY" Name="LOC_PROMOTION_BATTLECRY_NAME" Description="LOC_PROMOTION_8AOW_BATTLECRY_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_URBAN_WARFARE" Name="LOC_PROMOTION_URBAN_WARFARE_NAME" Description="LOC_PROMOTION_8AOW_URBAN_WARFARE_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<!-- Exact copy of the old amphibious promotion, prefered deleting old one and recreating it for consistency-->
+		<Row UnitPromotionType="PROMOTION_8AOW_AMPHIBIOUS" Name="LOC_PROMOTION_AMPHIBIOUS_NAME" Description="LOC_PROMOTION_AMPHIBIOUS_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_FRENZY" Name="LOC_PROMOTION_8AOW_FRENZY_NAME" Description="LOC_PROMOTION_8AOW_FRENZY_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_MARCH" Name="LOC_PROMOTION_8AOW_MARCH_NAME" Description="LOC_PROMOTION_8AOW_MARCH_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_MELEE"/>
+		<!-- Anti-cav -->
+		<Row UnitPromotionType="PROMOTION_8AOW_ECHELON" Name="LOC_PROMOTION_ECHELON_NAME" Description="LOC_PROMOTION_8AOW_ECHELON_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_SCHILTRON" Name="LOC_PROMOTION_SCHILTRON_NAME" Description="LOC_PROMOTION_8AOW_SCHILTRON_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_HOLD_THE_LINE" Name="LOC_PROMOTION_HOLD_THE_LINE_NAME" Description="LOC_PROMOTION_8AOW_HOLD_THE_LINE_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_THRUST" Name="LOC_PROMOTION_THRUST_NAME" Description="LOC_PROMOTION_8AOW_THRUST_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_REDEPLOY" Name="LOC_PROMOTION_REDEPLOY_NAME" Description="LOC_PROMOTION_8AOW_REDEPLOY_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_DRILL" Name="LOC_PROMOTION_8AOW_DRILL_NAME" Description="LOC_PROMOTION_8AOW_DRILL_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_SHIELD_WALL" Name="LOC_PROMOTION_8AOW_SHIELD_WALL_NAME" Description="LOC_PROMOTION_8AOW_SHIELD_WALL_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"/>
+		<!-- Ranged -->
+		<Row UnitPromotionType="PROMOTION_8AOW_VOLLEY" Name="LOC_PROMOTION_VOLLEY_NAME" Description="LOC_PROMOTION_8AOW_VOLLEY_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_COUNTER_BATTERY_FIRE" Name="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_NAME" Description="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_MANTLET" Name="LOC_PROMOTION_8AOW_MANTLET_NAME" Description="LOC_PROMOTION_8AOW_MANTLET_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_GARRISON" Name="LOC_PROMOTION_GARRISON_NAME" Description="LOC_PROMOTION_8AOW_GARRISON_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_INCENDIARIES" Name="LOC_PROMOTION_INCENDIARIES_NAME" Description="LOC_PROMOTION_8AOW_INCENDIARIES_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_SUPPRESSION" Name="LOC_PROMOTION_SUPPRESSION_NAME" Description="LOC_PROMOTION_8AOW_SUPPRESSION_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_MARKSMAN" Name="LOC_PROMOTION_8AOW_MARKSMAN_NAME" Description="LOC_PROMOTION_8AOW_MARKSMAN_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_RANGED"/>
+		<!-- Siege -->
+		<Row UnitPromotionType="PROMOTION_8AOW_DUGOUTS" Name="LOC_PROMOTION_8AOW_DUGOUTS_NAME" Description="LOC_PROMOTION_8AOW_DUGOUTS_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_BARRAGE" Name="LOC_PROMOTION_8AOW_BARRAGE_NAME" Description="LOC_PROMOTION_8AOW_BARRAGE_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_CREW_WEAPONS" Name="LOC_PROMOTION_CREW_WEAPONS_NAME" Description="LOC_PROMOTION_8AOW_CREW_WEAPONS_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_SHELLS" Name="LOC_PROMOTION_SHELLS_NAME" Description="LOC_PROMOTION_8AOW_SHELLS_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_ADVANCED_RANGEFINDING" Name="LOC_PROMOTION_ADVANCED_RANGEFINDING_NAME" Description="LOC_PROMOTION_8AOW_ADVANCED_RANGEFINDING_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_GRAPE_SHOT" Name="LOC_PROMOTION_GRAPE_SHOT_NAME" Description="LOC_PROMOTION_8AOW_GRAPE_SHOT_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_SELF_PROPELLED" Name="LOC_PROMOTION_8AOW_SELF_PROPELLED_NAME" Description="LOC_PROMOTION_8AOW_SELF_PROPELLED_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_SIEGE"/>
+		<!-- Heavy Cavalry -->
+		<Row UnitPromotionType="PROMOTION_8AOW_CHARGE" Name="LOC_PROMOTION_CHARGE_NAME" Description="LOC_PROMOTION_8AOW_CHARGE_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_LANCES" Name="LOC_PROMOTION_8AOW_LANCES_NAME" Description="LOC_PROMOTION_8AOW_LANCES_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_FLYING_WEDGE" Name="LOC_PROMOTION_8AOW_FLYING_WEDGE_NAME" Description="LOC_PROMOTION_8AOW_FLYING_WEDGE_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_ROUT" Name="LOC_PROMOTION_ROUT_NAME" Description="LOC_PROMOTION_8AOW_ROUT_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_COUNTER_CHARGE" Name="LOC_PROMOTION_8AOW_COUNTER_CHARGE_NAME" Description="LOC_PROMOTION_8AOW_COUNTER_CHARGE_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_BARDING" Name="LOC_PROMOTION_BARDING_NAME" Description="LOC_PROMOTION_8AOW_BARDING_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_BREAKTHROUGH" Name="LOC_PROMOTION_BREAKTHROUGH_NAME" Description="LOC_PROMOTION_8AOW_BREAKTHROUGH_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"/>
+		<!-- Light Cavalry -->
+		<Row UnitPromotionType="PROMOTION_8AOW_RECONNAISSANCE" Name="LOC_PROMOTION_8AOW_RECONNAISSANCE_NAME" Description="LOC_PROMOTION_8AOW_RECONNAISSANCE_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_COURSERS" Name="LOC_PROMOTION_COURSERS_NAME" Description="LOC_PROMOTION_8AOW_COURSERS_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_DEPREDATION" Name="LOC_PROMOTION_DEPREDATION_NAME" Description="LOC_PROMOTION_8AOW_DEPREDATION_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_DOUBLE_ENVELOPMENT" Name="LOC_PROMOTION_DOUBLE_ENVELOPMENT_NAME" Description="LOC_PROMOTION_8AOW_DOUBLE_ENVELOPMENT_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_SCAVENGE" Name="LOC_PROMOTION_8AOW_SCAVENGE_NAME" Description="LOC_PROMOTION_8AOW_SCAVENGE_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_MANEUVER" Name="LOC_PROMOTION_8AOW_MANEUVER_NAME" Description="LOC_PROMOTION_8AOW_MANEUVER_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+		<Row UnitPromotionType="PROMOTION_8AOW_PURSUIT" Name="LOC_PROMOTION_PURSUIT_NAME" Description="LOC_PROMOTION_8AOW_PURSUIT_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"/>
+	</UnitPromotions>
+	<UnitPromotionPrereqs>
+		<!-- Melee -->
+		<Row UnitPromotion="PROMOTION_8AOW_BATTLECRY" PrereqUnitPromotion="PROMOTION_8AOW_ZWEIHANDER"/>
+		<Row UnitPromotion="PROMOTION_8AOW_URBAN_WARFARE" PrereqUnitPromotion="PROMOTION_8AOW_TORTOISE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_AMPHIBIOUS" PrereqUnitPromotion="PROMOTION_8AOW_BATTLECRY"/>
+		<Row UnitPromotion="PROMOTION_8AOW_AMPHIBIOUS" PrereqUnitPromotion="PROMOTION_8AOW_URBAN_WARFARE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_FRENZY" PrereqUnitPromotion="PROMOTION_8AOW_BATTLECRY"/>
+		<Row UnitPromotion="PROMOTION_8AOW_FRENZY" PrereqUnitPromotion="PROMOTION_8AOW_URBAN_WARFARE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MARCH" PrereqUnitPromotion="PROMOTION_8AOW_AMPHIBIOUS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MARCH" PrereqUnitPromotion="PROMOTION_8AOW_FRENZY"/>
+		<!-- anti-cav -->
+		<Row UnitPromotion="PROMOTION_8AOW_HOLD_THE_LINE" PrereqUnitPromotion="PROMOTION_8AOW_ECHELON"/>
+		<Row UnitPromotion="PROMOTION_8AOW_THRUST" PrereqUnitPromotion="PROMOTION_8AOW_SCHILTRON"/>
+		<Row UnitPromotion="PROMOTION_8AOW_REDEPLOY" PrereqUnitPromotion="PROMOTION_8AOW_HOLD_THE_LINE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_REDEPLOY" PrereqUnitPromotion="PROMOTION_8AOW_THRUST"/>
+		<Row UnitPromotion="PROMOTION_8AOW_DRILL" PrereqUnitPromotion="PROMOTION_8AOW_HOLD_THE_LINE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_DRILL" PrereqUnitPromotion="PROMOTION_8AOW_THRUST"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SHIELD_WALL" PrereqUnitPromotion="PROMOTION_8AOW_REDEPLOY"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SHIELD_WALL" PrereqUnitPromotion="PROMOTION_8AOW_DRILL"/>
+		<!-- Ranged -->
+		<Row UnitPromotion="PROMOTION_8AOW_MANTLET" PrereqUnitPromotion="PROMOTION_8AOW_VOLLEY"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MANTLET" PrereqUnitPromotion="PROMOTION_8AOW_COUNTER_BATTERY_FIRE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_GARRISON" PrereqUnitPromotion="PROMOTION_8AOW_VOLLEY"/>
+		<Row UnitPromotion="PROMOTION_8AOW_GARRISON" PrereqUnitPromotion="PROMOTION_8AOW_COUNTER_BATTERY_FIRE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_INCENDIARIES" PrereqUnitPromotion="PROMOTION_8AOW_MANTLET"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SUPPRESSION" PrereqUnitPromotion="PROMOTION_8AOW_GARRISON"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MARKSMAN" PrereqUnitPromotion="PROMOTION_8AOW_INCENDIARIES"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MARKSMAN" PrereqUnitPromotion="PROMOTION_8AOW_SUPPRESSION"/>
+		<!-- Siege -->
+		<Row UnitPromotion="PROMOTION_8AOW_CREW_WEAPONS" PrereqUnitPromotion="PROMOTION_8AOW_DUGOUTS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SHELLS" PrereqUnitPromotion="PROMOTION_8AOW_BARRAGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_ADVANCED_RANGEFINDING" PrereqUnitPromotion="PROMOTION_8AOW_CREW_WEAPONS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_ADVANCED_RANGEFINDING" PrereqUnitPromotion="PROMOTION_8AOW_SHELLS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_GRAPE_SHOT" PrereqUnitPromotion="PROMOTION_8AOW_CREW_WEAPONS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_GRAPE_SHOT" PrereqUnitPromotion="PROMOTION_8AOW_SHELLS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SELF_PROPELLED" PrereqUnitPromotion="PROMOTION_8AOW_ADVANCED_RANGEFINDING"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SELF_PROPELLED" PrereqUnitPromotion="PROMOTION_8AOW_GRAPE_SHOT"/>
+		<!-- Heavy Cavalry -->
+		<Row UnitPromotion="PROMOTION_8AOW_FLYING_WEDGE" PrereqUnitPromotion="PROMOTION_8AOW_CHARGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_ROUT" PrereqUnitPromotion="PROMOTION_8AOW_LANCES"/>
+		<Row UnitPromotion="PROMOTION_8AOW_COUNTER_CHARGE" PrereqUnitPromotion="PROMOTION_8AOW_FLYING_WEDGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_COUNTER_CHARGE" PrereqUnitPromotion="PROMOTION_8AOW_ROUT"/>
+		<Row UnitPromotion="PROMOTION_8AOW_BARDING" PrereqUnitPromotion="PROMOTION_8AOW_FLYING_WEDGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_BARDING" PrereqUnitPromotion="PROMOTION_8AOW_ROUT"/>
+		<Row UnitPromotion="PROMOTION_8AOW_BREAKTHROUGH" PrereqUnitPromotion="PROMOTION_8AOW_COUNTER_CHARGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_BREAKTHROUGH" PrereqUnitPromotion="PROMOTION_8AOW_BARDING"/>
+		<!-- Light Cavalry -->
+		<Row UnitPromotion="PROMOTION_8AOW_DEPREDATION" PrereqUnitPromotion="PROMOTION_8AOW_RECONNAISSANCE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_DOUBLE_ENVELOPMENT" PrereqUnitPromotion="PROMOTION_8AOW_COURSERS"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SCAVENGE" PrereqUnitPromotion="PROMOTION_8AOW_DEPREDATION"/>
+		<Row UnitPromotion="PROMOTION_8AOW_SCAVENGE" PrereqUnitPromotion="PROMOTION_8AOW_MANEUVER"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MANEUVER" PrereqUnitPromotion="PROMOTION_8AOW_DOUBLE_ENVELOPMENT"/>
+		<Row UnitPromotion="PROMOTION_8AOW_MANEUVER" PrereqUnitPromotion="PROMOTION_8AOW_SCAVENGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_PURSUIT" PrereqUnitPromotion="PROMOTION_8AOW_SCAVENGE"/>
+		<Row UnitPromotion="PROMOTION_8AOW_PURSUIT" PrereqUnitPromotion="PROMOTION_8AOW_MANEUVER"/>
+	</UnitPromotionPrereqs>
+
+	<UnitPromotionModifiers>
+		<!-- Melee -->
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_ZWEIHANDER</UnitPromotionType>
+			<ModifierId>8AOW_ZWEIHANDER_BONUS_VS_MELEE_ANTI_CAV</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_TORTOISE</UnitPromotionType>
+			<ModifierId>8AOW_TORTOISE_BONUS_VS_RANGED_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_BATTLECRY</UnitPromotionType>
+			<ModifierId>8AOW_BATTLECRY_BONUS_ROUGH_TERRAIN</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_URBAN_WARFARE</UnitPromotionType>
+			<ModifierId>8AOW_URBAN_WARFARE_BONUS_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_AMPHIBIOUS</UnitPromotionType>
+			<ModifierId>AMPHIBIOUS_BONUS_IGNORE_RIVERS</ModifierId><!-- Old amphibious modifier-->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_AMPHIBIOUS</UnitPromotionType>
+			<ModifierId>AMPHIBIOUS_BONUS_IGNORE_SHORES</ModifierId><!-- Old amphibious modifier-->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_FRENZY</UnitPromotionType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId><!-- Frenzy is the same as old samurai-->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_MARCH</UnitPromotionType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId><!-- March is the same as old mamluk-->
+		</Row>
+		<!-- Anti-cav -->
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_ECHELON</UnitPromotionType>
+			<ModifierId>8AOW_ECHELON_BONUS_VS_CAV</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SCHILTRON</UnitPromotionType>
+			<ModifierId>8AOW_SCHILTRON_BONUS_DEF_MELEE_ANTI_CAV</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_HOLD_THE_LINE</UnitPromotionType>
+			<ModifierId>8AOW_HOLD_THE_LINE_ADJACENT_BONUS_VS_CAV</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_THRUST</UnitPromotionType>
+			<ModifierId>8AOW_THRUST_BONUS_VS_MELEE_ANTI_CAV</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_REDEPLOY</UnitPromotionType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId><!-- copy from cossack rather than redefine -->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_DRILL</UnitPromotionType>
+			<ModifierId>HEAVYCHARIOT_FASTER_CLEAR_TERRAIN</ModifierId><!-- copy from chariot rather than redefine -->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SHIELD_WALL</UnitPromotionType>
+			<ModifierId>8AOW_SHIELD_WALL_BONUS_ADJACENT</ModifierId>
+		</Row>
+		<!-- Ranged -->
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_VOLLEY</UnitPromotionType>
+			<ModifierId>8AOW_VOLLEY_RANGED_VS_MELEE_ANTI_CAV</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_COUNTER_BATTERY_FIRE</UnitPromotionType>
+			<ModifierId>8AOW_COUNTER_BATTERY_FIRE_VS_RANGED_SIEGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_MANTLET</UnitPromotionType>
+			<ModifierId>8AOW_MANTLET_BONUS_VS_RANGED_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_GARRISON</UnitPromotionType>
+			<ModifierId>8AOW_GARRISON_BONUS_IN_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_INCENDIARIES</UnitPromotionType>
+			<ModifierId>8AOW_INCENDIARIES_BONUS_VS_DISTRICT_DEFENSES</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SUPPRESSION</UnitPromotionType>
+			<ModifierId>SUPPRESSION_BONUS_EXERT_ZOC</ModifierId> <!-- Exactly same as before -->
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SUPPRESSION</UnitPromotionType>
+			<ModifierId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_MARKSMAN</UnitPromotionType>
+			<ModifierId>8AOW_MARKSMAN_BONUS_VS_LAND</ModifierId>
+		</Row>
+		<!-- Siege -->
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_DUGOUTS</UnitPromotionType>
+			<ModifierId>8AOW_DUGOUTS_BONUS_DEFENCE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_BARRAGE</UnitPromotionType>
+			<ModifierId>8AOW_BARRAGE_BONUS_VS_FORTIFIED_DISTRICTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_CREW_WEAPONS</UnitPromotionType>
+			<ModifierId>8AOW_CREW_WEAPONS_BONUS_DEFENSE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SHELLS</UnitPromotionType>
+			<ModifierId>8AOW_SHELLS_BONUS_VS_DISTRICT_DEFENSES</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_ADVANCED_RANGEFINDING</UnitPromotionType>
+			<ModifierId>8AOW_ADVANCED_RANGEFINDING_BONUS_VS_NAVAL</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_GRAPE_SHOT</UnitPromotionType>
+			<ModifierId>8AOW_GRAPE_SHOT_BONUS_VS_LAND</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SELF_PROPELLED</UnitPromotionType>
+			<ModifierId>8AOW_SELF_PROPELLED_ATTACK_AFTER_MOVE</ModifierId>
+		</Row>
+		<!-- Heavy Cavalry -->
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_CHARGE</UnitPromotionType>
+			<ModifierId>8AOW_CHARGE_BONUS_OPEN</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_LANCES</UnitPromotionType>
+			<ModifierId>8AOW_LANCES_BONUS_VS_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_FLYING_WEDGE</UnitPromotionType>
+			<ModifierId>8AOW_FLYING_WEDGE_BONUS_ATTACK_MELEE_CLASS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_ROUT</UnitPromotionType>
+			<ModifierId>8AOW_ROUT_BONUS_ATTACKING_WOUNDED_UNITS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_COUNTER_CHARGE</UnitPromotionType>
+			<ModifierId>8AOW_COUNTER_CHARGE_BONUS_CLOSE_QUARTER_DEFENSE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_BARDING</UnitPromotionType>
+			<ModifierId>8AOW_BARDING_BONUS_DEFENCE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_BREAKTHROUGH</UnitPromotionType>
+			<ModifierId>8AOW_BREAKTHROUGH_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_BREAKTHROUGH</UnitPromotionType>
+			<ModifierId>MOD_MOVE_AFTER_ATTACKING</ModifierId> <!-- Reusing, otherwise breakthrough cant be used -->
+		</Row>
+		<!-- Light Cavalry -->
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_RECONNAISSANCE</UnitPromotionType>
+			<ModifierId>8AOW_RECONNAISSANCE_BONUS_SIGHT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_COURSERS</UnitPromotionType>
+			<ModifierId>8AOW_COURSERS_BONUS_VS_SIEGE_RANGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_DEPREDATION</UnitPromotionType>
+			<ModifierId>8AOW_DEPREDATION_PILLAGE_FAST</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_DOUBLE_ENVELOPMENT</UnitPromotionType>
+			<ModifierId>8AOW_DOUBLE_ENVELOPMENT_FLANKING_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_SCAVENGE</UnitPromotionType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_MANEUVER</UnitPromotionType>
+			<ModifierId>8AOW_MANEUVER_EXTRA_MOVE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_PURSUIT</UnitPromotionType>
+			<ModifierId>8AOW_PURSUIT_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_8AOW_PURSUIT</UnitPromotionType>
+			<ModifierId>MOD_MOVE_AFTER_ATTACKING</ModifierId> <!-- Reusing, otherwise pursuit cant be used -->
+		</Row>
+	</UnitPromotionModifiers>
+	<!-- Order matters. RequirementSets must be added before Modifiers and RequirementSetRequirements -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_URBAN_WARFARE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_SCHILTRON_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_SHIELD_WALL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_VOLLEY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_COUNTER_BATTERY_FIRE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_CHARGE_BONUS_OPEN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_FLYING_WEDGE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<Modifiers>
+		<!-- Melee -->
+		<Row>
+			<ModifierId>8AOW_ZWEIHANDER_BONUS_VS_MELEE_ANTI_CAV</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_TORTOISE_BONUS_VS_RANGED_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORTOISE_REQUIREMENTS</SubjectRequirementSetId> <!-- Same requirement set, checked was good -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BATTLECRY_BONUS_ROUGH_TERRAIN</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CHOKE_POINTS_PLOT_REQUIREMENTS</SubjectRequirementSetId>
+			<!-- Reused, without defender requirement. Checks if the combat happens in a plot that meets the requirement. That is the defenders
+			plot in close quarter combat. Not sure about ranged combat.-->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_URBAN_WARFARE_BONUS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_URBAN_WARFARE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Anti-cav -->
+		<Row>
+			<ModifierId>8AOW_ECHELON_BONUS_VS_CAV</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ECHELON_REQUIREMENTS</SubjectRequirementSetId> <!-- Same as old, tests if heavy or light cavalry -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SCHILTRON_BONUS_DEF_MELEE_ANTI_CAV</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_SCHILTRON_REQUIREMENTS</SubjectRequirementSetId> <!-- Defending against melee or anti-cav -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_HOLD_THE_LINE_ADJACENT_BONUS_VS_CAV</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>HOLD_THE_LINE_REQUIREMENTS</SubjectRequirementSetId> <!-- adjacent not anti-cav -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_HOLD_THE_LINE_ADJACENT_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ANTI_CAVALRY_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_THRUST_BONUS_VS_MELEE_ANTI_CAV</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SHIELD_WALL_BONUS_ADJACENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>8AOW_SHIELD_WALL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SHIELD_WALL_BONUS_ADJACENT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!-- Ranged -->
+		<Row>
+			<ModifierId>8AOW_VOLLEY_RANGED_VS_MELEE_ANTI_CAV</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_VOLLEY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_COUNTER_BATTERY_FIRE_VS_RANGED_SIEGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_COUNTER_BATTERY_FIRE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_MANTLET_BONUS_VS_RANGED_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORTOISE_REQUIREMENTS</SubjectRequirementSetId> <!-- Same requirement set, no need to redefine-->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_GARRISON_BONUS_IN_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_GARRISON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_INCENDIARIES_BONUS_VS_DISTRICT_DEFENSES</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BOMBARDMENT_REQUIREMENTS</SubjectRequirementSetId> <!-- Reusing, same as old incendiary -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_MARKSMAN_BONUS_VS_LAND</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>VOLLEY_REQUIREMENTS</SubjectRequirementSetId><!-- Attacker vs land units-->
+		</Row>
+		<!-- Siege -->
+		<Row>
+			<ModifierId>8AOW_DUGOUTS_BONUS_DEFENCE_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORTOISE_REQUIREMENTS</SubjectRequirementSetId><!--reusing -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BARRAGE_BONUS_VS_FORTIFIED_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_BARRAGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_CREW_WEAPONS_BONUS_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CREW_WEAPONS_REQUIREMENTS</SubjectRequirementSetId><!--checks defender only -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SHELLS_BONUS_VS_DISTRICT_DEFENSES</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BOMBARDMENT_REQUIREMENTS</SubjectRequirementSetId><!--reusing again -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_ADVANCED_RANGEFINDING_BONUS_VS_NAVAL</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ADVANCED_RANGEFINDING_REQUIREMENTS</SubjectRequirementSetId><!--attacker vs naval -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_GRAPE_SHOT_BONUS_VS_LAND</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>VOLLEY_REQUIREMENTS</SubjectRequirementSetId><!--reusing again -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SELF_PROPELLED_ATTACK_AFTER_MOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVE_AND_ATTACK</ModifierType>>
+		</Row>
+		<!-- Heavy Cavalry -->
+		<Row>
+			<ModifierId>8AOW_CHARGE_BONUS_OPEN</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_CHARGE_BONUS_OPEN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_LANCES_BONUS_VS_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ECHELON_REQUIREMENTS</SubjectRequirementSetId><!-- Reusing old, see above -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_FLYING_WEDGE_BONUS_ATTACK_MELEE_CLASS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_FLYING_WEDGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_ROUT_BONUS_ATTACKING_WOUNDED_UNITS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>VULTURE_REQUIREMENTS</SubjectRequirementSetId> <!-- Reusing, tests if attacking and target is wounded -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_COUNTER_CHARGE_BONUS_CLOSE_QUARTER_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE_REQUIREMENTS</SubjectRequirementSetId> <!-- Reusing -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BARDING_BONUS_DEFENCE_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORTOISE_REQUIREMENTS</SubjectRequirementSetId> <!-- Reusing -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BREAKTHROUGH_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+		<!-- Light Cav -->
+		<Row>
+			<ModifierId>8AOW_RECONNAISSANCE_BONUS_SIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_COURSERS_BONUS_VS_SIEGE_RANGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS</SubjectRequirementSetId> <!-- Reusing -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_DEPREDATION_PILLAGE_FAST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ADVANCED_PILLAGING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_DOUBLE_ENVELOPMENT_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_MANEUVER_EXTRA_MOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType> <!-- IF FAILS TRY MAKING IT SINGLUAR -->
+		</Row>
+		<Row>
+			<ModifierId>8AOW_PURSUIT_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- Melee -->
+		<Row>
+			<ModifierId>8AOW_ZWEIHANDER_BONUS_VS_MELEE_ANTI_CAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_TORTOISE_BONUS_VS_RANGED_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BATTLECRY_BONUS_ROUGH_TERRAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_URBAN_WARFARE_BONUS_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- Anti Cav -->
+		<Row>
+			<ModifierId>8AOW_ECHELON_BONUS_VS_CAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SCHILTRON_BONUS_DEF_MELEE_ANTI_CAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_HOLD_THE_LINE_ADJACENT_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_HOLD_THE_LINE_ADJACENT_BONUS_VS_CAV</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>8AOW_HOLD_THE_LINE_ADJACENT_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_THRUST_BONUS_VS_MELEE_ANTI_CAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SHIELD_WALL_BONUS_ADJACENT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>8AOW_SHIELD_WALL_BONUS_ADJACENT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SHIELD_WALL_BONUS_ADJACENT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- Ranged -->
+		<Row>
+			<ModifierId>8AOW_VOLLEY_RANGED_VS_MELEE_ANTI_CAV</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_COUNTER_BATTERY_FIRE_VS_RANGED_SIEGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_MANTLET_BONUS_VS_RANGED_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_GARRISON_BONUS_IN_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_INCENDIARIES_BONUS_VS_DISTRICT_DEFENSES</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_MARKSMAN_BONUS_VS_LAND</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<!-- Siege -->
+		<Row>
+			<ModifierId>8AOW_DUGOUTS_BONUS_DEFENCE_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BARRAGE_BONUS_VS_FORTIFIED_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_CREW_WEAPONS_BONUS_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SHELLS_BONUS_VS_DISTRICT_DEFENSES</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_ADVANCED_RANGEFINDING_BONUS_VS_NAVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_GRAPE_SHOT_BONUS_VS_LAND</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_SELF_PROPELLED_ATTACK_AFTER_MOVE</ModifierId>
+			<Name>CanAttack</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- Heavy Cavalry -->
+		<Row>
+			<ModifierId>8AOW_CHARGE_BONUS_OPEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_LANCES_BONUS_VS_CAVALRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_FLYING_WEDGE_BONUS_ATTACK_MELEE_CLASS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_ROUT_BONUS_ATTACKING_WOUNDED_UNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_COUNTER_CHARGE_BONUS_CLOSE_QUARTER_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BARDING_BONUS_DEFENCE_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_BREAKTHROUGH_ADDITIONAL_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Light Cav -->
+		<Row>
+			<ModifierId>8AOW_RECONNAISSANCE_BONUS_SIGHT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_COURSERS_BONUS_VS_SIEGE_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_DEPREDATION_PILLAGE_FAST</ModifierId>
+			<Name>UseAdvancedPillaging</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_DOUBLE_ENVELOPMENT_FLANKING_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_MANEUVER_EXTRA_MOVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>8AOW_PURSUIT_ADDITIONAL_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Requirements>
+		<!-- Resuing the requirementSetRequirements defined already 
+		 tests if unit is attacking and if opponent is fortified district-->
+		<Row> 
+			<RequirementId>BOMBARDMENT_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_OPPONENT_ANY_CAVALRY_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_UNIT_IS_ANTICAV_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<!-- All stuff for garrison - it's complicated to make it work properly -->
+		<Row> 
+			<RequirementId>8AOW_GARRISON_ATTACKING_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_GARRISON_DEFENDING_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_DEFENDER_OCCUPYING_FORT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_DEFENDER_OCCUPYING_ROMAN_FORT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_BARRAGE_PLOT_REQUIREMENTS_MET</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row> 
+			<RequirementId>8AOW_OPPONENT_IS_NOT_DISTRICT</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_IS_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<!-- Charge -->
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_DISTRICT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_HAS_ANY_DISTRICT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_FOREST_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_JUNGLE_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_MARSH_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>BOMBARDMENT_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>BOMBARDMENT_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_OPPONENT_ANY_CAVALRY_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>ECHELON_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_UNIT_IS_ANTICAV_REQUIREMENT</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<!-- All stuff for garrison -->
+		<Row>
+			<RequirementId>8AOW_GARRISON_ATTACKING_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_GARRISON_ATTACKING_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_GARRISON_DEFENDING_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_GARRISON_DEFENDING_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_DEFENDER_OCCUPYING_FORT_REQUIREMENT</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FORT</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_DEFENDER_OCCUPYING_ROMAN_FORT_REQUIREMENT</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_ROMAN_FORT</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_BARRAGE_PLOT_REQUIREMENTS_MET</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>8AOW_BARRAGE_PLOT_REQUIREMENTS</Value>
+		</Row>
+		<!-- Charge -->
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_FOREST_REQUIREMENT</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_JUNGLE_REQUIREMENT</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row>
+			<RequirementId>8AOW_PLOT_IS_NOT_MARSH_REQUIREMENT</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_MARSH</Value>
+		</Row>
+	</RequirementArguments>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_MELEE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_ANTI_CAVALRY_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_RANGED_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_SIEGE_REQUIREMENT</RequirementId>
+		</Row>
+		<!-- Melee -->
+		<Row>
+			<RequirementSetId>8AOW_URBAN_WARFARE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>DEFENDER_IS_OCCUPYING_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_URBAN_WARFARE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>BOMBARDMENT_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<!-- Anti-cav -->
+		<Row>
+			<RequirementSetId>8AOW_SCHILTRON_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_SHIELD_WALL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HOLD_THE_LINE_ADJACENT_UNIT_REQUIREMENT</RequirementId> <!-- Checks neighbouring units -->
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_SHIELD_WALL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_UNIT_IS_ANTICAV_REQUIREMENT</RequirementId> <!-- Opposite of hold the wall -->
+		</Row>
+		<!-- Ranged -->
+		<Row>
+			<RequirementSetId>8AOW_VOLLEY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_OPPONENT_MELEE_ANTI_CAV_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_VOLLEY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_COUNTER_BATTERY_FIRE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_OPPONENT_RANGED_SIEGE_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_COUNTER_BATTERY_FIRE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<!-- Just garrison -->
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_GARRISON_ATTACKING_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_GARRISON_DEFENDING_REQUIREMENTS_MET</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row> <!-- Plot requirements for garrison -->
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_OCCUPYING_FORT_REQUIREMENT</RequirementId> <!-- Pre existing, checks attacking unit -->
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_OCCUPYING_ROMAN_FORT_REQUIREMENT</RequirementId> <!-- Pre existing, checks attacking unit -->
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_ATTACKING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ATTACKER_IS_OCCUPYING_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_DEFENDER_OCCUPYING_FORT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_DEFENDER_OCCUPYING_ROMAN_FORT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_GARRISON_DEFENDING_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>DEFENDER_IS_OCCUPYING_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+		<!-- Garrison (finally) finished -->
+		<Row>
+			<RequirementSetId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MELEE_COMBAT_REQUIREMENTS</RequirementId> <!-- Melee in the wider, close-quarter fighting sense-->
+		</Row>
+		<!-- Siege -->
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_BARRAGE_PLOT_REQUIREMENTS_MET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_OPPONENT_IS_NOT_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>DEFENDER_IS_OCCUPYING_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_BARRAGE_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_FORTIFIED</RequirementId>
+		</Row>
+		<!-- Heavy Cavalry -->
+		<Row>
+			<RequirementSetId>8AOW_CHARGE_BONUS_OPEN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_PLOT_IS_NOT_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_CHARGE_BONUS_OPEN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_PLOT_IS_NOT_FOREST_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_CHARGE_BONUS_OPEN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_PLOT_IS_NOT_JUNGLE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_CHARGE_BONUS_OPEN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>8AOW_PLOT_IS_NOT_MARSH_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_FLYING_WEDGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>8AOW_FLYING_WEDGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_MELEE_REQUIREMENT</RequirementId>
+		</Row>
+
+	</RequirementSetRequirements>
+
+	<ModifierStrings>
+		<!-- Melee -->
+		<Row ModifierId="8AOW_ZWEIHANDER_BONUS_VS_MELEE_ANTI_CAV" Context="Preview" Text="LOC_PROMOTION_8AOW_ZWEIHANDER_DESCRIPTION"/>
+		<Row ModifierId="8AOW_TORTOISE_BONUS_VS_RANGED_COMBAT" Context="Preview" Text="LOC_PROMOTION_8AOW_TORTOISE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_BATTLECRY_BONUS_ROUGH_TERRAIN" Context="Preview" Text="LOC_PROMOTION_8AOW_BATTLECRY_DESCRIPTION"/>
+		<Row ModifierId="8AOW_URBAN_WARFARE_BONUS_DISTRICT" Context="Preview" Text="LOC_PROMOTION_8AOW_URBAN_WARFARE_DESCRIPTION"/>
+		<!-- Anti Cav -->
+		<Row ModifierId="8AOW_ECHELON_BONUS_VS_CAV" Context="Preview" Text="LOC_PROMOTION_8AOW_ECHELON_DESCRIPTION"/>
+		<Row ModifierId="8AOW_SCHILTRON_BONUS_DEF_MELEE_ANTI_CAV" Context="Preview" Text="LOC_PROMOTION_8AOW_SCHILTRON_DESCRIPTION"/>
+		<Row ModifierId="8AOW_HOLD_THE_LINE_ADJACENT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_8AOW_HOLD_THE_LINE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_THRUST_BONUS_VS_MELEE_ANTI_CAV" Context="Preview" Text="LOC_PROMOTION_8AOW_THRUST_DESCRIPTION"/>
+		<Row ModifierId="8AOW_SHIELD_WALL_BONUS_ADJACENT_MODIFIER" Context="Preview" Text="LOC_PROMOTION_8AOW_SHIELD_WALL_DESCRIPTION"/>
+		<!-- Ranged -->
+		<Row ModifierId="8AOW_VOLLEY_RANGED_VS_MELEE_ANTI_CAV" Context="Preview" Text="LOC_PROMOTION_8AOW_VOLLEY_DESCRIPTION"/>
+		<Row ModifierId="8AOW_COUNTER_BATTERY_FIRE_VS_RANGED_SIEGE" Context="Preview" Text="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_MANTLET_BONUS_VS_RANGED_COMBAT" Context="Preview" Text="LOC_PROMOTION_8AOW_MANTLET_DESCRIPTION"/>
+		<Row ModifierId="8AOW_GARRISON_BONUS_IN_DISTRICT" Context="Preview" Text="LOC_PROMOTION_8AOW_GARRISON_DESCRIPTION"/>
+		<Row ModifierId="8AOW_INCENDIARIES_BONUS_VS_DISTRICT_DEFENSES" Context="Preview" Text="LOC_PROMOTION_8AOW_INCENDIARIES_DESCRIPTION"/>
+		<Row ModifierId="8AOW_SUPPRESSION_BONUS_CLOSE_DEFENSE" Context="Preview" Text="LOC_PROMOTION_8AOW_SUPPRESSION_DESCRIPTION"/>
+		<Row ModifierId="8AOW_MARKSMAN_BONUS_VS_LAND" Context="Preview" Text="LOC_PROMOTION_8AOW_MARKSMAN_DESCRIPTION"/>
+		<!-- Siege -->
+		<Row ModifierId="8AOW_DUGOUTS_BONUS_DEFENCE_RANGED" Context="Preview" Text="LOC_PROMOTION_8AOW_DUGOUTS_DESCRIPTION"/>
+		<Row ModifierId="8AOW_BARRAGE_BONUS_VS_FORTIFIED_DISTRICTS" Context="Preview" Text="LOC_PROMOTION_8AOW_BARRAGE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_CREW_WEAPONS_BONUS_DEFENSE" Context="Preview" Text="LOC_PROMOTION_8AOW_CREW_WEAPONS_DESCRIPTION"/>
+		<Row ModifierId="8AOW_SHELLS_BONUS_VS_DISTRICT_DEFENSES" Context="Preview" Text="LOC_PROMOTION_8AOW_SHELLS_DESCRIPTION"/>
+		<Row ModifierId="8AOW_ADVANCED_RANGEFINDING_BONUS_VS_NAVAL" Context="Preview" Text="LOC_PROMOTION_8AOW_ADVANCED_RANGEFINDING_DESCRIPTION"/>
+		<Row ModifierId="8AOW_GRAPE_SHOT_BONUS_VS_LAND" Context="Preview" Text="LOC_PROMOTION_8AOW_GRAPE_SHOT_DESCRIPTION"/>
+		<Row ModifierId="8AOW_SELF_PROPELLED_ATTACK_AFTER_MOVE" Context="Preview" Text="LOC_PROMOTION_8AOW_SELF_PROPELLED_DESCRIPTION"/>
+		<!-- Heavy Cavalry -->
+		<Row ModifierId="8AOW_CHARGE_BONUS_OPEN" Context="Preview" Text="LOC_PROMOTION_8AOW_CHARGE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_LANCES_BONUS_VS_CAVALRY" Context="Preview" Text="LOC_PROMOTION_8AOW_LANCES_DESCRIPTION"/>
+		<Row ModifierId="8AOW_FLYING_WEDGE_BONUS_ATTACK_MELEE_CLASS" Context="Preview" Text="LOC_PROMOTION_8AOW_FLYING_WEDGE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_ROUT_BONUS_ATTACKING_WOUNDED_UNITS" Context="Preview" Text="LOC_PROMOTION_8AOW_ROUT_DESCRIPTION"/>
+		<Row ModifierId="8AOW_COUNTER_CHARGE_BONUS_CLOSE_QUARTER_DEFENSE" Context="Preview" Text="LOC_PROMOTION_8AOW_COUNTER_CHARGE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_BARDING_BONUS_DEFENCE_RANGED" Context="Preview" Text="LOC_PROMOTION_8AOW_BARDING_DESCRIPTION"/>
+		<Row ModifierId="8AOW_BREAKTHROUGH_ADDITIONAL_ATTACK" Context="Preview" Text="LOC_PROMOTION_8AOW_BREAKTHROUGH_DESCRIPTION"/>
+		<!-- Light Cav -->
+		<Row ModifierId="8AOW_RECONNAISSANCE_BONUS_SIGHT" Context="Preview" Text="LOC_PROMOTION_8AOW_RECONNAISSANCE_DESCRIPTION"/>
+		<Row ModifierId="8AOW_COURSERS_BONUS_VS_SIEGE_RANGE" Context="Preview" Text="LOC_PROMOTION_8AOW_COURSERS_DESCRIPTION"/>
+		<Row ModifierId="8AOW_DEPREDATION_PILLAGE_FAST" Context="Preview" Text="LOC_PROMOTION_8AOW_DEPREDATION_DESCRIPTION"/>
+		<Row ModifierId="8AOW_DOUBLE_ENVELOPMENT_FLANKING_BONUS" Context="Preview" Text="LOC_PROMOTION_8AOW_DOUBLE_ENVELOPMENT_DESCRIPTION"/>
+		<Row ModifierId="8AOW_MANEUVER_EXTRA_MOVE" Context="Preview" Text="LOC_PROMOTION_8AOW_MANEUVER_DESCRIPTION"/>
+		<Row ModifierId="8AOW_PURSUIT_ADDITIONAL_ATTACK" Context="Preview" Text="LOC_PROMOTION_8AOW_PURSUIT_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="434d2b10-21f7-408e-998f-b8ecd2791f95" version="1004">
+    <!-- Basic Mod information -->
+    <Properties>
+        <Name>LOC_ToT_TITLE</Name>
+        <Stability>Alpha</Stability>
+        <Teaser>LOC_ToT_TEASER</Teaser>
+        <Description>LOC_ToT_DESCRIPTION</Description>
+        <Authors>LOC_ToT_AUTHORS</Authors>
+		<SpecialThanks>LOC_ToT_SPECIAL_THANKS</SpecialThanks>
+        <EnabledByDefault>0</EnabledByDefault>
+        <EnabledAtStartup>0</EnabledAtStartup>
+    </Properties>
+	<Dependencies />
+	<References>
+		<Mod id="70c9b163-18cb-46bf-a326-e8369666d722" minversion="0" maxversion="9999" title="AI+" />
+		<Mod id="3beccc48-5a0c-479a-9dd1-39c0b65a571d" minversion="0" maxversion="9999" title="AI Cleanup" />
+		<Mod id="8d4fa23a-ef43-440c-8422-2bec11f8f5d7" minversion="0" maxversion="9999" title="Better Trade Screen" />
+		<Mod id="4becac48-4a0c-379a-5dd1-33d0c65a471d" minversion="0" maxversion="9999" title="Unit Report Screen" />
+		<Mod id="2027E5A2-A48D-E606-031F-141E1196975A" minversion="0" maxversion="9999" title="Production Que" />
+		<Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="9999" title="Tomatekh's Historical Relgions" />
+	</References>
+	<Blocks>
+		<Mod id="ffc32d00-b546-4b1c-8be8-6c5d51ef1544" minversion="0" maxversion="9999" title="Wondrous Wonders" />
+		<Mod id="f1192e45-6a2d-4ae8-815d-b9de171a9cad" minversion="0" maxversion="9999" title="Detailed Worlds" />
+		<Mod id="6ef16bb8-913a-4edb-a792-fd1c97cf9c58" minversion="0" maxversion="9999" title="Additional Buildings" />
+		<Mod id="c5cbb14e-d424-4960-89dd-3e4c9d3790Za" minversion="0" maxversion="9999" title="MOAR Units" />
+		<Mod id="fe5a7ce5-9f5b-41a3-bd8f-e6a738ccab07" minversion="0" maxversion="9999" title="8 Ages of War" />
+		<Mod id="cdd72239-8ab0-4d6c-8d12-b59a3d2aa793" minversion="0" maxversion="9999" title="The Sloth, The Tortoise and The Snail" />
+		<Mod id="645579e0-c3cc-47ad-9ea3-d6bf4bf844b0" minversion="0" maxversion="9999" title="No Bee-lining" />
+	</Blocks>
+    <!-- Settings -->
+	<Settings>
+		<Icons id="ToT_Icons_Setting">
+			<Items>
+				<File>Art/Data/ToT_Icons_Buildings.xml</File>
+				<File>Art/Data/ToT_Icons_Districts.xml</File>
+				<File>Art/Data/ToT_Icons_Projects.xml</File>
+				<File>Art/Data/ToT_Icons_Tech.xml</File>
+				<File>Art/Data/ToT_Icons_UnitFlags.xml</File>
+				<File>Art/Data/ToT_Icons_Units.xml</File>
+			</Items>
+		</Icons>
+		<ModArt id="ToT_Art_Component">
+			<Items>
+				<File>Test_of_Time.dep</File>
+			</Items>
+		</ModArt>
+		<Custom id="ToT_Setting">
+			<Items>
+				<File>Configuration/ToT_DeleteSpeeds_Config.sql</File>
+				<File>Configuration/ToT_Gamespeed_Config.sql</File>
+				<File>Configuration/ToT_Players.xml</File>
+				<File>Configuration/DW_MapScripts.xml</File>
+				<File>Configuration/ToT_DefaultSettings.sql</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="ToT_Setting">
+			<Items>
+				<File>Configuration/ToT_GamespeedText_Config.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+    <!-- Different parts of the mod -->
+    <Components>
+		<ImportFiles id="ToT_Import">
+			<Items>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_256.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_256_FoW.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_128.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_80.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_50.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_38.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_32.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_256.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_256_FoW.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_128.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_80.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_50.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_38.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_32.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_256.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_256_FoW.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_128.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_80.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_50.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_38.dds</File>
+				<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_32.dds</File>
+				<File>Art/Icons/Tech/ToT_TechAtlas30.dds</File>
+				<File>Art/Icons/Tech/ToT_TechAtlas38.dds</File>
+				<File>Art/Icons/Tech/ToT_TechAtlas42.dds</File>
+				<File>Art/Icons/Tech/ToT_TechAtlas42_FOW.dds</File>
+				<File>Art/Icons/Tech/ToT_TechAtlas128.dds</File>
+				<File>Art/Icons/Tech/ToT_TechAtlas160.dds</File>
+				<File>Art/Icons/Districts/ToT_DistrictAtlas32.dds</File>
+				<File>Art/Icons/Districts/ToT_DistrictAtlas38.dds</File>
+				<File>Art/Icons/Districts/ToT_DistrictAtlas50.dds</File>
+				<File>Art/Icons/Districts/ToT_DistrictAtlas80.dds</File>
+				<File>Art/Icons/Districts/ToT_DistrictAtlas128.dds</File>
+				<File>Art/Icons/Districts/ToT_DistrictAtlas256.dds</File>
+				<File>Lua/RiversLakes.lua</File>
+				<File>Lua/FeatureGenerator.lua</File>
+				<File>Lua/ResourceGenerator.lua</File>
+				<File>Lua/MapUtilities.lua</File>
+				<File>Lua/MountainsCliffs.lua</File>
+				<File>Lua/TerrainGenerator.lua</File>
+				<File>Maps/DWArchipelago.lua</File>
+				<File>Maps/DWContinents.lua</File>
+				<File>Maps/DWFractal.lua</File>
+				<File>Maps/DWPangaea.lua</File>
+				<File>Maps/DWSmallContinents.lua</File>
+				<File>Maps/Continents.lua</File>
+				<File>Maps/Fractal.lua</File>
+				<File>Maps/InlandSea.lua</File>
+				<File>Maps/Island_Plates.lua</File>
+				<File>Maps/Pangaea.lua</File>
+			</Items>
+		</ImportFiles>
+		<Icons id="ToT_Icons_Component">
+			<Items>
+				<File>Art/Data/ToT_Icons_Buildings.xml</File>
+				<File>Art/Data/ToT_Icons_Districts.xml</File>
+				<File>Art/Data/ToT_Icons_Projects.xml</File>
+				<File>Art/Data/ToT_Icons_Tech.xml</File>
+				<File>Art/Data/ToT_Icons_UnitFlags.xml</File>
+				<File>Art/Data/ToT_Icons_UnitPortraits.xml</File>
+				<File>Art/Data/ToT_Icons_Units.xml</File>
+			</Items>
+		</Icons>
+		<ModArt id="ToT_Art_Component">
+			<Items>
+				<File>Test_of_Time.dep</File>
+			</Items>
+		</ModArt>
+		<UpdateDatabase id="ToT_TableChanges">
+			<Items>
+				<File>Gameplay/ToT_DeleteGameSpeeds.sql</File>
+				<File>Gameplay/ToT_Types.xml</File>
+				<File>Gameplay/ToT_GameSpeed.sql</File>
+				<File>Gameplay/ToT_Gamespeed_Turns.sql</File>
+				<File>Gameplay/ToT_Tables.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="ToT_HajeeNoBline">
+			<Items>
+				<File>Gameplay/ToT_DeletePre.xml</File>
+				<File>Gameplay/ToT_TechTree.xml</File>
+				<File>Gameplay/ToT_CivicTree.xml</File>
+				<File>Gameplay/ToT_NewPolicies.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="ToT_TechTiers">
+			<Items>
+				<File>Gameplay/ToT_TechTiers.xml</File>
+				<File>Gameplay/ToT_CivicTiers.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="ToT_Components">
+			<Items>
+				<!--<File>Gameplay/ToT_AI_Formations.sql</File>
+				<File>Gameplay/ToT_AI_Tweaks.sql</File>-->
+				<File>Gameplay/ToT_Boost.xml</File>
+				<File>Gameplay/ToT_GreatPeopleBoost.xml</File>
+				<File>Gameplay/ToT_DynamicModifiers.xml</File>
+				<File>Gameplay/ToT_RequirementSets.sql</File>
+				<File>Gameplay/ToT_MilitaryBuildings.xml</File>
+				<File>Gameplay/ToT_Modifiers.sql</File>
+				<File>Gameplay/ToT_ModifierArguments.sql</File>
+				<File>Gameplay/ToT_Traits.xml</File>
+				<File>Gameplay/ToT_TraitModifiers.sql</File>
+				<File>Gameplay/ToT_DistrictModifiers.sql</File>
+				<File>Gameplay/ToT_Beliefs.sql</File>
+				<File>Gameplay/ToT_UpdateGreatPeople.sql</File>
+				<File>Gameplay/ToT_Districts.sql</File>
+				<File>Gameplay/ToT_CityCenter_Bonus.sql</File>
+				<File>Gameplay/ToT_Projects.sql</File>
+				<File>Gameplay/ToT_Adjacency_YieldChanges.sql</File>
+				<File>Gameplay/ToT_AiFavoredItems.sql</File>
+				<File>Gameplay/ToT_AICityAttackBonus.sql</File>
+				<File>Gameplay/ToT_District_Adjacencies.sql</File>
+				<File>Gameplay/ToT_District_CitizenYieldChanges.sql</File>
+				<File>Gameplay/ToT_District_GreatPersonPoints.sql</File>
+				<File>Gameplay/ToT_District_TradeRouteYields.sql</File>
+				<File>Gameplay/ToT_Buildings.xml</File>
+				<File>Gameplay/NationalWonders.xml</File>
+				<File>Gameplay/NationalWondersBonus.xml</File>
+				<File>Gameplay/WorldWonders.xml</File>
+				<File>Gameplay/ThemingBonus.xml</File>
+				<File>Gameplay/ToT_BuildingModifiers.xml</File>
+				<File>Gameplay/ToT_UpdateBuildings.sql</File>
+				<File>Gameplay/ToT_ResourceTerrains.xml</File>
+				<File>Gameplay/ToT_Units.xml</File>
+				<File>Gameplay/ToT_UpdateDistricts.sql</File>
+				<File>Gameplay/ToT_UpdateResources.sql</File>
+				<File>Gameplay/ToT_UpdateImprovements.sql</File>
+				<File>Gameplay/ToT_UpdateProjects.sql</File>
+				<File>Gameplay/ToT_WarWeariness.xml</File>
+				<File>Gameplay/ToT_AdjustedPopGrowth.sql</File>
+				<File>Gameplay/AOW_ExistingUnitChanges.sql</File>
+				<File>Gameplay/AOW_PromotionChanges.xml</File>
+				<File>Gameplay/MOAR_Units_Data.xml</File>
+				<File>Gameplay/MOAR_Units.sql</File>
+				<File>Gameplay/Biao_ResourceUnits.sql</File>
+				<File>Gameplay/ToT_UpdateUnits.sql</File>
+				<File>Gameplay/ToT_Rules.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<!-- Gameplay Scripts -->
+		<GameplayScripts id="ToT_Start_Script">
+			<Properties>
+				<RuleSet>RULESET_STANDARD</RuleSet>
+			</Properties>
+			<Items>
+				<File>Lua/ToT_StartScript.lua</File>
+			</Items>
+		</GameplayScripts>
+		<!-- Localized text files to add -->
+		<LocalizedText id="ToT_Text">
+			<Items>
+				<File>Text/ToT_DistrictText.xml</File>
+				<File>Text/ToT_GP_TEXT.xml</File>
+				<File>Text/ToT_GameSpeedText.xml</File>
+				<File>Text/ToT_CivicText.xml</File>
+				<File>Text/ToT_TextChanges.sql</File>
+				<File>Text/ToT_TechText.xml</File>
+				<File>Text/ToT_AmenitiesText.sql</File>
+				<File>Text/AOW_TextChanges.xml</File>
+				<File>Text/ToT_BuildingText.xml</File>
+				<File>Text/ToT_AbilityText.xml</File>
+				<File>Text/MOAR_Units_Text.xml</File>
+				<File>Text/MOAR_Units_GameplayText.xml</File>
+				<File>Text/ToT_UnitText.xml</File>
+				<File>Text/ToT_LeaderboardText.xml</File>
+				<File>Text/ToT_ProjectText.xml</File>
+				<File>Text/WorldWondersText.xml</File>
+				<File>Text/NationalWondersText.xml</File>
+				<File>Text/Biao_UnitText.xml</File>
+			</Items>
+		</LocalizedText>
+    </Components>
+	<!-- Mod Text -->
+	<LocalizedText>
+		<Text id="LOC_ToT_TITLE">
+			<en_US>The Test of Time</en_US>
+		</Text>
+		<Text id="LOC_ToT_TEASER">
+			<en_US>41 New Techs, 55 New Buildings, 41 New Units, 6 New Civics.</en_US>
+		</Text>
+		<Text id="LOC_ToT_DESCRIPTION">
+			<en_US>To be anounced.</en_US>
+		</Text>
+		<Text id="LOC_ToT_AUTHORS">
+			<en_US>Horem, Hajee, DirtyFace</en_US>
+		</Text>
+		<Text id="LOC_ToT_SPECIAL_THANKS">
+			<en_US>Olleus, Deliverator, Evil Victor, Magil</en_US>
+		</Text>
+	</LocalizedText>
+    <!-- Files to included in the mod -->
+    <Files>
+		<File>Test_of_Time.dep</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_256.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_256_FoW.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_128.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_80.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_50.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_38.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_A_32.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_256.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_256_FoW.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_128.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_80.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_50.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_38.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_B_32.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_256.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_256_FoW.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_128.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_80.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_50.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_38.dds</File>
+		<File>Art/Icons/Buildings/ToT_BuildingAtlas_C_32.dds</File>
+		<File>Art/Icons/Tech/ToT_TechAtlas30.dds</File>
+		<File>Art/Icons/Tech/ToT_TechAtlas38.dds</File>
+		<File>Art/Icons/Tech/ToT_TechAtlas42.dds</File>
+		<File>Art/Icons/Tech/ToT_TechAtlas42_FOW.dds</File>
+		<File>Art/Icons/Tech/ToT_TechAtlas128.dds</File>
+		<File>Art/Icons/Tech/ToT_TechAtlas160.dds</File>
+		<File>Art/Icons/Districts/ToT_DistrictAtlas32.dds</File>
+		<File>Art/Icons/Districts/ToT_DistrictAtlas38.dds</File>
+		<File>Art/Icons/Districts/ToT_DistrictAtlas50.dds</File>
+		<File>Art/Icons/Districts/ToT_DistrictAtlas80.dds</File>
+		<File>Art/Icons/Districts/ToT_DistrictAtlas128.dds</File>
+		<File>Art/Icons/Districts/ToT_DistrictAtlas256.dds</File>
+		<File>Art/Data/ToT_Icons_Buildings.xml</File>
+		<File>Art/Data/ToT_Icons_Districts.xml</File>
+		<File>Art/Data/ToT_Icons_Projects.xml</File>
+		<File>Art/Data/ToT_Icons_Tech.xml</File>
+		<File>Art/Data/ToT_Icons_UnitFlags.xml</File>
+		<File>Art/Data/ToT_Icons_UnitPortraits.xml</File>
+		<File>Art/Data/ToT_Icons_Units.xml</File>
+		<File>Lua/ToT_StartScript.lua</File>
+		<File>Configuration/DW_MapScripts.xml</File>
+		<File>Configuration/ToT_DeleteSpeeds_Config.sql</File>
+		<File>Configuration/ToT_Gamespeed_Config.sql</File>
+		<File>Configuration/ToT_GamespeedText_Config.xml</File>
+		<File>Configuration/ToT_DefaultSettings.sql</File>
+		<File>Gameplay/ToT_AI_Formations.sql</File>
+		<File>Gameplay/ToT_AI_Tweaks.sql</File>
+		<File>Lua/RiversLakes.lua</File>
+		<File>Lua/FeatureGenerator.lua</File>
+		<File>Lua/ResourceGenerator.lua</File>
+		<File>Lua/MapUtilities.lua</File>
+		<File>Lua/MountainsCliffs.lua</File>
+		<File>Lua/TerrainGenerator.lua</File>
+		<File>Maps/DWArchipelago.lua</File>
+		<File>Maps/DWContinents.lua</File>
+		<File>Maps/DWFractal.lua</File>
+		<File>Maps/DWPangaea.lua</File>
+		<File>Maps/DWSmallContinents.lua</File>
+		<File>Maps/Continents.lua</File>
+		<File>Maps/Fractal.lua</File>
+		<File>Maps/InlandSea.lua</File>
+		<File>Maps/Island_Plates.lua</File>
+		<File>Maps/Pangaea.lua</File>
+		<File>Gameplay/ToT_Types.xml</File>
+		<File>Gameplay/ToT_DynamicModifiers.xml</File>
+		<File>Gameplay/ToT_RequirementSets.sql</File>
+		<File>Gameplay/ToT_MilitaryBuildings.xml</File>
+		<File>Gameplay/ToT_Modifiers.sql</File>
+		<File>Gameplay/ToT_ModifierArguments.sql</File>
+		<File>Gameplay/ToT_DistrictModifiers.sql</File>
+		<File>Gameplay/ToT_Traits.xml</File>
+		<File>Gameplay/ToT_TraitModifiers.sql</File>
+		<File>Gameplay/ToT_Beliefs.sql</File>
+		<File>Gameplay/ToT_UpdateGreatPeople.sql</File>
+		<File>Gameplay/ToT_Districts.sql</File>
+		<File>Gameplay/ToT_CityCenter_Bonus.sql</File>
+		<File>Gameplay/ToT_Adjacency_YieldChanges.sql</File>
+		<File>Gameplay/ToT_AiFavoredItems.sql</File>
+		<File>Gameplay/ToT_AICityAttackBonus.sql</File>
+		<File>Gameplay/ToT_District_Adjacencies.sql</File>
+		<File>Gameplay/ToT_District_CitizenYieldChanges.sql</File>
+		<File>Gameplay/ToT_District_GreatPersonPoints.sql</File>
+		<File>Gameplay/ToT_District_TradeRouteYields.sql</File>
+		<File>Gameplay/ToT_Projects.sql</File>
+		<File>Gameplay/ToT_Buildings.xml</File>
+		<File>Gameplay/ToT_BuildingModifiers.xml</File>
+		<File>Gameplay/NationalWonders.xml</File>
+		<File>Gameplay/NationalWondersBonus.xml</File>
+		<File>Gameplay/WorldWonders.xml</File>
+		<File>Gameplay/ThemingBonus.xml</File>
+		<File>Gameplay/ToT_UpdateBuildings.sql</File>
+		<File>Gameplay/ToT_Units.xml</File>
+		<File>Gameplay/ToT_DeleteGameSpeeds.sql</File>
+		<File>Gameplay/ToT_GameSpeed.sql</File>
+		<File>Gameplay/ToT_Gamespeed_Turns.sql</File>
+		<File>Gameplay/ToT_Tables.sql</File>
+		<File>Gameplay/ToT_DeletePre.xml</File>
+		<File>Gameplay/ToT_CivicTree.xml</File>
+		<File>Gameplay/ToT_CivicTiers.xml</File>
+		<File>Gameplay/ToT_NewPolicies.xml</File>
+		<File>Gameplay/ToT_TechTree.xml</File>
+		<File>Gameplay/ToT_TechTiers.xml</File>
+		<File>Gameplay/ToT_Boost.xml</File>
+		<File>Gameplay/ToT_GreatPeopleBoost.xml</File>
+		<File>Gameplay/ToT_ResourceTerrains.xml</File>
+		<File>Gameplay/ToT_WarWeariness.xml</File>
+		<File>Gameplay/ToT_AdjustedPopGrowth.sql</File>
+		<File>Gameplay/AOW_ExistingUnitChanges.sql</File>
+		<File>Gameplay/AOW_PromotionChanges.xml</File>
+		<File>Gameplay/ToT_UpdateDistricts.sql</File>
+		<File>Gameplay/ToT_UpdateResources.sql</File>
+		<File>Gameplay/ToT_UpdateImprovements.sql</File>
+		<File>Gameplay/ToT_UpdateProjects.sql</File>
+		<File>Gameplay/MOAR_Units_Data.xml</File>
+		<File>Gameplay/MOAR_Units.sql</File>
+		<File>Gameplay/Biao_ResourceUnits.sql</File>
+		<File>Gameplay/ToT_UpdateUnits.sql</File>
+		<File>Gameplay/ToT_Rules.sql</File>
+		<File>Text/ToT_DistrictText.xml</File>
+		<File>Text/ToT_GP_TEXT.xml</File>
+		<File>Text/ToT_GameSpeedText.xml</File>
+		<File>Text/ToT_CivicText.xml</File>
+		<File>Text/ToT_TechText.xml</File>
+		<File>Text/ToT_TextChanges.sql</File>
+		<File>Text/ToT_AmenitiesText.sql</File>
+		<File>Text/AOW_TextChanges.xml</File>
+		<File>Text/ToT_BuildingText.xml</File>
+		<File>Text/ToT_AbilityText.xml</File>
+		<File>Text/ToT_UnitText.xml</File>
+		<File>Text/MOAR_Units_Text.xml</File>
+		<File>Text/MOAR_Units_GameplayText.xml</File>
+		<File>Text/ToT_LeaderboardText.xml</File>
+		<File>Text/ToT_ProjectText.xml</File>
+		<File>Text/WorldWondersText.xml</File>
+		<File>Text/NationalWondersText.xml</File>
+		<File>Text/Biao_UnitText.xml</File>
+    </Files>
+</Mod>

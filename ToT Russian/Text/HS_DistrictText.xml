@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/30/2016 6:12:26 AM. Translated to Russian by Tipok. -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_DISTRICT_SHOPPING_COMPLEX_NAME" Language="ru_RU">
+			<Text>Торговый квартал</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SHOPPING_COMPLEX_DESC" Language="ru_RU">
+			<Text>Город растет на 3% быстрее.[NEWLINE]Район вашего города специализирующийся на развитии бизнеса.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_RIVER_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота за соседство с рекой.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_MERCHANT_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота за соседство с торговым кварталом.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_COMMERCIAL_GOLD" Language="ru_RU">
+			<Text>+{1_num} [ICON_Gold] золота за соседство с финансовым районом.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SOUQ_NAME" Language="ru_RU">
+			<Text>Базар</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SOUQ_DESC" Language="ru_RU">
+			<Text>Город растет на 3% быстрее.[NEWLINE]Район вашего города специализирующийся на развитии бизнеса.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_FLOOD_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_FOOD] пищи за соседство с речными поймами.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_SPHINX_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_CULTURE] культуры за соседство со Сфинксом.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SOUQ_NAME" Language="ru_RU">
+			<Text>Плоды Нила</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_FOOD] пищи за соседство с районом.</Text>
+		</Row>
+		<Row Tag="LOC_HS_DISTRICT_AQUA_FOOD" Language="ru_RU">
+			<Text>+{1_num} [ICON_FOOD] пищи за соседство с рекой.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_CENTER_FOOD_SUM" Language="ru_RU">
+			<Text>озеро дает +2 [ICON_FOOD] пищи</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GROWTH_SUM" Language="ru_RU">
+			<Text>город растет на 3% быстрее</Text>
+		</Row>
+		<Row Tag="LOC_AQUADUCT_GROWTH_SUM" Language="ru_RU">
+			<Text>город растет на 10% быстрее</Text>
+		</Row>	
+	</LocalizedText>
+</GameData>

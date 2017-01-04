@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f7d24a02-ddc1-4bdd-9f0e-1e28f7fc7c8d" version="1">
+    <!-- Basic Mod information -->
+    <Properties>
+        <Name>ToT Russian Language</Name>
+        <Stability>Alpha</Stability>
+        <Teaser>Russian Translation for ToT</Teaser>
+        <Description>Russian Translation for ToT version 1002 beta 11</Description>
+        <Authors>Tipok</Authors>
+        <EnabledByDefault>0</EnabledByDefault>
+        <EnabledAtStartup>0</EnabledAtStartup>
+    </Properties>
+	<Dependencies/>
+	<References/>
+	<Blocks/>
+    <!-- Settings -->
+	<Settings/>
+    <!-- Different parts of the mod -->
+    <Components>
+		<!-- Localized text files to add -->
+		<LocalizedText id="RU_Text">
+			<Items>
+				<File>Text/HS_DistrictText.xml</File>
+				<File>Text/HS_GP_TEXT.xml</File>
+				<File>Text/HS_GameSpeedText.xml</File>
+				<File>Text/HS_CivicText.xml</File>
+				<File>Text/HS_TextChanges.sql</File>
+				<File>Text/HS_TechText.xml</File>
+				<File>Text/HS_AmenitiesText.sql</File>
+				<File>Text/AOW_TextChanges.xml</File>
+				<File>Text/HS_BuildingText.xml</File>
+				<File>Text/HS_AbilityText.xml</File>
+				<File>Text/MOAR_Units_Text.xml</File>
+				<File>Text/HS_UnitText.xml</File>
+				<File>Text/HS_LeaderboardText.xml</File>
+				<File>Text/HS_ProjectText.xml</File>
+				<File>Text/WorldWonders Text.xml</File>
+			</Items>
+		</LocalizedText>
+    </Components>
+	<!-- Mod Text -->
+	<LocalizedText/>
+    <!-- Files to included in the mod -->
+    <Files>
+		<File>Text/HS_DistrictText.xml</File>
+		<File>Text/HS_GP_TEXT.xml</File>
+		<File>Text/HS_GameSpeedText.xml</File>
+		<File>Text/HS_CivicText.xml</File>
+		<File>Text/HS_TechText.xml</File>
+		<File>Text/HS_TextChanges.sql</File>
+		<File>Text/HS_AmenitiesText.sql</File>
+		<File>Text/AOW_TextChanges.xml</File>
+		<File>Text/HS_BuildingText.xml</File>
+		<File>Text/HS_AbilityText.xml</File>
+		<File>Text/HS_UnitText.xml</File>
+		<File>Text/MOAR_Units_Text.xml</File>
+		<File>Text/HS_LeaderboardText.xml</File>
+		<File>Text/HS_ProjectText.xml</File>
+		<File>Text/WorldWonders Text.xml</File>
+    </Files>
+</Mod>

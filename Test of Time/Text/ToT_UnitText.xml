@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2016 1:28:54 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UNIT_STARTING_SETTLER_NAME" Language="en_US">
+			<Text>Nomadic Settler</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STARTING_SETTLER_DESCRIPTION" Language="en_US">
+			<Text>Has increased sight and movement.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TRIREME_NAME" Language="en_US">
+			<Text>Bireme</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TRIREME_DESCRIPTION" Language="en_US">
+			<Text>Ancient era ranged naval unit. Can only operate on Coastal waters until Cartography is researched.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALLEASS_NAME" Language="en_US">
+			<Text>Trireme</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALLEASS_DESCRIPTION" Language="en_US">
+			<Text>Classical era melee naval combat unit. Can only operate on Coastal waters until Cartography is researched.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COG_NAME" Language="en_US">
+			<Text>Cog</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COG_DESCRIPTION" Language="en_US">
+			<Text>Medieval era melee naval combat unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUNBOAT_NAME" Language="en_US">
+			<Text>Gunboat</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUNBOAT_DESCRIPTION" Language="en_US">
+			<Text>Medieval era ranged naval unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STEAM_FRIGATE_NAME" Language="en_US">
+			<Text>Screw Frigate</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STEAM_FRIGATE_DESCRIPTION" Language="en_US">
+			<Text>Powerful Industrial era armored ranged naval unit.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

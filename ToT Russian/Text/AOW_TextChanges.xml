@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created By by Olleus for 8 Ages of War (11 Nov 2016) for v1.0.0.26 -->
+<!-- All text changes or new text for the mod goes here. Translated to Russian by Tipok -->
+<GameData>
+	<LocalizedText>
+		<!-- PROMOTIONS -->
+		<!-- Melee -->
+		<Row Tag="LOC_PROMOTION_8AOW_ZWEIHANDER_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи против антикавалерийских юнитов и юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_TORTOISE_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи при обороне от дальнобойных атак.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BATTLECRY_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи в лесах, джунглях, на холмах и болотах.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_URBAN_WARFARE_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] боевой мощи при сражении в районе или против укреплений района.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FRENZY_NAME" Language="ru_RU">
+			<Text>Неистовство</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FRENZY_DESCRIPTION" Language="ru_RU">
+			<Text>Поврежденный юнит не получает штрафа к мощи.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARCH_NAME" Language="ru_RU">
+			<Text>Марш</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARCH_DESCRIPTION" Language="ru_RU">
+			<Text>Восстанавливает здоровье каждый ход, даже после перемещения или боя.</Text>
+		</Row>
+
+		<!-- Anti cav -->
+		<Row Tag="LOC_PROMOTION_8AOW_ECHELON_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи против кавалерии.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SCHILTRON_DESCRIPTION" Language="ru_RU">
+			<Text>+6 [ICON_Strength] к боевой мощи при обороне от антикавалерийских юнитов и юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_HOLD_THE_LINE_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи против кавалерии соседним не антикавалерийским юнитам.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_THRUST_DESCRIPTION" Language="ru_RU">
+			<Text>+4 [ICON_Strength] к боевой мощи против антикавалерийских юнитов и юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_REDEPLOY_DESCRIPTION" Language="ru_RU">
+			<Text>Может перемещаться после атаки.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DRILL_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению, если юнит начинает ход на территории пустыни, тундры, на равнинах или лугах.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DRILL_NAME" Language="ru_RU">
+			<Text>Муштра</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SHIELD_WALL_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи соседним антикавалерийским юнитам.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SHIELD_WALL_NAME" Language="ru_RU">
+			<Text>Стена щитов</Text>
+		</Row>
+
+		<!-- Ranged -->
+		<Row Tag="LOC_PROMOTION_8AOW_VOLLEY_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Ranged] к дальнобойной мощи против антикавалерийских юнитов и юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Ranged] к дальнобойной мощи против дальнобойных и осадных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_BATTERY_FIRE_NAME" Language="ru_RU">
+			<Text>Контрбатарейный огонь</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANTLET_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи при обороне от дальнобойных атак.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANTLET_NAME" Language="ru_RU">
+			<Text>Мантелет</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_GARRISON_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Strength] к боевой мощи при нахождении в районе или форте.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_INCENDIARIES_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Ranged] к дальнобойной мощи против укреплений района.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SUPPRESSION_DESCRIPTION" Language="ru_RU">
+			<Text>Использует зону контроля и +5 [ICON_Strength] к боевой мощи при обороне от юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARKSMAN_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Ranged] к дальнобойной мощи против наземных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MARKSMAN_NAME" Language="ru_RU">
+			<Text>Меткий стрелок</Text>
+		</Row>
+
+		<!-- Siege -->
+		<Row Tag="LOC_PROMOTION_8AOW_DUGOUTS_NAME" Language="ru_RU">
+			<Text>Блиндаж</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DUGOUTS_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи при обороне от дальнобойных атак.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BARRAGE_NAME" Language="ru_RU">
+			<Text>Шквальный огонь</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BARRAGE_DESCRIPTION" Language="ru_RU">
+			<Text>+6 [ICON_Bombard] к силе обстрела юнитов в районе или укрепленных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_CREW_WEAPONS_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи при обороне.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SHELLS_DESCRIPTION" Language="ru_RU">
+			<Text>+6 [ICON_Bombard] к силе обстрела против укреплений района.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_ADVANCED_RANGEFINDING_DESCRIPTION" Language="ru_RU">
+			<Text>+10 [ICON_Bombard] к силе обстрела против морских юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_GRAPE_SHOT_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Bombard] к силе обстрела против наземных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SELF_PROPELLED_NAME" Language="ru_RU">
+			<Text>Самоходная артиллерия</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SELF_PROPELLED_DESCRIPTION" Language="ru_RU">
+			<Text>Может атаковать после перемещения.</Text>
+		</Row>
+
+		<!-- Heavy Cavalry -->
+		<Row Tag="LOC_PROMOTION_8AOW_CHARGE_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи вне лесов, джунглей, болот или районов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_LANCES_NAME" Language="ru_RU">
+			<Text>Копье</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_LANCES_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи против кавалерии.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FLYING_WEDGE_NAME" Language="ru_RU">
+			<Text>Боевой клин</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_FLYING_WEDGE_DESCRIPTION" Language="ru_RU">
+			<Text>+7 [ICON_Strength] к боевой мощи против юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_ROUT_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи против поврежденных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_CHARGE_NAME" Language="ru_RU">
+			<Text>Контратака</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COUNTER_CHARGE_DESCRIPTION" Language="ru_RU">
+			<Text>+4 [ICON_Strength] к боевой мощи при обороне от юнитов ближнего боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BARDING_DESCRIPTION" Language="ru_RU">
+			<Text>+6 [ICON_Strength] к боевой мощи при обороне от дальнобойных атак.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_BREAKTHROUGH_DESCRIPTION" Language="ru_RU">
+			<Text>+1 дополнительная атака за ход, если достаточно [ICON_Movement] ОП.</Text>
+		</Row>
+
+
+		<!-- Light Cavalry -->
+		<Row Tag="LOC_PROMOTION_8AOW_RECONNAISSANCE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 к радиусу обзора.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_RECONNAISSANCE_NAME" Language="ru_RU">
+			<Text>Рекогносцировка</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_COURSERS_DESCRIPTION" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи против дальнобойных и осадных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DEPREDATION_DESCRIPTION" Language="ru_RU">
+			<Text>Мародерство стоит только 1 [ICON_Movement] ОП.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_DOUBLE_ENVELOPMENT_DESCRIPTION" Language="ru_RU">
+			<Text>Двукратный бонус за атаку с фланга.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SCAVENGE_DESCRIPTION" Language="ru_RU">
+			<Text>Восстанавливает здоровье каждый ход, даже после перемещения или боя.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_SCAVENGE_NAME" Language="ru_RU">
+			<Text>Военные сборы</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANEUVER_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_Movement] к перемещению.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_MANEUVER_NAME" Language="ru_RU">
+			<Text>Маневрирование</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_8AOW_PURSUIT_DESCRIPTION" Language="ru_RU">
+			<Text>+1 дополнительная атака за ход, если достаточно [ICON_Movement] ОП.</Text>
+		</Row>
+
+		<!-- Unit Modifications -->
+		<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION" Language="ru_RU">
+			<Text>Юнит поддержки Средневековья. Для создания требуется оружейная. Строит дороги, форты и взлетные полосы. *Новое* Действует как и таран, когда находится рядом с городом, юниты ближнего боя наносят полный урон стенам при атаке.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<Resource_ValidTerrains>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+			
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		<Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_GRASS_HILLS"/>		
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		<Row ResourceType="RESOURCE_URANIUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT_HILLS"/>	
+		<Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_COAL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_COAL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_COAL" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		<Row ResourceType="RESOURCE_COAL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_PLAINS_HILLS"/>		
+
+		<Row ResourceType="RESOURCE_CATTLE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_CATTLE" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_DEER" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_RICE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_RICE" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_WHEAT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_WHEAT" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_CITRUS" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_CITRUS" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_COTTON" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_COTTON" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_SILK" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_SILK" TerrainType="TERRAIN_GRASS"/>
+				
+		<Row ResourceType="RESOURCE_DYES" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_DYES" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_WINE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_WINE" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_TOBACCO" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_TOBACCO" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_HORSES" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_HORSES" TerrainType="TERRAIN_GRASS"/>
+
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_COAST"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_SNOW"/>
+		<Row ResourceType="RESOURCE_OIL" TerrainType="TERRAIN_TUNDRA"/>
+	</Resource_ValidTerrains>
+	<Resource_ValidFeatures>
+		<Row ResourceType="RESOURCE_IVORY" FeatureType="FEATURE_JUNGLE"/>	
+	</Resource_ValidFeatures>	
+	
+</GameInfo>								

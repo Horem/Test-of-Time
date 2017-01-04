@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS" IconSize="32" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas32.dds"/>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas38.dds"/>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas50.dds"/>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS" IconSize="80" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas80.dds"/>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS" IconSize="128" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas128.dds"/>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas256.dds"/>
+		<Row Name="ICON_ToT_ATLAS_DISTRICTS_FOW" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="ToT_DistrictAtlas256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_DISTRICT_SHOPPING_COMPLEX"        Atlas="ICON_ToT_ATLAS_DISTRICTS" Index="0"/>
+		<Row Name="ICON_DISTRICT_SOUQ"					  Atlas="ICON_ToT_ATLAS_DISTRICTS" Index="1"/>
+
+		<Row Name="ICON_DISTRICT_SHOPPING_COMPLEX_FOW"      Atlas="ICON_ToT_ATLAS_DISTRICTS_FOW" Index="0"/>
+		<Row Name="ICON_DISTRICT_SOUQ_FOW"					Atlas="ICON_ToT_ATLAS_DISTRICTS_FOW" Index="1"/>
+	</IconDefinitions>
+</GameInfo>
+

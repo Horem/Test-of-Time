@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/3/2016 1:46:38 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="en_US">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="en_US">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="it_IT">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="it_IT">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="fr_FR">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="fr_FR">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="es_ES">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="es_ES">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="de_DE">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="de_DE">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="pt_BR">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="pt_BR">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_NAME" Language="pl_PL">
+			<Text>Donald Trump</Text>
+		</Replace>
+		<Replace Tag="LOC_UI_ENDGAME_RANKING_LEADER_21_QUOTE" Language="pl_PL">
+			<Text>When you vote for a reality star, you tend to lose touch with reality</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

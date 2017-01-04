@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+	<ID>
+		<name text="TestofTime"/>
+		<id text="434d2b10-21f7-408e-998f-b8ecd2791f95"/>
+	</ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Civ6"/>
+			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+		</Element>
+	</RequiredGameArtIDs>
+	<SystemDependencies>
+		<Element>
+			<ConsumerName text="Units"/>
+			<ArtDefDependencyPaths>
+				<Element text="Units.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ConsumerName text="Landmarks"/>
+			<ArtDefDependencyPaths>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Buildings.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies>
+				<Element text="CityBuildings"/>
+				<Element text="TileBase"/>
+				<Element text="RouteDecalMaterial"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+		<Element>
+			<ConsumerName text="StrategicView_Sprite"/>
+			<ArtDefDependencyPaths>
+				<Element text="Buildings.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies>
+				<Element text="StrategicView_Sprite"/>
+				<Element text="StrategicView_DirectedAsset"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+		<Element>
+			<ConsumerName text="StrategicView_Translate"/>
+			<ArtDefDependencyPaths>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies/>
+			<LoadsLibraries>false</LoadsLibraries>
+		</Element>
+		<Element>
+			<ConsumerName text="WorldView_Translate"/>
+			<ArtDefDependencyPaths>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies/>
+			<LoadsLibraries>false</LoadsLibraries>
+		</Element>
+	</SystemDependencies>
+	<ArtDefDependencies>
+		<Element>
+			<ArtDefPath text="Landmarks.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="Landmarks.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="StrategicView.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="Buildings.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="Districts.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Districts.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="Buildings.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="Buildings.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+	</ArtDefDependencies>
+	<LibraryDependencies>
+		<Element>
+			<LibraryName text="CityBuildings"/>
+			<PackageDependencies>
+				<Element text="landmarks/city_buildings.blp"/>
+			</PackageDependencies>
+		</Element>
+		<Element>
+			<LibraryName text="TileBase"/>
+			<PackageDependencies>
+				<Element text="landmarks/hero_buildings.blp"/>
+				<Element text="landmarks/tilebases.blp"/>
+			</PackageDependencies>
+		</Element>
+		<Element>
+			<LibraryName text="RouteDecalMaterial"/>
+			<PackageDependencies>
+				<Element text="route_decal_materials.blp"/>
+			</PackageDependencies>
+		</Element>
+		<Element>
+			<LibraryName text="StrategicView_Sprite"/>
+			<PackageDependencies>
+				<Element text="strategicview/strategicview_buildings.blp"/>
+				<Element text="strategicview/strategicview_cities.blp"/>
+				<Element text="strategicview/strategicview_districts.blp"/>
+				<Element text="strategicview/strategicview_effects.blp"/>
+				<Element text="strategicview/strategicview_parks.blp"/>
+				<Element text="strategicview/strategicview_features.blp"/>
+				<Element text="strategicview/strategicview_improvements.blp"/>
+				<Element text="strategicview/strategicview_terrainsprites.blp"/>
+				<Element text="strategicview/strategicview_uilenses.blp"/>
+			</PackageDependencies>
+		</Element>
+		<Element>
+			<LibraryName text="StrategicView_DirectedAsset"/>
+			<PackageDependencies>
+				<Element text="strategicview/strategicview_directedassets.blp"/>
+			</PackageDependencies>
+		</Element>
+	</LibraryDependencies>
+</AssetObjects::GameDependencyData>
+

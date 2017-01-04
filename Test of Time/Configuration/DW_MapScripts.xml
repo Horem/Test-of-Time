@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Maps>
+		<Row File="DWArchipelago.lua" Name="Archipelago - Detailed" Description="Detailed Worlds Archipelago" SortIndex="70"/>
+		<Row File="DWContinents.lua" Name="Continents - Detailed" Description="Detailed Worlds Continents" SortIndex="71"/>
+		<Row File="DWFractal.lua" Name="Fractal - Detailed" Description="Detailed Worlds Fractal" SortIndex="72"/>
+		<Row File="DWPangaea.lua" Name="Pangaea - Detailed" Description="Detailed Worlds Pangaea" SortIndex="73"/>
+		<Row File="DWSmallContinents.lua" Name="Small Continents - Detailed" Description="Detailed Worlds Small Continents" SortIndex="74"/>
+	</Maps>
+
+	<Parameters>
+		<Row Key1="Map" Key2="DWArchipelago.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="DWArchipelago.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="DWArchipelago.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="DWArchipelago.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="DWArchipelago.lua" ParameterId="Resources" Name="LOC_MAP_RESOURCES_NAME" Description="LOC_MAP_RESOURCES_DESCRIPTION" Domain="Resources" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="resources" GroupId="MapOptions" Hash="0" SortIndex="270"/>
+		<Row Key1="Map" Key2="DWArchipelago.lua" ParameterId="StartPosition" Name="LOC_MAP_START_POSITION_NAME" Description="LOC_MAP_START_POSITION_DESCRIPTION" Domain="StartPosition" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="start" GroupId="MapOptions" Hash="0" SortIndex="280"/>
+		
+		<Row Key1="Map" Key2="DWContinents.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="DWContinents.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="DWContinents.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="DWContinents.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="DWContinents.lua" ParameterId="Resources" Name="LOC_MAP_RESOURCES_NAME" Description="LOC_MAP_RESOURCES_DESCRIPTION" Domain="Resources" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="resources" GroupId="MapOptions" Hash="0" SortIndex="270"/>
+		<Row Key1="Map" Key2="DWContinents.lua" ParameterId="StartPosition" Name="LOC_MAP_START_POSITION_NAME" Description="LOC_MAP_START_POSITION_DESCRIPTION" Domain="StartPosition" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="start" GroupId="MapOptions" Hash="0" SortIndex="280"/>
+		
+		<Row Key1="Map" Key2="DWFractal.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="DWFractal.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="DWFractal.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="DWFractal.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="DWFractal.lua" ParameterId="Resources" Name="LOC_MAP_RESOURCES_NAME" Description="LOC_MAP_RESOURCES_DESCRIPTION" Domain="Resources" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="resources" GroupId="MapOptions" Hash="0" SortIndex="270"/>
+		<Row Key1="Map" Key2="DWFractal.lua" ParameterId="StartPosition" Name="LOC_MAP_START_POSITION_NAME" Description="LOC_MAP_START_POSITION_DESCRIPTION" Domain="StartPosition" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="start" GroupId="MapOptions" Hash="0" SortIndex="280"/>
+
+		<Row Key1="Map" Key2="DWPangaea.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="DWPangaea.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="DWPangaea.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="DWPangaea.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="DWPangaea.lua" ParameterId="Resources" Name="LOC_MAP_RESOURCES_NAME" Description="LOC_MAP_RESOURCES_DESCRIPTION" Domain="Resources" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="resources" GroupId="MapOptions" Hash="0" SortIndex="270"/>
+		<Row Key1="Map" Key2="DWPangaea.lua" ParameterId="StartPosition" Name="LOC_MAP_START_POSITION_NAME" Description="LOC_MAP_START_POSITION_DESCRIPTION" Domain="StartPosition" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="start" GroupId="MapOptions" Hash="0" SortIndex="280"/>
+
+		<Row Key1="Map" Key2="DWSmallContinents.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="DWSmallContinents.lua" ParameterId="Temperature" Name="LOC_MAP_TEMPERATURE_NAME" Description="LOC_MAP_TEMPERATURE_DESCRIPTION" Domain="Temperature" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="temperature" GroupId="MapOptions" Hash="0" SortIndex="240"/>
+		<Row Key1="Map" Key2="DWSmallContinents.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="3" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="DWSmallContinents.lua" ParameterId="SeaLevel" Name="LOC_MAP_SEA_LEVEL_NAME" Description="LOC_MAP_SEA_LEVEL_LOW_DESCRIPTION" Domain="SeaLevel" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="sea_level" GroupId="MapOptions" Hash="0" SortIndex="260"/>
+		<Row Key1="Map" Key2="DWSmallContinents.lua" ParameterId="Resources" Name="LOC_MAP_RESOURCES_NAME" Description="LOC_MAP_RESOURCES_DESCRIPTION" Domain="Resources" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="resources" GroupId="MapOptions" Hash="0" SortIndex="270"/>
+		<Row Key1="Map" Key2="DWSmallContinents.lua" ParameterId="StartPosition" Name="LOC_MAP_START_POSITION_NAME" Description="LOC_MAP_START_POSITION_DESCRIPTION" Domain="StartPosition" DefaultValue="3" ConfigurationGroup="Map" ConfigurationId="start" GroupId="MapOptions" Hash="0" SortIndex="280"/>
+	</Parameters>
+</GameInfo>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TECH_Dawn_of_Civilization_NAME" Language="ru_RU">
+			<Text>На заре цивилизации</Text>
+		</Row>	
+		<!-- Ancient Era-->
+		<Row Tag="LOC_TECH_Exploration_NAME" Language="ru_RU">
+			<Text>Разведка местности</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Exploration_DESCRIPTION" Language="ru_RU">
+			<Text>Позволяет строителям грузиться на корабли.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Burial_Rites_NAME" Language="ru_RU">
+			<Text>Погребальные обряды</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Herblore_NAME" Language="ru_RU">
+			<Text>Траволечение</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Fermentation_NAME" Language="ru_RU">
+			<Text>Ферментация</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Linguistics_NAME" Language="ru_RU">
+			<Text>Лингвистика</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Gardening_NAME" Language="ru_RU">
+			<Text>Садоводство</Text>
+		</Row>
+		<!-- Classical Era -->
+		<Row Tag="LOC_TECH_Alphabet_NAME" Language="ru_RU">
+			<Text>Алфавит</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Folk_Medicine_NAME" Language="ru_RU">
+			<Text>Народная медицина</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Milita_Training_NAME" Language="ru_RU">
+			<Text>Народное ополчение</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Smithing_NAME" Language="ru_RU">
+			<Text>Кузнечное дело</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Medicine_NAME" Language="ru_RU">
+			<Text>Медицина</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Naturopathy_NAME" Language="ru_RU">
+			<Text>Сельхоз инструменты</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Naturopathy_DESC" Language="ru_RU">
+			<Text>Ферма дает +2 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Geometry_NAME" Language="ru_RU">
+			<Text>Геометрия</Text>
+		</Row>
+		<Row Tag="LOC_TECH_SiegeWarfare_NAME" Language="ru_RU">
+			<Text>Тактика осады</Text>
+		</Row>
+		<!-- Medieval Era -->
+		<Row Tag="LOC_TECH_Crop_Rotation_NAME" Language="ru_RU">
+			<Text>Севооборот</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Crop_Rotation_DESC" Language="ru_RU">
+			<Text>Плантации и пастбища дают +1 [ICON_FOOD] пищи.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Charters_NAME" Language="ru_RU">
+			<Text>Хартия</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Paper_NAME" Language="ru_RU">
+			<Text>Бумага</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Compass_NAME" Language="ru_RU">
+			<Text>Компас</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Anatomy_NAME" Language="ru_RU">
+			<Text>Анатомия</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Alchemy_NAME" Language="ru_RU">
+			<Text>Алхимия</Text>
+		</Row>
+		<!--Renaissance Era -->
+		<Row Tag="LOC_TECH_Leadership_NAME" Language="ru_RU">
+			<Text>Лидерство</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Naval_Tactics_NAME" Language="ru_RU">
+			<Text>Морская тактика</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Biology_NAME" Language="ru_RU">
+			<Text>Биология</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Sextant_NAME" Language="ru_RU">
+			<Text>Секстант</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Paleontology_NAME" Language="ru_RU">
+			<Text>Брокерские услуги</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Accounting_NAME" Language="ru_RU">
+			<Text>Учет</Text>
+		</Row>
+		<!-- Industrial Era -->
+		<Row Tag="LOC_TECH_Marine_Biology_NAME" Language="ru_RU">
+			<Text>Военно-полевая хирургия</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Firefighting_NAME" Language="ru_RU">
+			<Text>Пожарное дело</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Screw_Propeller_NAME" Language="ru_RU">
+			<Text>Гребной винт</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Assembly_Line_NAME" Language="ru_RU">
+			<Text>Сборочный конвеер</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Telegraph_NAME" Language="ru_RU">
+			<Text>Телеграф</Text>
+		</Row>
+		<Row Tag="LOC_TECH_MassTransit_NAME" Language="ru_RU">
+			<Text>Общественный транспорт</Text>
+		</Row>
+		<!-- Modern Era -->
+		<Row Tag="LOC_TECH_CompulsoryEducation_NAME" Language="ru_RU">
+			<Text>Всеобщее образование</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Antibiotics_NAME" Language="ru_RU">
+			<Text>Антибиотики</Text>
+		</Row>
+		<Row Tag="LOC_TECH_AtomicTheory_NAME" Language="ru_RU">
+			<Text>Атомная теория</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Refrigeration_NAME" Language="ru_RU">
+			<Text>Холодильники</Text>
+		</Row>
+		<Row Tag="LOC_TECH_TheoryofRelativity_NAME" Language="ru_RU">
+			<Text>Теория относительности</Text>
+		</Row>
+		<Row Tag="LOC_TECH_AppliedEconomics_NAME" Language="ru_RU">
+			<Text>Прикладная экономика</Text>
+		</Row>
+		<!-- Atomic Era -->
+		<Row Tag="LOC_TECH_QuantumPhysics_NAME" Language="ru_RU">
+			<Text>Квантовая физика</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Television_NAME" Language="ru_RU">
+			<Text>Телевидение</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Semiconductors_NAME" Language="ru_RU">
+			<Text>Полупроводники</Text>
+		</Row>
+		<Row Tag="LOC_TECH_HighwaySystems_NAME" Language="ru_RU">
+			<Text>Автомагистрали</Text>
+		</Row>
+		<Row Tag="LOC_TECH_FiberOptics_NAME" Language="ru_RU">
+			<Text>Волоконная оптика</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Ecology_NAME" Language="ru_RU">
+			<Text>Экология</Text>
+		</Row>
+		<Row Tag="LOC_TECH_Internet_NAME" Language="ru_RU">
+			<Text>Интернет</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

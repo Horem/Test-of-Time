@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/14/2016 5:07:49 PM -->
+<GameInfo>
+	<LocalizedText>
+		<Row Tag="LOC_HMP_BUILDING_TELEVISION_STUDIO_NAME" Language="en_US">
+			<Text>Television Station</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TELEVISION_STUDIO_DESC" Language="en_US">
+			<Text>National Wonder, 4 per Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_INTERNET_CAFE_NAME" Language="en_US">
+			<Text>Internet Cafe</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_ECO_CENTER_NAME" Language="en_US">
+			<Text>Eco Center</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_ECO_CENTER_DESC" Language="en_US">
+			<Text>National Wonder, 4 per Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_HADRON_COLLIDER_NAME" Language="en_US">
+			<Text>Hadron Collider</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_HADRON_COLLIDER_DESC" Language="en_US">
+			<Text>National Wonder, one per Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TELEGRAPH_STATION_NAME" Language="en_US">
+			<Text>Telegraph Station</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_COLLEGE_NAME" Language="en_US">
+			<Text>College</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_PAPERMILL_NAME" Language="en_US">
+			<Text>Papermill</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PAPERMILL_DESC" Language="en_US">
+			<Text>Lumbermill's gain +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_KEEP_NAME" Language="en_US">
+			<Text>Keep</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_WATCHTOWER_NAME" Language="en_US">
+			<Text>Guardtower</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WATCHTOWER_DESC" Language="en_US">
+			<Text>Grants Defender(+1 Range when defending Cities) ability to Ranged units. +10 Inner Defense.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FARMSTEAD_NAME" Language="en_US">
+			<Text>Warehouse</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FARMSTEAD_DESC" Language="en_US">
+			<Text>Adjacent farms and pastures gain +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_STATUE_NAME" Language="en_US">
+			<Text>Statue</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TRAPPERS_HUT_NAME" Language="en_US">
+			<Text>Trappers Hut</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TRAPPERS_HUT_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_DEER] Deer and [ICON_RESOURCE_FURS] Furs resources gain +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TAVERN_NAME" Language="en_US">
+			<Text>Tavern</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAVERN_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_WINE] Wine and [ICON_RESOURCE_WHEAT] Wheat resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_HERBALIST_NAME" Language="en_US">
+			<Text>Herbalist</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HERBALIST_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_TRUFFLES] Truffles and [ICON_RESOURCE_GYPSUM] Gypsum resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TRAINING_GROUND_NAME" Language="en_US">
+			<Text>Training Grounds</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TRAINING_GROUND_DESC" Language="en_US">
+			<Text>Provides the Recruit ability for land units.[NEWLINE]-1 [ICON_HOUSING] Housing.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_SCRIBES_SHOP_NAME" Language="en_US">
+			<Text>Scribes Shop</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_STONE_MASON_NAME" Language="en_US">
+			<Text>Stone Mason</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STONE_MASON_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_STONE] Stone and [ICON_RESOURCE_MARBLE] Marble resources gain +1 [ICON_PRODUCTION] Production each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_PLAZA_NAME" Language="en_US">
+			<Text>Plaza</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_PLAZA_DESC" Language="en_US">
+			<Text>-1 [ICON_HOUSING] Housing.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_INN_NAME" Language="en_US">
+			<Text>Inn</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_INN_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_SUGAR] Sugar and [ICON_RESOURCE_CITRUS] Citrus resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_APOCATHERY_NAME" Language="en_US">
+			<Text>Apothecary</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_APOCATHERY_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_INCENSE] Incense and [ICON_RESOURCE_MERCURY] Mercury resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TAILOR_NAME" Language="en_US">
+			<Text>Tailor</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TAILOR_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_SHEEP] Sheep and [ICON_RESOURCE_DYES] Dyes resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_BUTCHER_NAME" Language="en_US">
+			<Text>Butcher</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BUTCHER_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_CATTLE] Cattle and [ICON_RESOURCE_SHEEP] Sheep resources gain +1 [ICON_FOOD] Food each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TRAINING_CAMP_NAME" Language="en_US">
+			<Text>Training Camp</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TRAINING_CAMP_DESC" Language="en_US">
+			<Text>Provides the Cadet ability for land units.[NEWLINE]-2 [ICON_HOUSING] Housing.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MANOR_NAME" Language="en_US">
+			<Text>Manor</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MANOR_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_PEARLS] Pearls, [ICON_RESOURCE_DIAMONDS] Diamonds and [ICON_RESOURCE_SILVER] Silver resources gain +1 [ICON_CULTURE] Culture each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_COOK_SHOP_NAME" Language="en_US">
+			<Text>Cook Shop</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_COOK_SHOP_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_RICE] Rice and [ICON_RESOURCE_BANANAS] Banana resources gain +1 [ICON_FOOD] Food each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_MONASTERY_NAME" Language="en_US">
+			<Text>Monastery</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_MONASTERY_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_WINE] Wine and [ICON_RESOURCE_SUGAR] Sugar resources gain +1 [ICON_FAITH] Faith each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_HEALERS_HUT_NAME" Language="en_US">
+			<Text>Healer</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HEALERS_HUT_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_SALT] Salt and [ICON_RESOURCE_SPICES] Spices resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_DUNGEON_NAME" Language="en_US">
+			<Text>Dungeon</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TOURNAMENT_GROUND_NAME" Language="en_US">
+			<Text>Tournament Grounds</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TOURNAMENT_GROUND_DESC" Language="en_US">
+			<Text>Provides the Trooper ability for land units.[NEWLINE]-3 [ICON_HOUSING] Housing.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FORGE_NAME" Language="en_US">
+			<Text>Forge</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FORGE_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_COPPER] Copper and [ICON_RESOURCE_IRON] Iron resources gain +1 [ICON_PRODUCTION] Production each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_SMITHY_NAME" Language="en_US">
+			<Text>Smithy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SMITHY_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_COAL] Coal resources gain +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_LODGE_NAME" Language="en_US">
+			<Text>Lodge</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_LODGE_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_GYPSUM] Gypsum and [ICON_RESOURCE_RICE] Rice resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FISH_MARKET_NAME" Language="en_US">
+			<Text>Fish Market</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FISH_MARKET_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_CRABS] Crabs, [ICON_RESOURCE_PEARLS] Pearls and [ICON_RESOURCE_FISH] Fish resources gain +1 [ICON_FOOD] Food each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_TINKER_NAME" Language="en_US">
+			<Text>Tinker</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TINKER_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_JADE] Jade and [ICON_RESOURCE_IVORY] Ivory resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_RESTAURANT_NAME" Language="en_US">
+			<Text>Restaurant</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_RESTAURANT_DESC" Language="en_US">
+			<Text>Farms gain +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FARMERS_MARKET_NAME" Language="en_US">
+			<Text>Farmers Market</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FARMERS_MARKET_DESC" Language="en_US">
+			<Text>Farms gain +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_JAIL_NAME" Language="en_US">
+			<Text>Jail</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JAIL_DESC" Language="en_US">
+			<Text>Garrisoned Unit provides +1 [ICON_AMENITIES] Amenity.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_COUNTRY_ESTATE_NAME" Language="en_US">
+			<Text>Country Estate</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_COUNTRY_ESTATE_DESC" Language="en_US">
+			<Text>Plantation's gain +1 [ICON_CULTURE] Culture.[NEWLINE]National Wonder, 4 per Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_BEER_HOUSE_NAME" Language="en_US">
+			<Text>Beerhouse</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BEER_HOUSE_DESC" Language="en_US">
+			<Text>Adjacent [ICON_DISTRICT_NEIGHBORHOOD] Neighbourhood Districts provide +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FISHMONGER_NAME" Language="en_US">
+			<Text>Fishmonger</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FISHMONGER_DESC" Language="en_US">
+			<Text>Fishing Boats gain +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_COFFEEHOUSE_NAME" Language="en_US">
+			<Text>Coffee House</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_COFFEEHOUSE_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_COFFEE] Coffee and [ICON_RESOURCE_TEA] Teas resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FIREHOUSE_NAME" Language="en_US">
+			<Text>Firehouse</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FIREHOUSE_DESC" Language="en_US">
+			<Text>If built adjacent to a River gain +1 [ICON_AMENITIES] Amenity.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_JEWELLER_NAME" Language="en_US">
+			<Text>Jeweller</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JEWELLER_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_SILVER] Silver, [ICON_RESOURCE_PEARLS] Pearls and [ICON_RESOURCE_DIAMONDS] Diamonds resources gain +1 [ICON_GOLD] Gold each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FOUNDRY_NAME" Language="en_US">
+			<Text>Foundry</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FOUNDRY_DESC" Language="en_US">
+			<Text>[ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_COAL] Coal resources gain +1 [ICON_PRODUCTION] Production each.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_DOCTORSHOUSE_NAME" Language="en_US">
+			<Text>Doctors House</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DOCTORSHOUSE_DESC" Language="en_US">
+			<Text>Increases City growth by 3%.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_PRISON_NAME" Language="en_US">
+			<Text>Prison</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PRISON_DESC" Language="en_US">
+			<Text>If built adjacent to Coast gain +1 [ICON_AMENITIES] Amenity.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_POLICE_STATION_NAME" Language="en_US">
+			<Text>Police Station</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_POLICE_STATION_DESC" Language="en_US">
+			<Text>Adjacent [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial, [ICON_DISTRICT_COMMERCIAL_HUB] Commercial, [ICON_DISTRICT_THEATER] Theater, Entertainment and [ICON_DISTRICT_NEIGHBORHOOD] Neighbourhood Districts provide +1 [ICON_AMENITIES] Amenity.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_FIRE_STATION_NAME" Language="en_US">
+			<Text>Fire Station</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_FIRE_STATION_DESC" Language="en_US">
+			<Text>Adjacent [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial, [ICON_DISTRICT_COMMERCIAL_HUB] Commercial, [ICON_DISTRICT_AQUEDUCT] Aqueduct and [ICON_DISTRICT_NEIGHBORHOOD] Neighbourhood Districts provide +1 [ICON_AMENITIES] Amenity.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_MEDICAL_CLINIC_NAME" Language="en_US">
+			<Text>Hospice</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MEDICAL_CLINIC_DESC" Language="en_US">
+			<Text>Increases City growth by 7%.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_PUB_NAME" Language="en_US">
+			<Text>Public House</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PUB_DESC" Language="en_US">
+			<Text>Adjacent [ICON_DISTRICT_COMMERCIAL_HUB] Commercial and Entertainment Districts provide +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_HOTEL_NAME" Language="en_US">
+			<Text>Hotel</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HOTEL_DESC" Language="en_US">
+			<Text>+20% [ICON_TOURISM] Tourism.[NEWLINE]National Wonder, 5 per Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_SUPERMARKET_NAME" Language="en_US">
+			<Text>Supermarket</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SUPERMARKET_DESC" Language="en_US">
+			<Text>Bonus and Luxury resources gain +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_HOSPITAL_NAME" Language="en_US">
+			<Text>Hospital</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HOSPITAL_DESC" Language="en_US">
+			<Text>Increases City growth by 10%.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_CASINO_NAME" Language="en_US">
+			<Text>Casino</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CASINO_DESC" Language="en_US">
+			<Text>+30% [ICON_TOURISM] Tourism.[NEWLINE]National Wonder, 5 per Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_DINER_NAME" Language="en_US">
+			<Text>Diner</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DINER_DESC" Language="en_US">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_CLUB_NAME" Language="en_US">
+			<Text>Club</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CLUB_DESC" Language="en_US">
+			<Text>+10% [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="LOC_HMP_BUILDING_WINDTURBINE_NAME" Language="en_US">
+			<Text>Wind Farm</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_WINDTURBINE_DESC" Language="en_US">
+			<Text>...</Text>
+		</Row>
+	</LocalizedText>
+</GameInfo>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/24/2016 9:29:19 PM -->
+<GameData>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CITY_GROWTH</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_GROWTH</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CITY_TOURISM</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_TOURISM</EffectType>
+		</Row>
+		<!--<Row>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CITY_AMENITIES</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_BUILDING_AMENITY</EffectType>
+		</Row>-->
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BUILDING_AMENITIES</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_BELIEF_CITIES_ADJUST_BUILDING_YIELD</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_BUILDING_YIELD_CHANGE</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_BELIEF_CITIES_ADJUST_DISTRICT_YIELD</ModifierType>
+			<CollectionType>COLLECTION_CITY_DISTRICTS</CollectionType>
+			<EffectType>EFFECT_ADJUST_DISTRICT_YIELD_CHANGE</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITY_GRANT_ABILITY</ModifierType>
+			<CollectionType>COLLECTION_CITY_TRAINED_UNITS</CollectionType>
+			<EffectType>EFFECT_GRANT_ABILITY</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITY_ATTACH_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+	</DynamicModifiers>
+</GameData>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/13/2016 8:16:56 AM -->
+<GameData>
+	<Civics>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_CODE_OF_LAWS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_STATE_WORKFORCE"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_EARLY_EMPIRE"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_CRAFTSMANSHIP"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_MYSTICISM"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_MILITARY_TRADITION"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_FOREIGN_TRADE"/>
+		</Update>
+		<!-- Classical Era-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_RECORDED_HISTORY"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_POLITICAL_PHILOSOPHY"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_DEFENSIVE_TACTICS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_DRAMA_POETRY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_GAMES_RECREATION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_SYMPOLITEIA"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_TERRA_NOSTRUM"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_THEOLOGY"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_MILITARY_TRAINING"/>
+		</Update>
+		<!-- Medieval Era-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_CIVIL_SERVICE"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_NAVAL_TRADITION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_GUILDS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_FEUDALISM"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_MERCENARIES"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_FOREIGN_DIGNITARY"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_DIVINE_RIGHT"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_MEDIEVAL_FAIRES"/>
+		</Update>
+		<!--RenaissanceEra-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_REFORMED_CHURCH"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_EXPLORATION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_THE_ENLIGHTENMENT"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_HUMANISM"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_MERCANTILISM"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_IMPERIALISM"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_DIPLOMATIC_SERVICE"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_COLONIALISM"/>
+		</Update>
+		<!--Industrial Era-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_NATIONALISM"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_OPERA_BALLET"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_CIVIL_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_NATURAL_HISTORY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_SCORCHED_EARTH"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_URBANIZATION"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_IDEOLOGY"/>
+		</Update>
+		<!--Modern Era-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_CAPITALISM"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_STATE_MEDIA"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_CONSERVATION"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_SUFFRAGE"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_TOTALITARIANISM"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_CLASS_STRUGGLE"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_MASS_MEDIA"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_MOBILIZATION"/>
+		</Update>
+		<!--Atomic Era-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_CULTURAL_HERITAGE"/>
+		</Update>
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_COLD_WAR"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_GLOBAL_ECONOMY"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_PROFESSIONAL_SPORTS"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_NUCLEAR_PROGRAM"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivicType="CIVIC_SPACE_RACE"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_SOCIAL_MEDIA"/>
+		</Update>
+		<Update>
+			<Set Tier="3"/>
+			<Where CivicType="CIVIC_RAPID_DEPLOYMENT"/>
+		</Update>
+		<!--Atomic Era-->
+		<Update>
+			<Set Tier="1"/>
+			<Where CivicType="CIVIC_GLOBALIZATION"/>
+		</Update>
+	</Civics>
+</GameData>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<LocalizedText>
+		<!-- Civics -->
+		<Row Tag="LOC_CIVIC_SYMPOLITEIA_NAME" Language="en_US">
+			<Text>Sympoliteia</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_TERRA_NOSTRUM_NAME" Language="en_US">
+			<Text>Terra Nostrum</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_FOREIGN_DIGNITARY_NAME" Language="en_US">
+			<Text>Foreign Dignitary</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_IMPERIALISM_NAME" Language="en_US">
+			<Text>Imperialism</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_STATE_MEDIA_NAME" Language="en_US">
+			<Text>State Media</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_GLOBAL_ECONOMY_NAME" Language="en_US">
+			<Text>Global Economy</Text>
+		</Row>
+
+		<!-- Policies -->
+		<Row Tag="LOC_POLICY_SHARED_CROPS_NAME" Language="en_US">
+			<Text>Shared Crops</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_CROPS_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Food] Food In all Cities.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_UNIT_EXP_NAME" Language="en_US">
+			<Text>Unit Exp</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_UNIT_EXP_DESCRIPTION" Language="en_US">
+			<Text>+25% Unit Exp</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PAX_IMPERIA_NAME" Language="en_US">
+			<Text>Pax Imperia</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_PAX_IMPERIA_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] VS City States</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_MYTHS_NAME" Language="en_US">
+			<Text>Shared Myths</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_MYTHS_DESCRIPTION" Language="en_US">
+			<Text>Grants +2 [ICON_Faith] Faith from Trade Routes</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_CULTURE_NAME" Language="en_US">
+			<Text>Shared Culture</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_SHARED_CULTURE_DESCRIPTION" Language="en_US">
+			<Text>Grants +1 [ICON_CULTURE] Per [Icon_Envoy] Envoy</Text>
+		</Row>
+
+		<Replace Tag="LOC_POLICY_AGOGE_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Ancient and Classical era melee and ranged units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Medieval and Renaissance era melee and ranged units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Modern and Atomic air units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Industrial and Modern era melee and ranged units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production for Modern, Atomic, and Information era heavy and light cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MANEUVER_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Ancient and Classical era heavy and light cavalry units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Ancient and Classical era naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRIOTIC_WAR_DESCRIPTION"  Language="en_US">
+			<Text>+150% [ICON_Production] Production for Modern, Atomic, and Information era support units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION" Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Renaissance and Industrial era naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION" Language="en_US">
+			<Text>+150% [ICON_Production] Production toward Information era air units, and toward all Carriers.</Text>
+		</Replace>
+	</LocalizedText>
+
+</GameData>

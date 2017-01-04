@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<Boosts>
+		<Delete TechnologyType="TECH_THE_WHEEL"/>
+		<Update>
+			<Set TechnologyType="TECH_POTTERY"/>
+			<Where TechnologyType="TECH_IRRIGATION"/>
+		</Update>
+		<Row TechnologyType="TECH_MINING" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MASONRY" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_MASONRY" BoostClass="BOOST_TRIGGER_HAVE_X_IMPROVEMENTS" ImprovementType="IMPROVEMENT_QUARRY" RequiresResource="true" NumItems="1"/>
+		<Row TechnologyType="TECH_Alphabet" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Milita_Training" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Smithing" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Medicine" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Folk_Medicine" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Naturopathy" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Geometry" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_SiegeWarfare" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Crop_Rotation" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Charters" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Paper" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Compass" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Anatomy" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Alchemy" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Leadership" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Naval_Tactics" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Biology" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Sextant" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Paleontology" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Accounting" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Marine_Biology" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Firefighting" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Screw_Propeller" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Assembly_Line" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Telegraph" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_MassTransit" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_AtomicTheory" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Refrigeration" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_TheoryofRelativity" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_AppliedEconomics" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_QuantumPhysics" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Television" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Semiconductors" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_HighwaySystems" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_FiberOptics" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Ecology" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_Internet" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+	</Boosts>
+</GameInfo>

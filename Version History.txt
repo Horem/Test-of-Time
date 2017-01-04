@@ -1,0 +1,147 @@
+-- Version History
+-- Author: Horemvore
+-- DateCreated: 12/7/2016 2:47:13 AM
+--------------------------------------------------------------
+1004 Beta 3
+
+Added building icons.
+General balancing.
+Fixed Merchant Quarter and Souq not having specialists.
+Included Biao's Strategic Unit Resources.
+Renamed alot of files.
+Combined all the Requirement Sets into one file.
+Redone the Pantheon Beliefs.
+Fixed Farmstead modifier(Farms and Pastures adjacent to Merchant Quarter now get +2 Food). Name changed to Warehouse. Reduced base food down to 2, added 5% growth.
+Fixed Growth bonus from Districts not stacking correctly. Most districts now provide 2% Growth. (Not including Encampment, City Center, Aquaduct and Bath)
+Fixed missing Souq project.
+Redesigned GP Points per Era.
+Updated Wondrous Wonders to 1.55.
+Limited Scouts to Capital city only, Max of 4.
+
+1003
+
+Updated for the Winter Patch. (1.0.0.56)
+The mod is now completely stand alone, no longer need to replace base game assets.
+
+1002
+
+Great Person Points increased, cumulative 50% per Era.
+Increased max lake size from 9 to 14.
+Included parts of AI+.
+Tweaked AI Formations.
+Tweaked AI City attack operations.
+Base Amenity per city increased to 3.
+Disabled increased Building Maintenace.
+All maps will have extra Lone Mountains.
+Population with no water reduced to 1.
+Tweaked Building and Wonder costs.
+Population next to Lake, River and Coast reduced by 1.
+Aquaduct population minimum reduced to 4.
+Amenity per population increased to 1 for 1.
+Lakes within a City's border gain +2 food.
+Merchant Quarter, Financial Square, Harbor and Neighbourhood districts provide 3% Growth.
+Added River and District Food adjacency bonus and 10% Growth for Aquaduct and Bath.
+Fixed Souq requiring population to build.
+Fishing Boats increased by +1 food.
+Included Russian Translation.
+Changed food related buildings to have a base yield of food not gold.
+Battering Ram changed to Siege Support can bombard at range 1 and no longer gives melee units the ability to attack walls at full strength.
+Siege Tower now grants Melee units the ability to attack walls at full strength, Ignore Walls ability removed due to it been bugged and applies to all units and not just melee.
+Keep Building added. Increased range(+1) for stationed units +10 Inner defense and +25 outer hit points.
+Siege Units changed to Support Units.
+Siege support unit are now very vulnerable to attack.
+Ranged units City attack damage reduced by 25%.
+Walls outer defense hitpoints doubled.
+Siege unit Bombard increased by 15%.
+Bastion policy moved to Craftmanship Civic.
+Farms gain +2 Food with Agricultural Tools (was Crop Rotation).
+Plantations and Pastures gain +1 Food with Crop Rotation.
+Farms, Plantations, Pastures and Fishing Boats gain +1 food with Civil Engineering.
+Fixed some broken texts.
+Doctor, Hospice and Hospital moved to Aquaduct District.
+Great Merchants from Classical, Medieval, Renaissance now require Merchant Quarter.
+Regraded Warmonger points. Grades up by 3(3,6,9,12 ect) per Era starting in Classical.
+Watchtower change to Guard Tower.
+Guard Tower provides 25 Outer Hitpoints.
+Tweaks to the Game Calender.
+Fixed Cook Shop and Butcher Prereq's been wrong way around.
+Increased upgrade costs by 10%.
+Farmstead now provides +1 food for each adjacent Farm or Pasture.
+Increased Farmstead food yield by +2.
+Farmstead moved to Merchant Quarter.
+Project GP Points reduced to 1/4 of Vanilla.
+Updated Settler text.
+Added Default Icon for Merchant Quarter Project.
+Increased Unique Improvement Yields:-
+	+1 Faith for Sphinx, Mission, Colossal Head, Kurgan.
+	+1 Culture for Zigguratand Chateau.
+	+1 Production for Fort.
+	+1 Production and Gold for Roman Fort.
+	Chateau housing increased to 1.
+Included Detail Worlds mod. (Since some of you are reporting issues)
+Included Wondrous Wonders.
+Tweaked Barbarians:-
+	Added Heavy Chariot and Heavy Cavalry classes to Cavalry Tribe.
+	Added Masonary as a Free Tech for Barbs.
+	Increased Barbarian tech rate to 70%.
+	Increased odds of Camp spawning by 50%.
+	Increased boldness to pillage and attack cites slightly.
+Removed the Food reduction from Dungeon, Prison, Military Ground, Military Camp, Tournament Ground due to the AI 
+refusing to build these buildings due to the - too Food.
+
+1001
+
+Entertainment Amenities changed to City Services Amenities.
+War Weariness halved.
+Settler, Builder, Scout, Warrior, Trader cost increased by 20%
+Cost of Settler Population increased upto 2.
+Cost progression of Builder increased to 2.
+Heavy Chariot and Spearman Prereq Tech's swaped.
+Many units have had thier Prereq Techs changed to suit the new Techs.
+Many Units have had thier Upgrade Paths changed.
+Mechanical Infatry is now classed as Light Cavalry.
+Starting Settler changed to Nomadic Settler.
+Religous units costs increased by 120%.
+All unit Costs increased by 30%.
+Coal is revealed with Alchemy.
+Oil is revealed with Biology.
+Uranium is revealed with Theory of Relativity.
+District Project costs increased to 125.
+Great Person Points from projects have been halved.
+Manhattan project moved to Atomic Theory.
+Earth Satellite moved to Semiconductors.
+Oil Well moved to Mass Transit.
+Quarry moved to Wheel.
+Added Tundra and Desert Farms, discovered with Civil Service.
+All Unique improvements can no longer be built next to each other.
+Base trade route gold yield reduced to 2 for Commercial and Harbor Districts.
+Base trade route yield per district reduced to 1.
+Commercial Hub moved to Civil Service.
+Market, Bank and Stock Exchange gold yield reduced by 1.
+Market moved to Charters.
+Library and Univercity science yield reduced by 1.
+Science per pop Reduced to 0.4.
+Culture per pop reduced to 0.2.
+Culture and Science city states first 2 bonuses reduced to 1.
+Monumnet culture yield reduced to 1.
++2 Food to adjacent Oasis tiles.
+Maintenance added to Warrior and Slinger.
+Unit and Building Maintenace increased by 60%, rounded up.
+Boosts reduced to 25%.
+Growth Exponent increased to 4.
+Growth Multiplier reduced to 2.
+Growth Threshold increased to 30.
+Housing removed from Palace.
+Moar Units added. Adjusted for the New Techs.
+Brireme, Trireme, Cog, Gunboat and Screw Frigate units added.
+Merchant Quarter and Souq Districts added.
+Additional Buildings mod Added.
+The Sloth, the Tortoise and The Snail mod added.
+8 Ages of War mod added.
+New Icons for Techs and Civis added.
+New Icons for Districts added.
+New Project for Merchant Quarter added.
+Resource Terrains redesigned.
+Culture from Great Works reduced by 1.
+
+

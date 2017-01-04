@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/3/2016 2:36:16 AM -->
+<GameData>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_SOUQ" Name="LOC_TRAIT_CIVILIZATION_SOUQ_NAME"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_EGYPT" TraitType="TRAIT_CIVILIZATION_SOUQ"/>
+	</CivilizationTraits>
+</GameData>

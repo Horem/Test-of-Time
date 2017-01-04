@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<BaseGameText>
+		<!-- Names -->
+		<Row Tag="LOC_ABILITY_IRON_NAME">
+			<Text>Iron Unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HORSE_NAME">
+			<Text>Horse Unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NITER_NAME">
+			<Text>Niter Unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COAL_NAME">
+			<Text>Coal Unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OIL_NAME">
+			<Text>Oil Unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ALU_NAME">
+			<Text>Aluminum Unit</Text>
+		</Row>
+		<!-- Full description -->
+		<Row Tag="LOC_ABILITY_IRON_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Combat Strength when empire has access to Iron.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HORSE_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Combat Strength when empire has access to Horses.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NITER_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Combat Strength when empire has access to Niter.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COAL_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Combat Strength when empire has access to Coal.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OIL_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Combat Strength when empire has access to Oil.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ALU_DESCRIPTION">
+			<Text>+5 [ICON_Strength] Combat Strength when empire has access to Aluminum.</Text>
+		</Row>
+		<!-- Combat preview description -->
+		<Row Tag="LOC_ABILITY_IRON_RESOURCE_COMBAT_MODIFIER_DESCRIPTION">
+			<Text>+5 due to [ICON_RESOURCE_IRON] Iron in empire.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HORSE_RESOURCE_COMBAT_MODIFIER_DESCRIPTION">
+			<Text>+5 due to [ICON_RESOURCE_HORSES] Horses in empire.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NITER_RESOURCE_COMBAT_MODIFIER_DESCRIPTION">
+			<Text>+5 due to [ICON_RESOURCE_NITER] Niter in empire.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_COAL_RESOURCE_COMBAT_MODIFIER_DESCRIPTION">
+			<Text>+5 due to [ICON_RESOURCE_COAL] Coal in empire.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OIL_RESOURCE_COMBAT_MODIFIER_DESCRIPTION">
+			<Text>+5 due to [ICON_RESOURCE_OIL] Oil in empire.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ALU_RESOURCE_COMBAT_MODIFIER_DESCRIPTION">
+			<Text>+5 due to [ICON_RESOURCE_ALUMINUM] Aluminum in empire.</Text>
+		</Row>
+		<!-- Unit Description -->
+		<Row Tag="LOC_UNIT_BMOD_SWORDSMAN_DESCRIPTION">
+			<Text>Strong Classical era melee unit. More powerful when there is a source of [ICON_RESOURCE_IRON] Iron in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_MUSKETMAN_DESCRIPTION">
+			<Text>Renaissance era melee unit. More powerful when there is a source of [ICON_RESOURCE_NITER] Niter in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_HORSEMAN_DESCRIPTION">
+			<Text>Fast-moving Classical era light cavalry unit. More powerful when there is a source of [ICON_RESOURCE_HORSES] Horses in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_CAVALRY_DESCRIPTION">
+			<Text>Fast-moving Industrial era light cavalry unit. More powerful when there is a source of [ICON_RESOURCE_HORSES] Horses in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_BOMBARD_DESCRIPTION">
+			<Text>Renaissance era bombard unit, ideal for attacking cities. Cannot move and attack on the same turn unless they've earned the Expert Crew promotion. More powerful when there is a source of [ICON_RESOURCE_NITER] Niter in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_KNIGHT_DESCRIPTION">
+			<Text>Hard-hitting, Medieval era heavy cavalry unit. More powerful when there is either a source of [ICON_RESOURCE_HORSES] Horses or a source of [ICON_RESOURCE_IRON] Iron in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_TANK_DESCRIPTION">
+			<Text>Fast-moving Modern era heavy cavalry unit that ignores zone of control. More powerful when there is a source of [ICON_RESOURCE_OIL] Oil in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_IRONCLAD_DESCRIPTION">
+			<Text>Powerful Industrial era armored melee naval unit. More powerful when there is a source of [ICON_RESOURCE_COAL] Coal in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_AIRCRAFT_CARRIER_DESCRIPTION">
+			<Text>Atomic era melee naval unit that can transport air units. More powerful when there is a source of [ICON_RESOURCE_OIL] Oil in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_BATTLESHIP_DESCRIPTION">
+			<Text>Modern era naval ranged unit. Provides cover from air and nuclear attacks up to 1 tile away. More powerful when there is a source of [ICON_RESOURCE_COAL] Coal in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_FIGHTER_DESCRIPTION">
+			<Text>Atomic era Biplane upgrade. More powerful when there is a source of [ICON_RESOURCE_ALUMINUM] Aluminum in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_BOMBER_DESCRIPTION">
+			<Text>First bomber unit, available in the Atomic era. More powerful when there is a source of [ICON_RESOURCE_ALUMINUM] Aluminum in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_JET_FIGHTER_DESCRIPTION">
+			<Text>Information era Fighter upgrade. More powerful when there is a source of [ICON_RESOURCE_ALUMINUM] Aluminum in the empire.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BMOD_JET_BOMBER_DESCRIPTION">
+			<Text>Information era Bomber upgrade. More powerful when there is a source of [ICON_RESOURCE_ALUMINUM] Aluminum in the empire.</Text>
+		</Row>
+	</BaseGameText>
+</GameInfo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2016 3:01:41 PM. Translated to Russian by Tipok -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ABILITY_WATCHTOWER_BUFF" Language="ru_RU">
+			<Text>Защитник</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WATCHTOWER_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>+1 [ICON_PROMOTION_LONG_RANGE] при защите крепости.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_STARTING_SETTLER" Language="ru_RU">
+			<Text>Улучшен обзор</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_STARTING_SETTLER_DESCRIPTION" Language="ru_RU">
+			<Text>Видит сквозь элементы ландшафта.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TRAINING_GROUND_BUFF_NAME" Language="ru_RU">
+			<Text>Военная подготовка</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TRAINING_GROUND_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>3 Рекрут</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TRAINING_CAMP_BUFF_NAME" Language="ru_RU">
+			<Text>Продвинутая тренировка</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TRAINING_CAMP_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>6 Кадет</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TOURNAMENT_GROUND_BUFF_NAME" Language="ru_RU">
+			<Text>Особая тренировка</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TOURNAMENT_GROUND_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>9 Профессионал</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MILITARY_ACADEMY_BUFF_NAME" Language="ru_RU">
+			<Text>Элитная тренировка</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MILITARY_ACADEMY_BUFF_DESCRIPTION" Language="ru_RU">
+			<Text>12 Элита</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

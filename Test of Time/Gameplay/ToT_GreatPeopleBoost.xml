@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<Types>
+		<Row Type="GREAT_PERSON_BEETOR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_GHIRILQA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_MARTAQ" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_MOGH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_QARGHAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_QUNIVAS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_KRATAK" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_TLHAVEQ" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_KRENN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_KROTMAG" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_MATLH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_GHORQON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_WORF" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_DURAS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_BAROT" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_NIEL_DEGRASSE_TYSON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<!-- CLASSICAL ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_BEETOR" Name="LOC_GREAT_PERSON_BEETOR_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHIRILQA" Name="LOC_GREAT_PERSON_GHIRILQA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_MARTAQ" Name="LOC_GREAT_PERSON_MARTAQ_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_MOGH" Name="LOC_GREAT_PERSON_MOGH_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>		
+		<!-- MEDIEVAL ERA-->	
+		<Row GreatPersonIndividualType="GREAT_PERSON_QARGHAN" Name="LOC_GREAT_PERSON_QARGHAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MEDIEVAL" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_QUNIVAS" Name="LOC_GREAT_PERSON_QUNIVAS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<!--RENAISSANCE ERA-->	
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRATAK" Name="LOC_GREAT_PERSON_KRATAK_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_TLHAVEQ" Name="LOC_GREAT_PERSON_TLHAVEQ_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<!--INDUSTRIAL ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRENN" Name="LOC_GREAT_PERSON_KRENN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INDUSTRIAL" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>		
+		<Row GreatPersonIndividualType="GREAT_PERSON_KROTMAG" Name="LOC_GREAT_PERSON_KROTMAG_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		
+		<!--MODERN ERA-->	
+		<Row GreatPersonIndividualType="GREAT_PERSON_MATLH" Name="LOC_GREAT_PERSON_MATLH_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHORQON" Name="LOC_GREAT_PERSON_GHORQON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<!--ATOMIC ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_WORF" Name="LOC_GREAT_PERSON_WORF_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>		
+		<Row GreatPersonIndividualType="GREAT_PERSON_DURAS" Name="LOC_GREAT_PERSON_DURAS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>		
+		<Row GreatPersonIndividualType="GREAT_PERSON_BAROT" Name="LOC_GREAT_PERSON_BAROT_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>		
+		<Row GreatPersonIndividualType="GREAT_PERSON_NIEL_DEGRASSE_TYSON" Name="LOC_GREAT_PERSON_NIEL_DEGRASSE_TYSON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+
+	</GreatPersonIndividuals>
+	
+	<GreatPersonIndividualActionModifiers>
+		<!-- CLASSICAL ERA-->	
+		<Row GreatPersonIndividualType="GREAT_PERSON_BEETOR" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_BEETOR" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHIRILQA" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHIRILQA" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_MARTAQ" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_5" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_MARTAQ" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_6" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_MOGH" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_7" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_MOGH" ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_8" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>		
+		<!-- MEDIEVAL ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_QARGHAN" ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_QARGHAN" ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_QARGHAN" ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_QUNIVAS" ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_QUNIVAS" ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_5" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>			
+		<Row GreatPersonIndividualType="GREAT_PERSON_QUNIVAS" ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_6" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!--RENAISSANCE ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRATAK" ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRATAK" ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRATAK" ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_TLHAVEQ" ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_TLHAVEQ" ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_5" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_TLHAVEQ" ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_6" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!--INDUSTRIAL ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRENN" ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_KRENN" ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_KROTMAG" ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_KROTMAG" ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!--MODERN ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_MATLH" ModifierId="GREATPERSON_MODERN_TECH_BOOST_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_MATLH" ModifierId="GREATPERSON_MODERN_TECH_BOOST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_MATLH" ModifierId="GREATPERSON_MODERN_TECH_BOOST_3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHORQON" ModifierId="GREATPERSON_MODERN_TECH_BOOST_4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHORQON" ModifierId="GREATPERSON_MODERN_TECH_BOOST_5" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_GHORQON" ModifierId="GREATPERSON_MODERN_TECH_BOOST_6" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!--ATOMIC ERA-->
+		<Row GreatPersonIndividualType="GREAT_PERSON_WORF" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_WORF" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_DURAS" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_DURAS" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_BAROT" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_5" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_BAROT" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_6" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_NIEL_DEGRASSE_TYSON" ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_7" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<!--INFORMATION ERA-->
+	</GreatPersonIndividualActionModifiers>	
+	
+	<Modifiers>
+		<!-- CLASSICAL ERA-->	
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_7</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_8</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>		
+		<!-- MEDIEVAL ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--RENAISSANCE ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--INDUSTRIAL ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--MODERN ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--ATOMIC ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_7</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--INFORMATION ERA-->
+	</Modifiers>	
+	<ModifierArguments>
+		<!-- CLASSICAL ERA-->	
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Alphabet</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Milita_Training</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_3</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Smithing</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_4</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Medicine</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_5</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Folk_Medicine</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_6</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Naturopathy</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_7</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Geometry</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GREATPERSON_CLASSICAL_TECH_BOOST_8</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SiegeWarfare</Value>
+		</Row>			
+		<!-- MEDIEVAL ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Crop_Rotation</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Charters</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_3</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Paper</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_4</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Compass</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_5</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Anatomy</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MEDIEVAL_TECH_BOOST_6</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Alchemy</Value>
+		</Row>	
+		<!--RENAISSANCE ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Leadership</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Naval_Tactics</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_3</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Biology</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_4</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Sextant</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_5</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Paleontology</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RENAISSANCE_TECH_BOOST_6</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Accounting</Value>
+		</Row>	
+		<!--INDUSTRIAL ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Marine_Biology</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Firefighting</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_3</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Screw_Propeller</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_4</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Assembly_Line</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_5</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Telegraph</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_INDUSTRIAL_TECH_BOOST_6</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MassTransit</Value>
+		</Row>
+		<!--MODERN ERA-->		
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_CompulsoryEducation</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Antibiotics</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_3</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_AtomicTheory</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_4</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Refrigeration</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_5</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_TheoryofRelativity</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MODERN_TECH_BOOST_6</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_AppliedEconomics</Value>
+		</Row>	
+		<!--ATOMIC ERA-->
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Internet</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Television</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_3</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Semiconductors</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_4</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_HighwaySystems</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_5</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_FiberOptics</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_6</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_Ecology</Value>
+		</Row>	
+		<Row>TECH_QuantumPhysics
+			<ModifierId>GREATPERSON_ATOMIC_TECH_BOOST_7</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_QuantumPhysics</Value>
+		</Row>
+		<!--INFORMATION ERA-->
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_1" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_1"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_2" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_2"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_3" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_3"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_4" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_4"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_5" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_5"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_6" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_6"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_7" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_7"/>
+		<Row ModifierId="GREATPERSON_CLASSICAL_TECH_BOOST_8" Context="Summary" Text="LOC_GREATPERSON_CLASSICAL_TECH_BOOST_8"/>
+		<Row ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_1" Context="Summary" Text="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_1"/>
+		<Row ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_2" Context="Summary" Text="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_2"/>
+		<Row ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_3" Context="Summary" Text="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_3"/>
+		<Row ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_4" Context="Summary" Text="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_4"/>
+		<Row ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_5" Context="Summary" Text="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_5"/>
+		<Row ModifierId="GREATPERSON_MEDIEVAL_TECH_BOOST_6" Context="Summary" Text="LOC_GREATPERSON_MEDIEVAL_TECH_BOOST_6"/>
+		<Row ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_1" Context="Summary" Text="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_1"/>
+		<Row ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_2" Context="Summary" Text="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_2"/>
+		<Row ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_3" Context="Summary" Text="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_3"/>
+		<Row ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_4" Context="Summary" Text="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_4"/>
+		<Row ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_5" Context="Summary" Text="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_5"/>
+		<Row ModifierId="GREATPERSON_RENAISSANCE_TECH_BOOST_6" Context="Summary" Text="LOC_GREATPERSON_RENAISSANCE_TECH_BOOST_6"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_1" Context="Summary" Text="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_1"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_2" Context="Summary" Text="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_2"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_3" Context="Summary" Text="LOC_GGREATPERSON_INDUSTRIAL_TECH_BOOST_3"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_4" Context="Summary" Text="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_4"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_5" Context="Summary" Text="LOC_GREATPERSON_INDUSTRIAL_TECH_BOOST_5"/>
+		<Row ModifierId="GREATPERSON_INDUSTRIAL_TECH_BOOST_6" Context="Summary" Text="LOC_GGREATPERSON_INDUSTRIAL_TECH_BOOST_6"/>
+		<Row ModifierId="GREATPERSON_MODERN_TECH_BOOST_1" Context="Summary" Text="LOC_GREATPERSON_MODERN_TECH_BOOST_1"/>
+		<Row ModifierId="GREATPERSON_MODERN_TECH_BOOST_2" Context="Summary" Text="LOC_GREATPERSON_MODERN_TECH_BOOST_2"/>
+		<Row ModifierId="GREATPERSON_MODERN_TECH_BOOST_3" Context="Summary" Text="LOC_GREATPERSON_MODERN_TECH_BOOST_3"/>
+		<Row ModifierId="GREATPERSON_MODERN_TECH_BOOST_4" Context="Summary" Text="LOC_GREATPERSON_MODERN_TECH_BOOST_4"/>
+		<Row ModifierId="GREATPERSON_MODERN_TECH_BOOST_5" Context="Summary" Text="LOC_GREATPERSON_MODERN_TECH_BOOST_5"/>
+		<Row ModifierId="GREATPERSON_MODERN_TECH_BOOST_6" Context="Summary" Text="LOC_GREATPERSON_MODERN_TECH_BOOST_6"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_1" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_1"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_2" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_2"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_3" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_3"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_4" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_4"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_5" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_5"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_6" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_6"/>
+		<Row ModifierId="GREATPERSON_ATOMIC_TECH_BOOST_7" Context="Summary" Text="LOC_GREATPERSON_ATOMIC_TECH_BOOST_7"/>
+	</ModifierStrings>
+</GameInfo>

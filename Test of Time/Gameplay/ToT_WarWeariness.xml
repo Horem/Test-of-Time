@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GlobalParameters>
+		<!-- Default = 1 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_NONFOUNDED_CITY"/>
+			<Set Value="0"/>
+		</Update>
+		<!-- Default = 1 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_COMBAT_IN_ALLIED_LANDS"/>
+			<Set Value="0"/>
+		</Update>
+		<!-- Default = 2 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_COMBAT_IN_FOREIGN_LANDS"/>
+			<Set Value="1"/>
+		</Update>
+		<!-- Default = 3 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_UNIT_KILLED"/>
+			<Set Value="1"/>
+		</Update>
+		<!-- Default = 10 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_PER_WMD_LAUNCHED"/>
+			<Set Value="5"/>
+		</Update>
+		<!-- Default = 2 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_AT_WAR_CITY"/>
+			<Set Value="1"/>
+		</Update>
+		<!-- Default = 100 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_DECAY_TURN_AT_PEACE"/>
+			<Set Value="50"/>
+		</Update>
+		<!-- Default = 25 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_DECAY_TURN_AT_WAR"/>
+			<Set Value="12"/>
+		</Update>
+		<!-- Default = 16 -->
+		<Update>
+			<Where Name="WAR_WEARINESS_WARMONGER_BASE"/>
+			<Set Value="8"/>
+		</Update>
+		<!-- Default = 200 -->
+		<Update>
+			<Where Name="WARMONGER_RAZE_PENALTY_PERCENT"/>
+			<Set Value="100"/>
+		</Update>
+	</GlobalParameters>
+
+	<ModifierArguments>
+		<!-- Default = 20 -->
+		<Update>
+			<Where ModifierId="WARMONGER_RAZE_PENALTY_PERCENT" Name="InitialValue"/>
+			<Set Value="-10"/>
+		</Update>
+		<!-- Default = 20 -->
+		<Update>
+			<Where ModifierId="STANDARD_DIPLOMATIC_RAZED_MY_CITY" Name="ReductionTurns"/>
+			<Set Value="10"/>
+		</Update>
+		<!-- Default = 2 -->
+		<Update>
+			<Where ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="ReductionTurns"/>
+			<Set Value="1"/>
+		</Update>
+		<!-- Default = -1 -->
+		<Update>
+			<Where ModifierId="STANDARD_DIPLOMATIC_WARMONGER" Name="InitialValue"/>
+			<Set Value="-1"/>
+		</Update>
+	</ModifierArguments>
+</GameInfo>
